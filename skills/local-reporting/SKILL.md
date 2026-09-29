@@ -6,9 +6,11 @@ metadata:
   author: Garrett Smith
 ---
 
+> **WHO Agency Brain note:** In the WHO Agency Brain, save local SEO reports under `clients/<client>/local-seo/`. For Search Console ranking reports use `seo-check`; for Google Ads reporting use `google-ads-audit` or `mcc-status`. This skill covers GBP, map pack and geogrid KPIs.
+
 # Local SEO Reporting
 
-You are an expert in measuring and communicating local search performance. Your goal is to help practitioners build reports that demonstrate value, identify opportunities, and guide strategy — not just dump data. You understand that different stakeholders need different reports, that multi-location reporting requires layered architecture, and that reports should drive action, not just document status.
+You are an expert in measuring and communicating local search performance. Your goal is to help practitioners build reports that demonstrate value, identify opportunities, and guide strategy, not just dump data. You understand that different stakeholders need different reports, that multi-location reporting requires layered architecture, and that reports should drive action, not just document status.
 
 > **Default data tool:** Local SEO Data (`localseodata-tool`). Use `geogrid_scan` for SoLV/ARP, `business_profile` + `profile_health` for GBP performance, `google_reviews` + `review_velocity` + `reputation_audit` for review metrics, `citation_audit` for citation health, `competitor_gap` for benchmarking, and the `ai_*` endpoints for AI visibility. GA4 and Search Console remain the source of truth for the client's own traffic and conversions.
 
@@ -26,7 +28,7 @@ If a report doesn't answer these, it's a data dump, not a report.
 ## Core Local SEO Metrics
 
 ### Ranking Metrics
-- **SoLV (Share of Local Voice)**: % of geogrid points where business appears. Best single metric for client-facing reports — intuitive and actionable.
+- **SoLV (Share of Local Voice)**: % of geogrid points where business appears. Best single metric for client-facing reports; intuitive and actionable.
 - **ARP (Average Rank Position)**: Average ranking across geogrid. Lower = better. Good for internal tracking.
 - **ATRP (Average Top Rank Position)**: Average of best 3 positions. Shows ceiling performance.
 - **SAIV (Share of AI Voice)**: % of AI search results mentioning business. Emerging metric.
@@ -39,7 +41,7 @@ If a report doesn't answer these, it's a data dump, not a report.
 - **Photo views**: Engagement with visual content
 - **Post impressions and clicks**: GBP post performance
 
-**⚠️ GBP Click-to-Call Decline (2025-2026 Trend):** Analysis of 170+ business profiles across multiple verticals shows a clear downward trend in GBP click-to-call over the last 2 years — even for profiles that rank well. This decline is primarily mobile and doesn't apply equally to website clicks (desktop users still click websites). Causes include AI results intercepting clicks, Google's evolving SERP layout, and changing user behavior. **When reporting:** Don't present declining calls as an SEO failure if rankings are stable. Context matters. Track website clicks alongside calls, and consider adding website conversion tracking as a complementary KPI to GBP actions.
+**⚠️ GBP Click-to-Call Decline (2025-2026 Trend):** Analysis of 170+ business profiles across multiple verticals shows a clear downward trend in GBP click-to-call over the last 2 years, even for profiles that rank well. This decline is primarily mobile and doesn't apply equally to website clicks (desktop users still click websites). Causes include AI results intercepting clicks, Google's evolving SERP layout, and changing user behavior. **When reporting:** Don't present declining calls as an SEO failure if rankings are stable. Context matters. Track website clicks alongside calls, and consider adding website conversion tracking as a complementary KPI to GBP actions.
 
 ### Website Metrics
 - **Organic traffic to location pages**: Traffic from local/organic search
@@ -99,7 +101,7 @@ If a report doesn't answer these, it's a data dump, not a report.
 
 **2. Rankings & Visibility**
 - SoLV for each tracked keyword (with month-over-month change)
-- Geogrid heatmap images (visual — clients love these)
+- Geogrid heatmap images (visual: clients love these)
 - Map pack position for top keywords
 - AI search visibility if tracked
 
@@ -131,7 +133,7 @@ If a report doesn't answer these, it's a data dump, not a report.
 ## Presenting Metrics to Non-SEO Audiences
 
 ### Lead with SoLV
-"Last month you were visible in 62% of local searches across your service area. This month it's 71%. That means 9% more potential customers are seeing your business." — This lands with every client.
+"Last month you were visible in 62% of local searches across your service area. This month it's 71%. That means 9% more potential customers are seeing your business."; This lands with every client.
 
 ### Translate Rankings to Business
 - Don't say "ARP improved from 8.2 to 6.1"
@@ -269,7 +271,7 @@ Color-code: 80+ green, 60-79 yellow, <60 red. This gives operations a triage too
 
 ### Handling 50+ Locations in Reports
 
-- Never list every location in the executive report — it becomes unreadable
+- Never list every location in the executive report; it becomes unreadable
 - Use "top N / bottom N" approach with drill-down available
 - Exception-based reporting: only surface locations that need attention
 - Group by region, market, or brand if the client has logical clusters
@@ -316,14 +318,14 @@ Varies wildly by industry and market size. Use trend as primary indicator, not a
 ## Stakeholder-Specific Report Variants
 
 ### For the Business Owner / Operator
-- Leads with calls, bookings, foot traffic — things they can feel
+- Leads with calls, bookings, foot traffic: things they can feel
 - "You got X calls from Google this month, up from Y"
 - Minimize jargon, maximize business impact
 - Include action items that require their input (respond to reviews, approve photos)
 - Keep it to 1-2 pages
 
 ### For the Marketing Manager / Director
-- More comfortable with data — include keyword positions, competitive comparisons
+- More comfortable with data: include keyword positions, competitive comparisons
 - Show ROI calculations and attribution methodology
 - Highlight what's working so they can report up the chain
 - Include strategic recommendations, not just status updates
@@ -332,7 +334,7 @@ Varies wildly by industry and market size. Use trend as primary indicator, not a
 ### For the CMO / VP / C-Suite
 - One page maximum. Executive summary only.
 - 3-5 key numbers: total leads/calls from local, portfolio health score, competitive position
-- YoY comparison, not MoM — they think in quarters and years
+- YoY comparison, not MoM: they think in quarters and years
 - Link to detailed report if they want to dig in
 - Frame everything in revenue or opportunity cost language
 
@@ -340,7 +342,7 @@ Varies wildly by industry and market size. Use trend as primary indicator, not a
 - Compare their location to the franchise average (creates healthy competition)
 - Simple scorecard: green/yellow/red on 5-6 metrics
 - Action items they can actually do (respond to reviews, upload photos)
-- Keep it to 1 page — these people are running a business, not reading reports
+- Keep it to 1 page: these people are running a business, not reading reports
 
 ### For Corporate Franchise / Multi-Brand
 - Roll-up dashboard with per-brand and per-region cuts
@@ -358,10 +360,10 @@ For recurring reports, automate data collection:
 
 | Data Source | Method | Cadence |
 |------------|--------|---------|
-| Local Falcon | MCP or API — pull SoLV, ARP, scan images | After each scan (daily/weekly/monthly) |
+| Local Falcon | MCP or API; pull SoLV, ARP, scan images | After each scan (daily/weekly/monthly) |
 | GBP Performance | Business Profile Performance API | Weekly or monthly pull |
-| Google Analytics | GA4 Data API — local traffic, conversions | Monthly pull |
-| Search Console | Search Analytics API — local keyword clicks/impressions | Monthly pull |
+| Google Analytics | GA4 Data API; local traffic, conversions | Monthly pull |
+| Search Console | Search Analytics API; local keyword clicks/impressions | Monthly pull |
 | Reviews | GBP API or third-party scrape | Daily monitoring, monthly summary |
 | Citations | BrightLocal API or manual audit | Quarterly |
 
@@ -390,7 +392,7 @@ Before sending any report:
 - [ ] Action items are specific and achievable
 - [ ] Client-specific context included (seasonal factors, known issues)
 - [ ] Branding correct (right logo, right client name)
-- [ ] No metric graded on a single data point — SoLV/ARP reflect a full geogrid scan, not one keyword check
+- [ ] No metric graded on a single data point; SoLV/ARP reflect a full geogrid scan, not one keyword check
 - [ ] Missing data left blank with the source named, never estimated or back-filled to fill a gap
       
 ---
@@ -406,20 +408,20 @@ Before sending any report:
 
 ### When There's No Clear Progress
 - Highlight leading indicators even when lagging indicators are flat
-- "Rankings haven't moved but we built 15 citations and fixed 3 NAP inconsistencies — these typically take 4-8 weeks to impact rankings"
+- "Rankings haven't moved but we built 15 citations and fixed 3 NAP inconsistencies; these typically take 4-8 weeks to impact rankings"
 - Adjust expectations if the market is highly competitive
 - Propose strategy changes if current approach isn't working after 3+ months
 
 ### When a Competitor Overtakes You
-- Acknowledge it clearly — the client will notice
+- Acknowledge it clearly: the client will notice
 - Show what the competitor did (more reviews, new content, better GBP)
 - Present a plan to respond
 - Use it as leverage for additional budget or scope if warranted
 
 ### When the Client Questions Value
-- Pull up the "before" state — always keep baseline data from onboarding
+- Pull up the "before" state: always keep baseline data from onboarding
 - Calculate cumulative improvement, not just last month
-- Show the work log — volume of changes made
+- Show the work log: volume of changes made
 - If ROI calculation works in your favor, lead with it
 - If ROI is unclear, be honest: "Here's what we can measure, here's what we estimate"
 
@@ -432,7 +434,7 @@ Reports that sit in email are useless. Build a system where reports drive work.
 ### After Every Report
 1. Extract top 3 priorities from the report
 2. Convert to specific tasks with assignees and deadlines
-3. Track completion in next month's report ("last month we said we'd do X — here's the result")
+3. Track completion in next month's report ("last month we said we'd do X; here's the result")
 4. Flag client action items separately and follow up
 
 ### Monthly Rhythm
@@ -451,13 +453,13 @@ This creates a closed loop where every report generates work and every month's r
 
 - **Data dump without analysis**: Showing numbers without explaining what they mean
 - **No month-over-month comparison**: Numbers without context are meaningless
-- **Ignoring negative trends**: Address them proactively — clients will see them
+- **Ignoring negative trends**: Address them proactively; clients will see them
 - **Vanity metrics**: Impressions without actions, rankings without business impact
 - **Inconsistent cadence**: Skipping months erodes client trust
 - **No action items**: Every report should end with "here's what we're doing next"
 - **Same report for every stakeholder**: The CMO and the franchise operator need different things
 - **No baseline comparison**: Always show where the client started
-- **Reporting on activity, not outcomes**: "We posted 8 GBP posts" isn't a result — "GBP posts drove 340 additional impressions" is
+- **Reporting on activity, not outcomes**: "We posted 8 GBP posts" isn't a result; "GBP posts drove 340 additional impressions" is
 - **Over-reporting**: 15-page monthly reports get skimmed. Shorter reports with clear takeaways get read
 
 ---

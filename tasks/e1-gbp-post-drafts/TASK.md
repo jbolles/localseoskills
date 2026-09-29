@@ -1,7 +1,7 @@
 ---
 name: e1-gbp-post-drafts
-description: Monthly GBP post drafting. Generates 4 posts per month — service spotlight, seasonal offer, educational, and social proof. Held for approval before publishing.
-schedule: monthly — 1st of month, 8 AM
+description: Monthly GBP post drafting. Generates 4 posts per month; service spotlight, seasonal offer, educational, and social proof. Held for approval before publishing.
+schedule: monthly; 1st of month, 8 AM
 tier: queue (tier 2)
 skills: gbp-posts, localseodata-tool
 mcps: LocalSEOData, GBP API (for publishing after approval)
@@ -19,18 +19,18 @@ Use this if skills are unavailable.
 **Why GBP posts matter:**
 Posts signal an active, engaged business. Google rewards profiles that "look alive." Posts also appear in the knowledge panel for branded searches and can influence the local algorithm through engagement signals.
 
-**The 4 post types — what each accomplishes:**
-1. **Service spotlight** — targets a specific service with local modifiers. Reinforces category relevance. Best for: services you want to rank for but aren't ranking for yet.
-2. **Seasonal/offer post** — timely content tied to the calendar. Best for: driving short-term engagement and calls.
-3. **Educational/tips post** — positions the business as an authority. Best for: trust building and long-tail keyword relevance.
-4. **Social proof/review highlight** — amplifies positive reviews. Best for: conversion — people searching the business name see this.
+**The 4 post types; what each accomplishes:**
+1. **Service spotlight**: targets a specific service with local modifiers. Reinforces category relevance. Best for: services you want to rank for but aren't ranking for yet.
+2. **Seasonal/offer post**: timely content tied to the calendar. Best for: driving short-term engagement and calls.
+3. **Educational/tips post**: positions the business as an authority. Best for: trust building and long-tail keyword relevance.
+4. **Social proof/review highlight**: amplifies positive reviews. Best for: conversion; people searching the business name see this.
 
 **What makes a good GBP post:**
-- Opens with a hook — a question, a bold statement, or a specific benefit
+- Opens with a hook: a question, a bold statement, or a specific benefit
 - Mentions the business location or service area naturally
 - Includes a clear CTA: call, book, visit, learn more
-- 150-300 words — long enough to be substantive, short enough to be read
-- No keyword stuffing — natural language only
+- 150-300 words: long enough to be substantive, short enough to be read
+- No keyword stuffing: natural language only
 - Each post should feel like it was written by a human who knows this business
 
 **What to avoid:**
@@ -58,7 +58,7 @@ Before executing, confirm:
 - [ ] Prior post drafts in `drafts/` reviewed to avoid repetition
 - [ ] Current month noted for seasonal relevance
 
-If LocalSEOData is unavailable: draft posts from brief context only, note data gap in output, still proceed — posts can be drafted without live data.
+If LocalSEOData is unavailable: draft posts from brief context only, note data gap in output, still proceed; posts can be drafted without live data.
 
 ## Prompt
 
@@ -70,7 +70,7 @@ Run verification checklist before proceeding.
 
 You are drafting monthly GBP posts for {BUSINESS_NAME} at {LOCATION}.
 
-Read briefs/{brand}/{location}/location.brief.md for business context,
+Read clients/{brand}/local-seo/{location}/location.brief.md for business context,
 services, tone, and any post history in drafts/.
 
 Call LocalSEOData:
@@ -86,7 +86,7 @@ Using gbp-posts skill or Fallback Guidance, draft 4 posts for the month:
 Each post: 150-300 words, clear CTA, no keyword stuffing, matches business voice.
 No two posts open with the same phrase.
 
-Write all 4 to briefs/{brand}/{location}/drafts/{TODAY}-gbp-posts.md
+Write all 4 to clients/{brand}/local-seo/{location}/drafts/{TODAY}-gbp-posts.md
 per specs/output-schema.md.
 Set Approval Required to PENDING.
 Send Slack approval request per specs/notification-format.md Tier 2 format

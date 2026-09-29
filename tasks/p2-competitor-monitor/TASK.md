@@ -1,7 +1,7 @@
 ---
 name: p2-competitor-monitor
 description: Monthly competitive landscape snapshot. Tracks map pack composition, competitor review trends, and ad activity. Flags new entrants, dropouts, and competitor optimization moves.
-schedule: monthly — 1st of month
+schedule: monthly; 1st of month
 tier: autonomous
 skills: local-competitor-analysis, localseodata-tool
 mcps: LocalSEOData, LSA Spy (optional)
@@ -20,7 +20,7 @@ Use this if skills are unavailable.
 
 **Map pack composition changes:**
 - New entrant to top 3 = someone optimized aggressively, find out what changed
-- Competitor dropped out = opportunity to gain ground — they may have been suspended or penalized
+- Competitor dropped out = opportunity to gain ground; they may have been suspended or penalized
 - Same top 3 month after month = entrenched competition, will require sustained effort to displace
 
 **Review signals to watch:**
@@ -35,19 +35,19 @@ Use this if skills are unavailable.
 - Ad copy themes = what they're positioning on (price, speed, guarantees)
 
 **What competitor moves mean for the business:**
-- Competitor jumped from position 5 to position 2 = they made a significant optimization — analyze their GBP for what changed (new photos, category change, review spike, website update)
-- Competitor gained 20 reviews this month = they launched a review campaign — consider matching
+- Competitor jumped from position 5 to position 2 = they made a significant optimization; analyze their GBP for what changed (new photos, category change, review spike, website update)
+- Competitor gained 20 reviews this month = they launched a review campaign; consider matching
 - New competitor with 150+ reviews = established business entered the market, not a quick threat but a watch item
 
 **How to frame findings as actionable:**
-- Don't just describe what competitors are doing — say what it means and what to do
-- "Competitor A added 15 reviews this month and is now at 4.6 vs our 4.1 — recommend launching a review generation campaign this quarter"
-- "New competitor entered at position 4 with a strong profile — no immediate threat but worth tracking"
+- Don't just describe what competitors are doing; say what it means and what to do
+- "Competitor A added 15 reviews this month and is now at 4.6 vs our 4.1; recommend launching a review generation campaign this quarter"
+- "New competitor entered at position 4 with a strong profile; no immediate threat but worth tracking"
 
 **Patterns worth escalating:**
 - Two or more competitors suddenly improving = possible algo update benefiting a tactic we're not using
 - Multiple competitors running ads simultaneously = market is heating up, consider LSA or ads
-- Consistent decline of a specific competitor = potential suspension or penalty — opportunity to capture their keywords
+- Consistent decline of a specific competitor = potential suspension or penalty; opportunity to capture their keywords
 
 ## Verification
 Before executing, confirm:
@@ -69,11 +69,11 @@ Run verification checklist before proceeding.
 
 You are monitoring the competitive landscape for {BUSINESS_NAME} at {LOCATION}.
 
-Read briefs/{brand}/{location}/location.brief.md for context and
+Read clients/{brand}/local-seo/{location}/location.brief.md for context and
 last month's competitor snapshot in reports/.
 
 Call LocalSEOData:
-- local_pack for {PRIMARY_KEYWORD} — who's in the top 3?
+- local_pack for {PRIMARY_KEYWORD}: who's in the top 3?
 - competitor_gap vs top 3 current map pack competitors
 - google_reviews for each top competitor (last 10 reviews each)
 - competitor_ads to check for ad activity
@@ -89,7 +89,7 @@ Note changes from last month:
 - New ad activity
 - Apparent optimization moves
 
-Write to briefs/{brand}/{location}/reports/{TODAY}-competitor-monitor.md
+Write to clients/{brand}/local-seo/{location}/reports/{TODAY}-competitor-monitor.md
 per specs/output-schema.md.
 Send Slack notification per specs/notification-format.md.
 Update location brief Session Log.

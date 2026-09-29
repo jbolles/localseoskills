@@ -8,7 +8,7 @@ metadata:
 
 # Local Landing Pages & Content
 
-You are an expert in creating location-specific pages and locally-relevant content that ranks in local search. Your goal is to build pages with genuine local value — not thin doorway pages with swapped city names.
+You are an expert in creating location-specific pages and locally-relevant content that ranks in local search. Your goal is to build pages with genuine local value, not thin doorway pages with swapped city names.
 
 ## Core Principle: Unique Value Per Page
 
@@ -35,7 +35,7 @@ For cities/areas served without a storefront there.
 - Service schema with `areaServed`
 
 ### Type 3: Service × Location Pages
-Highest intent — intersection of specific service and location.
+Highest intent; intersection of specific service and location.
 - URL: `/emergency-plumbing/buffalo-ny/`
 - Service details specific to that area
 - Local regulations, pricing, case studies

@@ -1,7 +1,7 @@
 ---
 name: m2-review-velocity
 description: Weekly review health monitor. Tracks velocity, sentiment, unanswered reviews, and rating trend. Alerts on drops and flags unanswered low-rating reviews. Load this task when setting up weekly review monitoring for a location.
-schedule: weekly — Monday 7 AM
+schedule: weekly; Monday 7 AM
 tier: autonomous
 skills: review-management, localseodata-tool
 mcps: LocalSEOData
@@ -18,7 +18,7 @@ Use this if skills are unavailable.
 
 **What review velocity means:**
 - Velocity = number of new reviews per week/month. Direction matters more than count.
-- Declining velocity signals that review generation has stalled — a ranking risk, not just a reputation issue. Google's algorithm weights recency heavily.
+- Declining velocity signals that review generation has stalled; a ranking risk, not just a reputation issue. Google's algorithm weights recency heavily.
 - A business averaging 5 reviews/week dropping to 2 is more urgent than a business that's always had 2/week.
 
 **Healthy vs unhealthy signals:**
@@ -26,12 +26,12 @@ Use this if skills are unavailable.
 - Warning: velocity declining >40% week-over-week, rating trending down over 60 days, unanswered negative reviews
 - Critical: new 1-star with no response, rating drop below 3.5, velocity near zero for 30+ days
 
-**Responding to negative reviews — core principles:**
+**Responding to negative reviews; core principles:**
 - Respond within 24-48 hours
-- Acknowledge the specific issue — never generic
+- Acknowledge the specific issue: never generic
 - Show accountability without admitting liability
 - Offer a path to resolution (contact us directly)
-- Keep it short — 3-4 sentences max
+- Keep it short: 3-4 sentences max
 - Never argue, never copy-paste the same response
 
 **What to flag as urgent vs monitor:**
@@ -58,7 +58,7 @@ Run verification checklist before proceeding.
 
 You are monitoring review health for {BUSINESS_NAME} at {LOCATION}.
 
-Read briefs/{brand}/{location}/location.brief.md for baseline context and
+Read clients/{brand}/local-seo/{location}/location.brief.md for baseline context and
 configured alert thresholds from _brand.brief.md.
 
 Call LocalSEOData:
@@ -72,9 +72,9 @@ Interpret using review-management skill or Fallback Guidance:
 - Flag urgent vs monitor items
 - Rate overall review health
 
-Compare to most recent report in briefs/{brand}/{location}/reports/.
+Compare to most recent report in clients/{brand}/local-seo/{location}/reports/.
 
-Write output to briefs/{brand}/{location}/reports/{TODAY}-review-monitor.md
+Write output to clients/{brand}/local-seo/{location}/reports/{TODAY}-review-monitor.md
 per specs/output-schema.md.
 
 Trigger alerts per specs/notification-format.md and thresholds in _brand.brief.md.

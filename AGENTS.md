@@ -34,7 +34,6 @@ localseoskills/
 │   ├── apple-business-connect/SKILL.md
 │   ├── bing-places/SKILL.md
 │   ├── client-deliverables/SKILL.md
-│   ├── dispatch/SKILL.md
 │   ├── gbp-api-automation/SKILL.md
 │   ├── gbp-optimization/SKILL.md
 │   ├── gbp-posts/SKILL.md
@@ -47,7 +46,6 @@ localseoskills/
 │   ├── local-keyword-research/SKILL.md
 │   ├── local-landing-pages/SKILL.md
 │   ├── local-link-building/SKILL.md
-│   ├── local-ppc-ads/SKILL.md
 │   ├── local-reporting/SKILL.md
 │   ├── local-schema/SKILL.md
 │   ├── local-search-ads/SKILL.md
@@ -67,7 +65,6 @@ localseoskills/
 │   ├── localseodata-tool/SKILL.md
 │   ├── lsa-spy-tool/SKILL.md
 │   ├── screaming-frog-tool/SKILL.md
-│   ├── semrush-tool/SKILL.md
 │   ├── serpapi-tool/SKILL.md
 │   └── whitespark-tool/SKILL.md
 ├── specs/

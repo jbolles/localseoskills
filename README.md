@@ -1,3 +1,13 @@
+> **WHO Digital Strategy fork.** This is WHO's adapted copy of [Local SEO Skills](https://github.com/garrettjsmith/localseoskills) by Garrett Smith (MIT), installed as the `who-local-seo` plugin in the WHO Agency Brain. Changes from upstream:
+>
+> - Removed `dispatch`, `semrush-tool` and `local-ppc-ads`. PPC goes to the brain's Google Ads skills.
+> - Briefs, scans, reports, drafts and alerts live in the brain at `clients/<client>/local-seo/` (prospects at `prospects/<slug>/local-seo/`), not in `briefs/`. The `brief` skill loads only for local SEO work, must use the existing client folder, and asks before spending credits on the initial audit.
+> - `local-content-strategy`, `local-content-briefs`, `ai-local-search`, `gbp-posts`, `local-schema` and `client-deliverables` are reference-only and hand off to WHO skills (topical-map, seo-content-creator, entity method, gbp-post-generator, who-seo-schema, competitive-intel-report).
+> - `ahrefs-tool`, `local-keyword-research`, `review-management` and `local-reporting` carry a WHO note on data precedence and handoffs.
+> - Em dashes replaced throughout skills, tasks and specs (WHO house style).
+>
+> To pull upstream changes: `git fetch upstream && git merge upstream/main`, then re-check the files above.
+
 <p align="center">
   <img src="assets/cover.png" alt="Local SEO Skills" width="900"/>
 </p>
@@ -276,12 +286,10 @@ With Local SEO Skills fully configured:
 | [local-schema](skills/local-schema) | LocalBusiness structured data and location schema |
 | [lsa-ads](skills/lsa-ads) | Google Local Services Ads (pay-per-lead, Google Guaranteed) |
 | [local-search-ads](skills/local-search-ads) | Ads inside the Google Maps local pack |
-| [local-ppc-ads](skills/local-ppc-ads) | Geographically targeted Google Ads |
 | [apple-business-connect](skills/apple-business-connect) | Apple Maps optimization and Apple Business Connect |
 | [bing-places](skills/bing-places) | Bing Maps optimization and Bing Places for Business |
 | [ai-local-search](skills/ai-local-search) | AI Overviews, ChatGPT, Gemini, Copilot for local |
 | [multi-location-seo](skills/multi-location-seo) | Managing SEO across 10-500+ locations at scale |
-| [dispatch](skills/dispatch) | Routes requests to the right skill combination |
 
 ---
 
@@ -293,7 +301,6 @@ With Local SEO Skills fully configured:
 | [local-falcon-tool](skills/local-falcon-tool) | Local Falcon | Geogrid trend reports, recurring campaigns, Falcon Guard (GBP monitoring), AI platform scans |
 | [lsa-spy-tool](skills/lsa-spy-tool) | LSA Spy | LSA market-level ranking tracking and competitive intelligence over time |
 | [serpapi-tool](skills/serpapi-tool) | SerpAPI | Live SERP data (fallback if LocalSEOData not connected, or for non-Google engines) |
-| [semrush-tool](skills/semrush-tool) | Semrush | Advanced keyword gap analysis, Keyword Magic Tool, site audit |
 | [ahrefs-tool](skills/ahrefs-tool) | Ahrefs | Deep backlink analysis, anchor text, lost links, referring domain details |
 | [brightlocal-tool](skills/brightlocal-tool) | BrightLocal | Citation building/submission, review monitoring dashboards |
 | [dataforseo-tool](skills/dataforseo-tool) | DataForSEO | Massive bulk operations (1000+ queries), raw API for custom pipelines |

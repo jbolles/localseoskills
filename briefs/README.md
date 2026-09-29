@@ -1,3 +1,5 @@
+> **WHO fork:** in the WHO Agency Brain, briefs live at `clients/<client>/local-seo/` and sync to the team. This folder only holds the seed templates.
+
 # Briefs
 
 Client-facing work state for Local SEO Skills engagements. Briefs are created and maintained automatically by the `brief` skill; this README documents the shape, lifecycle, and conventions for humans reading the repo.

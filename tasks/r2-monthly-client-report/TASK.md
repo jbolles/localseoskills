@@ -1,7 +1,7 @@
 ---
 name: r2-monthly-client-report
-description: Monthly performance report drafted for client delivery. Generates report and client-facing email, holds for agency approval before sending. Tier 3 — notifies before sending, confirms after.
-schedule: monthly — 1st of month, 9 AM
+description: Monthly performance report drafted for client delivery. Generates report and client-facing email, holds for agency approval before sending. Tier 3; notifies before sending, confirms after.
+schedule: monthly; 1st of month, 9 AM
 tier: notify (tier 3)
 skills: local-reporting, client-deliverables, localseodata-tool
 mcps: LocalSEOData, Gmail MCP
@@ -16,16 +16,16 @@ Load these first. If unavailable, use Fallback Guidance below.
 ## Fallback Guidance
 Use this if skills are unavailable.
 
-**Monthly report structure — what clients actually read:**
+**Monthly report structure; what clients actually read:**
 Clients read the executive summary and the metrics table. They skim everything else. Design accordingly.
 
-**Executive summary — 3-4 sentences:**
+**Executive summary; 3-4 sentences:**
 - Sentence 1: Overall status this month (better / stable / needs attention)
 - Sentence 2: The biggest win
 - Sentence 3: The most important issue or opportunity
 - Sentence 4: What's planned next (if agency has a plan)
 
-**Key metrics table — include these, nothing else:**
+**Key metrics table; include these, nothing else:**
 | Metric | This Month | Last Month | Change |
 |---|---|---|---|
 | Map Pack Position | | | ↑↓→ |
@@ -36,20 +36,20 @@ Clients read the executive summary and the metrics table. They skim everything e
 
 **Tone for client-facing reports:**
 - Professional but not stiff
-- Confident — avoid hedge language ("it seems," "possibly," "might")
+- Confident: avoid hedge language ("it seems," "possibly," "might")
 - Own the wins and the issues equally
 - Never blame Google, competitors, or the client
-- No internal SEO jargon — write for a business owner who knows their business, not ours
+- No internal SEO jargon: write for a business owner who knows their business, not ours
 
 **What makes a report feel premium:**
-- Specific numbers with context ("12 new reviews — your best month this year")
+- Specific numbers with context ("12 new reviews; your best month this year")
 - Named observations ("The downtown Buffalo grid improved significantly")
 - Concrete next steps, not vague recommendations ("We'll add 3 secondary categories this month" not "We should look at categories")
-- Clean formatting — metrics table, then findings, then next steps
+- Clean formatting: metrics table, then findings, then next steps
 
 **Email format:**
-- Subject: {Business Name} — Local SEO Update — {Month YYYY}
-- Open with the biggest win or most important news — not "I hope this email finds you well"
+- Subject: {Business Name}: Local SEO Update; {Month YYYY}
+- Open with the biggest win or most important news, not "I hope this email finds you well"
 - 3-4 short paragraphs max
 - Link to or attach the full report
 - Close with one specific next step
@@ -78,8 +78,8 @@ Run verification checklist before proceeding.
 You are generating a monthly performance report for {BUSINESS_NAME} at {LOCATION}
 to be sent to {CLIENT_EMAIL}.
 
-Read all output files from the past 30 days in briefs/{brand}/{location}/.
-Read briefs/{brand}/{location}/location.brief.md for context and goals.
+Read all output files from the past 30 days in clients/{brand}/local-seo/{location}/.
+Read clients/{brand}/local-seo/{location}/location.brief.md for context and goals.
 
 Pull fresh data from LocalSEOData:
 - local_audit for current snapshot
@@ -93,7 +93,7 @@ Using local-reporting and client-deliverables skills or Fallback Guidance:
 - Client-appropriate language throughout
 
 Generate:
-1. Full report at briefs/{brand}/{location}/reports/{TODAY}-monthly.md
+1. Full report at clients/{brand}/local-seo/{location}/reports/{TODAY}-monthly.md
 2. Client-facing email draft per specs/notification-format.md email format
 
 Set Approval Required to PENDING.

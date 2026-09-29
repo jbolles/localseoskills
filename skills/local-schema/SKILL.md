@@ -1,10 +1,12 @@
 ---
 name: local-schema
-description: When the user wants to implement LocalBusiness structured data, location schema, or local-specific JSON-LD markup. Also use when the user mentions "local schema," "LocalBusiness schema," "structured data for local," "JSON-LD for business," "NAP schema," or "local business markup." For general schema, see schema-markup skill. For GBP profile work, see gbp-optimization.
+description: Reference only in the WHO Agency Brain. Do not use to write schema or JSON-LD for a WHO client: use the brain's who-seo-schema skill, which builds the full entity graph including LocalBusiness. Load only when who-seo-schema or the user explicitly asks for local-specific schema property guidance.
 metadata:
   version: 1.0.0
   author: Garrett Smith
 ---
+
+> **WHO Agency Brain handoff:** In the WHO Agency Brain, all schema comes from `who-seo-schema`, which builds the site-wide entity graph with an @id registry. LocalBusiness markup is part of that graph. Hand off to it. Use the material below only as a reference for local-specific properties.
 
 # Local Schema Markup
 
@@ -190,7 +192,7 @@ For businesses without a public address, omit `address` and emphasize `areaServe
 | Schema implemented, need to verify GBP matches | Audit GBP to ensure all data aligns exactly with schema | `gbp-optimization` |
 | Need schema on multiple location pages | Build schema per page with location-specific data | `local-landing-pages` |
 | Schema is part of a broader audit | Feed schema findings into the full audit report | `local-seo-audit` |
-| Schema added but rankings unchanged | Schema alone rarely moves rankings — it reinforces other signals. Check if the real issue is elsewhere | `geogrid-analysis` |
+| Schema added but rankings unchanged | Schema alone rarely moves rankings; it reinforces other signals. Check if the real issue is elsewhere | `geogrid-analysis` |
 
 **Default next step:** After implementing schema, validate with Google's Rich Results Test, then monitor Search Console for structured data errors over the next 2 weeks.
 

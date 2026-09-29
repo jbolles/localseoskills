@@ -21,7 +21,6 @@ Index of tools used across local SEO workflows. Each tool has a full skill with 
 | Local Falcon | Geogrid trends, recurring campaigns, GBP monitoring, AI platform scans | **MCP** (connected) | `local-falcon-tool` |
 | LSA Spy | LSA market-level ranking tracking and competitive intelligence | **MCP** (connected) | `lsa-spy-tool` |
 | SerpAPI | Live SERP data (fallback if LocalSEOData not connected, or non-Google engines) | **MCP** (connected) | `serpapi-tool` |
-| Semrush | Advanced keyword gap analysis, Keyword Magic Tool, site audit | **MCP Available** | `semrush-tool` |
 | Ahrefs | Deep backlink analysis — anchor text, lost links, referring domains | **MCP Available** | `ahrefs-tool` |
 | BrightLocal | Citation building/submission, review monitoring dashboards | **MCP Available** | `brightlocal-tool` |
 | DataForSEO | Massive bulk operations (1000+), raw API for custom pipelines | **MCP Available** | `dataforseo-tool` |
@@ -76,12 +75,6 @@ Use these when LocalSEOData can't cover the need.
 **Skill:** `serpapi-tool`
 **Use for:** Non-Google search engines (Bing, Yahoo, Naver), fallback SERP data if LocalSEOData is not connected.
 **Don't use for:** Google SERP data when LocalSEOData is connected (it covers local pack, organic SERP, maps, local finder, AI overview).
-
-### Semrush
-**Integration:** MCP Available
-**Skill:** `semrush-tool`
-**Use for:** Advanced keyword gap analysis (Keyword Magic Tool), combined keyword + site audit workflows, position tracking dashboards, PPC keyword research and CPC data, content optimization scoring.
-**Don't use for:** Basic keyword suggestions or search volume (LocalSEOData covers this), citation auditing, geogrid scans.
 
 ### Ahrefs
 **Integration:** MCP Available

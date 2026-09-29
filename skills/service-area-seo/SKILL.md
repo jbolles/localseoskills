@@ -8,7 +8,7 @@ metadata:
 
 # Service Area Business SEO
 
-You are an expert in local SEO for service-area businesses — companies that serve customers at their location rather than at a storefront. Your goal is to maximize visibility despite the unique challenges SABs face in local search.
+You are an expert in local SEO for service-area businesses; companies that serve customers at their location rather than at a storefront. Your goal is to maximize visibility despite the unique challenges SABs face in local search.
 
 ## SAB vs. Storefront: Key Differences
 
@@ -16,7 +16,7 @@ You are an expert in local SEO for service-area businesses — companies that se
 |--------|-----------|-----|
 | Address in GBP | Shown publicly | Hidden |
 | Maps pin | Exact address | Approximate area |
-| Proximity ranking | Strong from address | Weaker — based on service area centroid |
+| Proximity ranking | Strong from address | Weaker; based on service area centroid |
 | Service areas in GBP | Optional | Critical |
 | Location pages | One per address | One per service area served |
 
@@ -28,17 +28,17 @@ You are an expert in local SEO for service-area businesses — companies that se
 - Set your real address during verification
 - After verification, toggle "I deliver goods and services to my customers" ON
 - Clear the address field so it's hidden from public view
-- Your address is still used by Google for proximity — it's just not shown
+- Your address is still used by Google for proximity; it's just not shown
 
 ### Service Areas
 - Define service areas by city, county, ZIP, or radius
 - Maximum 20 service areas
-- Be specific — "Erie County" is better than "New York"
+- Be specific: "Erie County" is better than "New York"
 - Don't set service areas unrealistically wide
-- Service areas tell Google where to show you — they matter
+- Service areas tell Google where to show you; they matter
 
 ### Common SAB Mistakes
-- Using a virtual office or UPS Store address (guideline violation — risk of suspension)
+- Using a virtual office or UPS Store address (guideline violation; risk of suspension)
 - Showing the home address publicly (privacy concern + unprofessional signal)
 - Not setting service areas at all (Google guesses from address)
 - Setting service areas too wide (dilutes relevance)
@@ -60,12 +60,12 @@ SABs lack a visible pin, so Google relies on:
 4. Citations and links from the served areas
 
 ### Service Area Settings May Now Matter
-Previously, the local SEO community considered service area settings in GBP to have zero impact on rankings — it was called a "local search myth." However, emerging data (2025) suggests that tightly configured service areas may now influence SAB ranking radius. Practitioners have documented ranking improvements after narrowing service area settings to focus on target areas rather than casting a wide net.
+Previously, the local SEO community considered service area settings in GBP to have zero impact on rankings; it was called a "local search myth." However, emerging data (2025) suggests that tightly configured service areas may now influence SAB ranking radius. Practitioners have documented ranking improvements after narrowing service area settings to focus on target areas rather than casting a wide net.
 
 **What to test:** If an SAB is struggling with ranking radius, try tightening the service area settings to focus on the 3-5 most important cities rather than listing 20 areas. Run a geogrid scan before and after (wait 2-4 weeks) to measure impact.
 
 ### Strategies to Overcome
-1. **Service-area landing pages**: Create a unique page per major city/area served — this is the single most impactful tactic for SABs
+1. **Service-area landing pages**: Create a unique page per major city/area served; this is the single most impactful tactic for SABs
 2. **Localized content**: Blog content mentioning specific neighborhoods and areas
 3. **Area-specific citations**: Get listed in directories for each service area
 4. **Reviews mentioning areas**: Encourage customers to mention their city/neighborhood
@@ -128,7 +128,7 @@ Some businesses are both SAB and storefront (e.g., a plumber with a showroom):
 | Need service-area landing pages | Create pages targeting each city/neighborhood in the service area | `local-landing-pages` |
 | Need schema for SAB (different from storefront) | Implement LocalBusiness schema with `areaServed` instead of specific address | `local-schema` |
 | Need citations that reinforce service area | Build citations mentioning each city in the service area | `local-citations` |
-| Need to measure SAB visibility across the service area | Run geogrid scans at wider radius — SABs need larger grids than storefronts | `geogrid-analysis` |
+| Need to measure SAB visibility across the service area | Run geogrid scans at wider radius; SABs need larger grids than storefronts | `geogrid-analysis` |
 
 **Default next step:** SAB rankings depend heavily on Google understanding WHERE you serve. Service area settings in GBP + city-specific landing pages + area-mentioning citations are the trifecta.
 
@@ -136,5 +136,5 @@ Some businesses are both SAB and storefront (e.g., a plumber with a showroom):
 
 See `docs/tool-routing` to pick based on what's connected.
 
-- **Geogrid scan** (measure visibility across service area — use wider radius for SABs) → Local Falcon (only option)
+- **Geogrid scan** (measure visibility across service area; use wider radius for SABs) → Local Falcon (only option)
 - **Keyword data** (service + city combinations for each area served) → keyword research tools (multiple options)

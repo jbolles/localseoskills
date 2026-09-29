@@ -6,24 +6,26 @@ metadata:
   author: Garrett Smith
 ---
 
+> **WHO Agency Brain note:** In the WHO Agency Brain, use Ahrefs for backlink work only. Keyword and query data follows the brain's precedence: Google Search Console first, DataForSEO as the fallback, not Ahrefs.
+
 # Ahrefs Tool
 
-> **Note:** LocalSEOData (`localseodata-tool`) now has `backlink_summary` and `backlink_gap` endpoints. Use LocalSEOData for quick backlink overviews and gap analysis. Ahrefs remains the preferred tool for deep link analysis — anchor text profiles, lost/new links, referring domain details, and content gap analysis.
+> **Note:** LocalSEOData (`localseodata-tool`) now has `backlink_summary` and `backlink_gap` endpoints. Use LocalSEOData for quick backlink overviews and gap analysis. Ahrefs remains the preferred tool for deep link analysis; anchor text profiles, lost/new links, referring domain details, and content gap analysis.
 
-Ahrefs has an official MCP server. When connected, use it for backlink analysis and link-focused competitive intelligence. Ahrefs has the largest backlink index — it's the authoritative source for link data.
+Ahrefs has an official MCP server. When connected, use it for backlink analysis and link-focused competitive intelligence. Ahrefs has the largest backlink index; it's the authoritative source for link data.
 
 ## When to Use Ahrefs vs Other Tools
 
 | You Need | Use Ahrefs | Use Instead |
 |----------|-----------|-------------|
-| Backlink profile for a domain | ✅ Best backlink database | — |
-| Referring domains count/list | ✅ | — |
-| Link gap (who links to competitor but not you) | ✅ Best for this | — |
-| Lost/broken backlinks | ✅ | — |
-| Anchor text analysis | ✅ | — |
+| Backlink profile for a domain | ✅ Best backlink database | n/a |
+| Referring domains count/list | ✅ | n/a |
+| Link gap (who links to competitor but not you) | ✅ Best for this | n/a |
+| Lost/broken backlinks | ✅ | n/a |
+| Anchor text analysis | ✅ | n/a |
 | Keyword search volume | ⚠️ Can do it | Semrush (better keyword tool) |
 | Keyword gap analysis | ⚠️ Can do it | Semrush (preferred for keywords) |
-| Content Explorer (find linkable content) | ✅ Unique to Ahrefs | — |
+| Content Explorer (find linkable content) | ✅ Unique to Ahrefs | n/a |
 | Technical site audit | ⚠️ Has one | Screaming Frog (more detailed) |
 | SERP data | ❌ | SerpAPI |
 | Local pack rankings | ❌ | Local Falcon |
@@ -100,7 +102,7 @@ Ahrefs has an official MCP server. When connected, use it for backlink analysis 
 - Brand name (40-60%): "Smith Plumbing," "smithplumbing.com"
 - Generic (15-25%): "click here," "website," "learn more"
 - Location-based (10-20%): "plumber in Buffalo," "Buffalo NY plumbing"
-- Exact match keywords (under 10%): "emergency plumber" — too much of this is a penalty risk
+- Exact match keywords (under 10%): "emergency plumber"; too much of this is a penalty risk
 
 ### Content Explorer (Find Linkable Content Ideas)
 
@@ -116,7 +118,7 @@ Ahrefs has an official MCP server. When connected, use it for backlink analysis 
 | Metric | What It Is | Local SEO Context |
 |--------|-----------|-------------------|
 | Domain Rating (DR) | Ahrefs' authority score (0-100) | Compare to local competitors, not national brands |
-| Referring Domains | Unique domains linking to you | The #1 link metric — more unique domains = more authority |
+| Referring Domains | Unique domains linking to you | The #1 link metric; more unique domains = more authority |
 | URL Rating (UR) | Authority of a specific page | Useful for comparing location page authority |
 | Dofollow % | Percentage of links passing authority | Below 50% dofollow is weak |
 | Anchor text distribution | What text is used in links | Over-optimized anchors can trigger penalties |
@@ -131,7 +133,7 @@ Ahrefs has an official MCP server. When connected, use it for backlink analysis 
 | Found link gap opportunities (editorial/media) | Build targeted outreach campaigns | `local-link-building` |
 | Anchor text over-optimized | Diversify with brand and generic anchors going forward | `local-link-building` |
 | Lost high-value links | Outreach to recover, then build replacements | `local-link-building` |
-| Link profile is fine but still not ranking locally | Links aren't the issue — check GBP, reviews, proximity | `geogrid-analysis`, `gbp-optimization` |
+| Link profile is fine but still not ranking locally | Links aren't the issue; check GBP, reviews, proximity | `geogrid-analysis`, `gbp-optimization` |
 | Need this data in a client report | Include link profile comparison in deliverables | `client-deliverables` |
 
-**Default next step:** Link analysis always raises the question "is this a link problem or something else?" If the link profile is comparable to competitors, the issue is likely GBP, reviews, or relevance — not links.
+**Default next step:** Link analysis always raises the question "is this a link problem or something else?" If the link profile is comparable to competitors, the issue is likely GBP, reviews, or relevance, not links.

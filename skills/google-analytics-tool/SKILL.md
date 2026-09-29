@@ -14,12 +14,12 @@ GA4 has an official MCP server from Google. When connected, use it for website t
 
 | You Need | Use GA4 | Use Instead |
 |----------|--------|-------------|
-| Traffic to location pages | ✅ | — |
-| Conversion tracking (calls, forms, bookings) | ✅ | — |
-| Traffic source attribution (organic vs paid vs GBP) | ✅ | — |
-| Geographic traffic patterns | ✅ | — |
-| User behavior (bounce rate, engagement, time on page) | ✅ | — |
-| GBP-specific traffic (via UTM) | ✅ | — |
+| Traffic to location pages | ✅ | n/a |
+| Conversion tracking (calls, forms, bookings) | ✅ | n/a |
+| Traffic source attribution (organic vs paid vs GBP) | ✅ | n/a |
+| Geographic traffic patterns | ✅ | n/a |
+| User behavior (bounce rate, engagement, time on page) | ✅ | n/a |
+| GBP-specific traffic (via UTM) | ✅ | n/a |
 | What keywords people searched to find you | ❌ Very limited | GSC (query data) |
 | Search rankings | ❌ | Local Falcon, Semrush |
 | Backlinks | ❌ | Ahrefs |
@@ -46,7 +46,7 @@ For complete local performance: GA4 (website) + GSC (organic queries) + GBP Insi
 3. Compare across location pages
 
 **How to interpret:**
-- Location page with high traffic but low engagement: Content doesn't match what visitors expect — check title alignment
+- Location page with high traffic but low engagement: Content doesn't match what visitors expect; check title alignment
 - Location page with high engagement but low conversions: Missing or weak CTA (call button, form, booking link)
 - Location page with no traffic: Not indexed (check GSC) or no keyword targeting (check `local-keyword-research`)
 - Big traffic differences between location pages: Might reflect market size, or some pages are better optimized
@@ -58,11 +58,11 @@ For complete local performance: GA4 (website) + GSC (organic queries) + GBP Insi
 **Key local conversions to track:**
 | Conversion Event | How to Track | Setup Required |
 |-----------------|-------------|----------------|
-| Phone calls (click-to-call) | Event on `tel:` link clicks | Yes — event must be configured |
-| Form submissions | Event on form submit/thank-you page | Yes — event or thank-you page trigger |
-| Direction requests | Event on directions link clicks | Yes — event on link |
-| Booking/scheduling | Event on booking completion | Yes — depends on booking system |
-| Chat initiated | Event on chat widget open | Yes — event on widget |
+| Phone calls (click-to-call) | Event on `tel:` link clicks | Yes; event must be configured |
+| Form submissions | Event on form submit/thank-you page | Yes; event or thank-you page trigger |
+| Direction requests | Event on directions link clicks | Yes; event on link |
+| Booking/scheduling | Event on booking completion | Yes; depends on booking system |
+| Chat initiated | Event on chat widget open | Yes; event on widget |
 
 **If conversions aren't set up:** Tell the user. GA4 doesn't track conversions automatically. Without configured events, you can only report traffic, not leads.
 
@@ -126,7 +126,7 @@ For complete local performance: GA4 (website) + GSC (organic queries) + GBP Insi
 | Sessions | Website visits | Total demand reaching your site |
 | Engaged Sessions | Sessions with meaningful interaction | More important than raw sessions |
 | Engagement Rate | Engaged sessions ÷ Total sessions | Below 50% on location pages = content problem |
-| Conversions | Completed goal actions | THE metric — everything else is a means to this |
+| Conversions | Completed goal actions | THE metric; everything else is a means to this |
 | Conversion Rate | Conversions ÷ Sessions | Benchmark: 3-5% for local service businesses |
 | Bounce Rate | Sessions with no interaction | GA4 bounce = not engaged. High bounce on location pages = bad signal |
 | Average Engagement Time | Time actively on page | Under 30 seconds = content isn't connecting |
@@ -143,4 +143,4 @@ For complete local performance: GA4 (website) + GSC (organic queries) + GBP Insi
 | Geographic gaps in traffic | Build location pages for underserved cities | `local-landing-pages`, `service-area-seo` |
 | Need this in a client report | Include traffic and conversion data in reports | `local-reporting` |
 
-**Default next step:** Traffic without conversion tracking is vanity metrics. If GA4 events aren't configured, that's the first thing to fix — before any SEO work, you need to be able to measure results.
+**Default next step:** Traffic without conversion tracking is vanity metrics. If GA4 events aren't configured, that's the first thing to fix; before any SEO work, you need to be able to measure results.

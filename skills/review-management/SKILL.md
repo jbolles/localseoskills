@@ -6,6 +6,8 @@ metadata:
   author: Garrett Smith
 ---
 
+> **WHO Agency Brain note:** In the WHO Agency Brain, pull review data with the brain's `google-reviews` skill, which saves to `clients/<client>/reviews/`. This skill covers review strategy, generation and response drafting. Review responses are drafts for approval; never post them.
+
 # Review Management
 
 > **Default data tool:** LocalSEOData (`localseodata-tool`). Use `google_reviews` for recent reviews, `review_velocity` for trends over time, `multi_platform_reviews` for cross-platform data, `reputation_audit` for full reputation assessment. For review generation campaigns, use Whitespark.
@@ -29,7 +31,7 @@ Before building a strategy, understand:
 
 The number of reviews you've gotten THIS MONTH matters more than your total count. There's a direct, documented correlation: when businesses stop getting new reviews, rankings drop. When they resume, rankings recover. Review recency is a top-5 ranking factor as of 2025-2026.
 
-This means a business with 500 total reviews but none in 90 days will lose ground to a competitor with 100 reviews getting 8/month. Stop optimizing for total count — optimize for consistent flow.
+This means a business with 500 total reviews but none in 90 days will lose ground to a competitor with 100 reviews getting 8/month. Stop optimizing for total count; optimize for consistent flow.
 
 Reviews impact local rankings through:
 - **Recency**: Recent reviews weighted most heavily. A steady cadence is the strongest review signal
@@ -58,76 +60,76 @@ https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID
 Or short link via GBP dashboard.
 
 ### Channel Priority
-1. **Google** — Primary ranking signal, highest visibility
-2. **Industry-specific** — See industry platforms table below
-3. **Facebook** — Social proof, recommendations
-4. **Yelp** — Don't ask directly (Yelp penalizes solicitation)
+1. **Google**: Primary ranking signal, highest visibility
+2. **Industry-specific**: See industry platforms table below
+3. **Facebook**: Social proof, recommendations
+4. **Yelp**: Don't ask directly (Yelp penalizes solicitation)
 
 ### Industry-Specific Review Platforms
 
 Different verticals have review platforms that carry outsized weight with consumers and often influence search rankings.
 
 **Healthcare (Medical, Dental, Chiropractic):**
-- Healthgrades — Highest authority for doctor searches, often outranks the practice's own site
-- WebMD — Significant consumer trust; negative reviews here damage reputation disproportionately
-- Vitals — Used by insurance networks for doctor discovery
-- ZocDoc — Combines reviews with appointment booking; high conversion platform
-- RateMDs — Particularly relevant in markets near Canada (cross-border patients)
-- Doximity — Physician peer network, not consumer-facing but affects referrals
+- Healthgrades: Highest authority for doctor searches, often outranks the practice's own site
+- WebMD: Significant consumer trust; negative reviews here damage reputation disproportionately
+- Vitals: Used by insurance networks for doctor discovery
+- ZocDoc: Combines reviews with appointment booking; high conversion platform
+- RateMDs: Particularly relevant in markets near Canada (cross-border patients)
+- Doximity: Physician peer network, not consumer-facing but affects referrals
 
 **Legal:**
-- Avvo — Dominant for attorney searches; Avvo rating is its own ranking system
-- Martindale-Hubbell — Oldest legal directory; peer ratings carry weight
-- Lawyers.com — Consumer-facing FindLaw property
-- Super Lawyers — Selection-based (not open reviews) but high authority
-- Google remains critical — most people search Google, not legal directories
+- Avvo: Dominant for attorney searches; Avvo rating is its own ranking system
+- Martindale-Hubbell: Oldest legal directory; peer ratings carry weight
+- Lawyers.com: Consumer-facing FindLaw property
+- Super Lawyers: Selection-based (not open reviews) but high authority
+- Google remains critical: most people search Google, not legal directories
 
 **Home Services (HVAC, Plumbing, Electrical, Roofing):**
-- Angi (formerly Angie's List) — Paid lead platform with reviews
-- HomeAdvisor — Now merged with Angi; still has separate review ecosystem
-- Thumbtack — Strong in some markets, particularly for smaller jobs
-- Houzz — Dominant for remodeling, design, and construction
-- BBB — Accreditation matters to older demographics; complaints are visible in search
+- Angi (formerly Angie's List): Paid lead platform with reviews
+- HomeAdvisor: Now merged with Angi; still has separate review ecosystem
+- Thumbtack: Strong in some markets, particularly for smaller jobs
+- Houzz: Dominant for remodeling, design, and construction
+- BBB: Accreditation matters to older demographics; complaints are visible in search
 
 **Restaurants & Hospitality:**
-- Yelp — Actually critical in this vertical (unlike others where it's secondary)
-- TripAdvisor — Essential for tourism-dependent restaurants
-- OpenTable — Reviews tied to actual diners (verified)
-- DoorDash/Uber Eats — Ratings on delivery platforms now affect discovery
+- Yelp: Actually critical in this vertical (unlike others where it's secondary)
+- TripAdvisor: Essential for tourism-dependent restaurants
+- OpenTable: Reviews tied to actual diners (verified)
+- DoorDash/Uber Eats: Ratings on delivery platforms now affect discovery
 
 **Automotive:**
-- DealerRater — Primary review platform for dealerships
-- Cars.com — Reviews visible in vehicle shopping flow
-- Edmunds — Consumer research phase reviews
-- CarGurus — Growing platform with dealer reviews
+- DealerRater: Primary review platform for dealerships
+- Cars.com: Reviews visible in vehicle shopping flow
+- Edmunds: Consumer research phase reviews
+- CarGurus: Growing platform with dealer reviews
 
 **Real Estate:**
-- Zillow — Agent reviews integrated into property search
-- Realtor.com — Reviews visible to active homebuyers
-- Homes.com — Growing review platform
+- Zillow: Agent reviews integrated into property search
+- Realtor.com: Reviews visible to active homebuyers
+- Homes.com: Growing review platform
 
 **Financial Services:**
-- NerdWallet — Reviews for banks, credit unions, financial advisors
-- Bankrate — Consumer finance reviews
-- FINRA BrokerCheck — Not reviews per se, but public record that shows in searches
+- NerdWallet: Reviews for banks, credit unions, financial advisors
+- Bankrate: Consumer finance reviews
+- FINRA BrokerCheck: Not reviews per se, but public record that shows in searches
 
 ### Industry-Specific Response Rules
 
-**Healthcare — HIPAA compliance (CRITICAL):**
+**Healthcare; HIPAA compliance (CRITICAL):**
 - NEVER confirm or deny someone is a patient
 - NEVER reference diagnoses, treatments, medications, or appointments
 - NEVER share any Protected Health Information, even if the reviewer mentioned it first
 - Safe response pattern: "Thank you for your feedback. We take all patient experiences seriously. Please contact our office at [phone] to discuss your concerns."
 - Train ALL staff who might respond to reviews on HIPAA
 
-**Legal — Attorney-client privilege:**
-- Similar to HIPAA — never confirm someone is/was a client
+**Legal; Attorney-client privilege:**
+- Similar to HIPAA: never confirm someone is/was a client
 - Don't reference case details, outcomes, or legal strategy
 - Check state bar advertising rules before using client testimonials in marketing
 
-**Home services — Photo responses:**
+**Home services; Photo responses:**
 - Encourage customers to include photos of completed work in reviews
-- Respond with project details (general, not customer-specific): "That kitchen remodel was a great project — glad you love the tile work!"
+- Respond with project details (general, not customer-specific): "That kitchen remodel was a great project; glad you love the tile work!"
 - Photo reviews are worth 3-5x a text-only review for conversion
 
 ### Cadence Targets
@@ -139,7 +141,7 @@ Different verticals have review platforms that carry outsized weight with consum
 | Large/multi-location | 20-50+ per location | Enterprise-level volume |
 
 ### What NOT to Do
-- Don't buy reviews — ever
+- Don't buy reviews: ever
 - Don't gate reviews (only sending happy customers to Google)
 - Don't use review kiosks in-office (same IP = flagged)
 - Don't incentivize with discounts or gifts
@@ -160,7 +162,7 @@ Different verticals have review platforms that carry outsized weight with consum
 1. Thank them by name
 2. Mention the specific service they referenced
 3. Add a natural keyword/location reference
-4. Keep it genuine — vary your responses (don't copy-paste)
+4. Keep it genuine; vary your responses (don't copy-paste)
 
 **Example:**
 > Thanks, Sarah! We're glad the AC installation went smoothly. Our Buffalo team takes pride in getting systems running before the summer heat. See you for your annual tune-up!
@@ -172,7 +174,7 @@ Different verticals have review platforms that carry outsized weight with consum
 4. **Don't argue**: Other customers are reading this
 
 **Example:**
-> Hi Mark, thank you for sharing your experience. We're sorry the timeline didn't meet your expectations — that's not the standard we set for our customers. Please reach out to [name] at [phone] so we can make this right.
+> Hi Mark, thank you for sharing your experience. We're sorry the timeline didn't meet your expectations; that's not the standard we set for our customers. Please reach out to [name] at [phone] so we can make this right.
 
 ### Response Timing
 - Positive: Within 24-48 hours
@@ -195,7 +197,7 @@ Different verticals have review platforms that carry outsized weight with consum
 2. Report via Google Business support
 3. Use the Google Reviews removal form with evidence
 4. If from a competitor, document the pattern
-5. Don't respond aggressively — respond professionally, then flag
+5. Don't respond aggressively; respond professionally, then flag
 
 ### When Removal Fails
 - Respond professionally for public record
@@ -248,13 +250,13 @@ Different verticals have review platforms that carry outsized weight with consum
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Reviews improving but profile still not optimized | Reviews amplify a strong profile — complete GBP optimization | `gbp-optimization` |
+| Reviews improving but profile still not optimized | Reviews amplify a strong profile; complete GBP optimization | `gbp-optimization` |
 | Need to benchmark review count against competitors | Run competitive analysis focused on review metrics | `local-competitor-analysis` |
 | Reviews are part of a broader audit | Feed review findings into the full audit report | `local-seo-audit` |
-| Review strategy running but rankings still weak | Reviews are one signal — run a geogrid scan to identify other gaps | `geogrid-analysis` |
+| Review strategy running but rankings still weak | Reviews are one signal; run a geogrid scan to identify other gaps | `geogrid-analysis` |
 | Need industry-specific review platform strategy | See the Industry-Specific Review Platforms section above |  |
 
-**Default next step:** Set a 90-day review target (count + velocity). Measure monthly. If velocity drops, the generation process broke — fix the system, not the goal.
+**Default next step:** Set a 90-day review target (count + velocity). Measure monthly. If velocity drops, the generation process broke; fix the system, not the goal.
 
 ## Tools for This Skill
 

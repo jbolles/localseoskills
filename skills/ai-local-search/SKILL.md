@@ -1,10 +1,12 @@
 ---
 name: ai-local-search
-description: When the user wants to optimize for AI-powered local search results including Google AI Overviews, AI Mode, ChatGPT, Gemini, Perplexity, or Grok. Also use when the user mentions "AI Overviews," "AI search local," "ChatGPT local," "GEO," "LLMO," "generative search," "AI recommendations," "AI Mode," or "showing up in AI answers for local." For traditional map pack ranking, see gbp-optimization.
+description: Reference only in the WHO Agency Brain. Do not use for GEO, AI visibility strategy, or entity work for a WHO client: use the brain's who-entity-evaluation and entity-brand-blueprint skills. Load only when the user explicitly asks for local AI-platform tactics (for example Apple Intelligence or ChatGPT local listings) on top of that work.
 metadata:
   version: 1.0.0
   author: Garrett Smith
 ---
+
+> **WHO Agency Brain handoff:** In the WHO Agency Brain, GEO and AI visibility run through WHO's entity method: `who-entity-evaluation`, then `entity-brand-blueprint`. Hand off to those. Use the material below only for local AI-platform tactics when the user asks for them.
 
 # AI Local Search Optimization
 
@@ -24,20 +26,20 @@ AI is reshaping how consumers find local businesses. Key platforms:
 
 ### What's Different from Traditional Local SEO
 - AI models synthesize information from multiple sources, not just rank pages
-- Reviews and sentiment matter more — AI reads and summarizes them
-- Structured data becomes even more critical — it's how AI understands your business
+- Reviews and sentiment matter more: AI reads and summarizes them
+- Structured data becomes even more critical; it's how AI understands your business
 - Brand mentions across the web influence AI "knowledge" about your business
 - Traditional ranking position matters less; being a cited source matters more
 
 ### AI Signals Are Now Part of the Core Ranking Model
-AI search signals are now recognized as a distinct ranking factor category. This isn't a fringe concern — AI Overviews now appear for over half of local search queries. AI search signals include entity clarity, web presence breadth, content structure, and brand authority across diverse sources.
+AI search signals are now recognized as a distinct ranking factor category. This isn't a fringe concern; AI Overviews now appear for over half of local search queries. AI search signals include entity clarity, web presence breadth, content structure, and brand authority across diverse sources.
 
 **Key data points:**
-- AI Overview prominence is rooted to industry, not city — if they appear for plumbing in Houston, they appear for plumbing in Denver
+- AI Overview prominence is rooted to industry, not city; if they appear for plumbing in Houston, they appear for plumbing in Denver
 - ChatGPT traffic to local sites grew from ~0.1% to ~2% of Google traffic in one year. Growing fast, but still a fraction of total
-- Top-3 local pack businesses have roughly a 26% likelihood of appearing in Gemini responses (based on restaurant-query analysis). That means ~74% don't — map pack ranking alone doesn't guarantee AI visibility
+- Top-3 local pack businesses have roughly a 26% likelihood of appearing in Gemini responses (based on restaurant-query analysis). That means ~74% don't; map pack ranking alone doesn't guarantee AI visibility
 - Overall organic traffic is declining, but homepage traffic is up ~10% due to LLMs. Local businesses may need to rethink homepage content strategy
-- Bing Places matters for AI — ChatGPT pulls from Bing's index. See `bing-places` for optimization
+- Bing Places matters for AI: ChatGPT pulls from Bing's index. See `bing-places` for optimization
 
 ---
 
@@ -45,12 +47,12 @@ AI search signals are now recognized as a distinct ranking factor category. This
 
 ### Data Sources AI Uses
 1. **Google Business Profile data** (for Google AI Overviews/AI Mode/Gemini)
-2. **Web content** — website pages, especially well-structured service/location pages
-3. **Reviews** — aggregated sentiment, specific mentions of services, quality signals
-4. **Citations and directories** — NAP data, category associations
-5. **Brand mentions** — unstructured mentions across blogs, news, forums
-6. **Structured data (schema)** — machine-readable business information
-7. **Third-party reviews** — Yelp, industry platforms, social media
+2. **Web content**: website pages, especially well-structured service/location pages
+3. **Reviews**: aggregated sentiment, specific mentions of services, quality signals
+4. **Citations and directories**: NAP data, category associations
+5. **Brand mentions**: unstructured mentions across blogs, news, forums
+6. **Structured data (schema)**: machine-readable business information
+7. **Third-party reviews**: Yelp, industry platforms, social media
 
 ### What Triggers AI Local Results
 - "Best [service] in [city]" queries
@@ -79,7 +81,7 @@ AI reads and synthesizes reviews to form recommendations.
 - Recency: recent reviews weighted more heavily
 - Sentiment: consistently positive sentiment across platforms
 - Specificity: reviews that name services, describe experiences, mention outcomes
-- Multi-platform: Google, Yelp, industry-specific — AI aggregates across sources
+- Multi-platform: Google, Yelp, industry-specific; AI aggregates across sources
 
 ### 3. Content for AI Consumption
 Write content that AI can easily parse and cite.
@@ -87,9 +89,9 @@ Write content that AI can easily parse and cite.
 - Lists of services with descriptions (not just names)
 - Explicit geographic coverage statements
 - Pricing information where possible (AI loves specifics)
-- Credentials, certifications, years of experience — stated clearly
+- Credentials, certifications, years of experience; stated clearly
 - FAQ pages with direct question-and-answer format
-- Avoid fluffy marketing copy — AI extracts facts, not sizzle
+- Avoid fluffy marketing copy: AI extracts facts, not sizzle
 
 ### 4. Brand Mentions and Authority
 AI forms opinions about businesses from web-wide signals.
@@ -119,7 +121,7 @@ Google's AI products pull heavily from GBP data.
 
 ### ChatGPT / SearchGPT
 - Uses web search results and its training data
-- Cites sources — being the cited page matters
+- Cites sources: being the cited page matters
 - Well-structured pages with clear facts get cited
 - Review aggregation across platforms influences recommendations
 - Less dependent on GBP, more on web content and authority
@@ -136,7 +138,7 @@ Google's AI products pull heavily from GBP data.
 
 ### Available Tools
 - **Local Falcon**: AI scan type for Google AI Overviews (GAIO) and AI Mode
-- **SAIV metric**: Share of AI Voice — percentage of AI results mentioning your business
+- **SAIV metric**: Share of AI Voice: percentage of AI results mentioning your business
 - **Manual testing**: Search target queries in ChatGPT, Gemini, Perplexity
 - **Search Console**: Monitor for AI Overview impressions/clicks (limited data)
 
@@ -168,7 +170,7 @@ The safest strategy: optimize for traditional local SEO fundamentals (GBP, revie
 2. What are the target queries customers use?
 3. Current traditional local SEO state? (GBP, reviews, citations)
 4. Any existing AI scan data (Local Falcon GAIO scans)?
-5. Competitive landscape — are competitors showing up in AI results?
+5. Competitive landscape; are competitors showing up in AI results?
 
 ---
 
@@ -176,14 +178,14 @@ The safest strategy: optimize for traditional local SEO fundamentals (GBP, revie
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Business doesn't appear in AI Overviews | Start with GBP optimization — AI pulls from GBP data | `gbp-optimization` |
+| Business doesn't appear in AI Overviews | Start with GBP optimization; AI pulls from GBP data | `gbp-optimization` |
 | Need structured data AI can parse | Implement comprehensive schema markup | `local-schema` |
 | Need content AI platforms can cite | Create authoritative, well-structured service and location pages | `local-landing-pages` |
 | Need to track AI visibility over time | Run AI platform scans (GAIO, ChatGPT, Gemini) via geogrid tools | `geogrid-analysis` |
-| Reviews feeding negative AI sentiment | Improve review profile — AI synthesizes review data | `review-management` |
+| Reviews feeding negative AI sentiment | Improve review profile; AI synthesizes review data | `review-management` |
 | Want to compare AI vs. traditional visibility | Run competitor analysis across both traditional and AI search | `local-competitor-analysis` |
 
-**Default next step:** AI local search is evolving rapidly. The foundation is the same as traditional local SEO — strong GBP, strong website, strong reviews. Optimize those first, then monitor AI-specific visibility.
+**Default next step:** AI local search is evolving rapidly. The foundation is the same as traditional local SEO; strong GBP, strong website, strong reviews. Optimize those first, then monitor AI-specific visibility.
 
 ## Tools for This Skill
 

@@ -1,7 +1,7 @@
 {
-  "name": "local-seo-skills",
-  "version": "1.0.1",
-  "description": "38 open-source skills that turn Claude into a local SEO specialist. Covers GBP optimization, map pack visibility, audits, citations, reviews, keywords, geogrid analysis, AI visibility, multi-location SEO, and client reporting. Connects to LocalSEOData and 10 other data tools via MCP.",
+  "name": "who-local-seo",
+  "version": "1.0.1-who.1",
+  "description": "WHO Agency Brain fork of Local SEO Skills by Garrett Smith (MIT). Local SEO skills adapted to WHO's folder layout and methods.",
   "author": {
     "name": "Garrett Smith",
     "email": "help@localseoskills.com",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "homepage": "https://localseoskills.com",
-  "repository": "https://github.com/garrettjsmith/localseoskills",
+  "repository": "https://github.com/jbolles/localseoskills",
   "keywords": [
     "local-seo",
     "seo",

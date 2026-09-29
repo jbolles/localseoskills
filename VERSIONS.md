@@ -16,7 +16,6 @@ Pulled from each `skills/*/SKILL.md` frontmatter. Bumped per skill as its SKILL.
 | apple-business-connect | 1.0.0 |
 | bing-places | 1.0.0 |
 | client-deliverables | 1.0.0 |
-| dispatch | 1.0.0 |
 | gbp-api-automation | 1.0.0 |
 | gbp-optimization | 1.1.0 |
 | gbp-posts | 1.0.0 |
@@ -29,7 +28,6 @@ Pulled from each `skills/*/SKILL.md` frontmatter. Bumped per skill as its SKILL.
 | local-keyword-research | 1.1.0 |
 | local-landing-pages | 1.1.0 |
 | local-link-building | 1.0.0 |
-| local-ppc-ads | 1.0.0 |
 | local-reporting | 1.1.0 |
 | local-schema | 1.0.0 |
 | local-search-ads | 1.0.0 |
@@ -52,7 +50,6 @@ Pulled from each `skills/*/SKILL.md` frontmatter. Bumped per skill as its SKILL.
 | localseodata-tool | 1.0.0 |
 | lsa-spy-tool | 1.0.0 |
 | screaming-frog-tool | 1.0.0 |
-| semrush-tool | 1.0.0 |
 | serpapi-tool | 1.0.0 |
 | whitespark-tool | 1.0.0 |
 

@@ -1,6 +1,6 @@
 ---
 name: local-search-ads
-description: When the user wants to run ads that appear inside the Google Maps local pack / map pack results. Also use when the user mentions "local search ads," "map pack ads," "ads in the map results," "local pack ads," "Google Maps ads," "location extensions ads," or "promoted pins on Google Maps." For LSAs (pay-per-lead), see lsa-ads. For standard geographic PPC, see local-ppc-ads.
+description: When the user wants to run ads that appear inside the Google Maps local pack / map pack results. Also use when the user mentions "local search ads," "map pack ads," "ads in the map results," "local pack ads," "Google Maps ads," "location extensions ads," or "promoted pins on Google Maps." For LSAs (pay-per-lead), see lsa-ads. For standard geographic PPC, use the Agency Brain Google Ads skills (google-ads, google-ads-creation).
 metadata:
   version: 1.0.0
   author: Garrett Smith
@@ -16,7 +16,7 @@ Local search ads are Google Ads that appear within the local pack (map results) 
 
 ### How They Differ from Regular Ads
 - Appear **inside the map pack**, not above or below it
-- Show business name, rating, address, hours — like an organic listing
+- Show business name, rating, address, hours; like an organic listing
 - Driven by Google Ads campaigns + location assets (formerly location extensions)
 - Pay per click (not per lead like LSAs)
 - Require a linked Google Business Profile
@@ -68,10 +68,10 @@ Local search ads are Google Ads that appear within the local pack (map results) 
 - Drives store visits, calls, directions
 
 ### Keyword Strategy
-- `[service] near me` — high intent
-- `[service] [city]` — explicit local
-- `[service] in [neighborhood]` — hyperlocal
-- `best [service] [city]` — comparison intent
+- `[service] near me`: high intent
+- `[service] [city]`: explicit local
+- `[service] in [neighborhood]`: hyperlocal
+- `best [service] [city]`: comparison intent
 - Category terms: `plumber`, `dentist`, `auto repair` (with location targeting)
 
 ### Bidding
@@ -79,7 +79,7 @@ Local search ads are Google Ads that appear within the local pack (map results) 
 - Use location bid adjustments for priority areas
 - Bid higher during business hours
 - Bid higher on mobile (map pack ads are heavily mobile)
-- Monitor CPC vs. organic traffic — sometimes organic investment is more efficient
+- Monitor CPC vs. organic traffic: sometimes organic investment is more efficient
 
 ---
 
@@ -87,11 +87,11 @@ Local search ads are Google Ads that appear within the local pack (map results) 
 
 ### GBP Quality Matters for Ad Performance
 Even though these are paid, your GBP quality affects ad performance:
-- **Star rating shown in the ad** — higher rating = higher CTR
-- **Review count visible** — more reviews = more trust
-- **Photos** — some formats show a photo
-- **Hours** — "Open now" improves click-through
-- **Categories** — must match the keywords you're bidding on
+- **Star rating shown in the ad**: higher rating = higher CTR
+- **Review count visible**: more reviews = more trust
+- **Photos**: some formats show a photo
+- **Hours**: "Open now" improves click-through
+- **Categories**: must match the keywords you're bidding on
 
 ### Location Asset Optimization
 - Ensure every location you want ads for is linked
@@ -107,11 +107,11 @@ Even though these are paid, your GBP quality affects ad performance:
 - Strong CTAs: "Call Now," "Free Estimate," "Same-Day Service"
 
 ### Negative Keywords
-- `jobs`, `salary`, `hiring`, `career` — people searching for employment
-- `DIY`, `how to`, `tutorial` — informational intent
-- `free` — unless you offer free estimates
-- `[competitor names]` — unless running competitor targeting intentionally
-- `reviews`, `complaints` — research intent, low conversion
+- `jobs`, `salary`, `hiring`, `career`: people searching for employment
+- `DIY`, `how to`, `tutorial`: informational intent
+- `free`: unless you offer free estimates
+- `[competitor names]`: unless running competitor targeting intentionally
+- `reviews`, `complaints`: research intent, low conversion
 
 ---
 
@@ -154,18 +154,18 @@ Even though these are paid, your GBP quality affects ad performance:
 - Use location groups to manage which locations show for which campaigns
 - Set location-specific bid adjustments
 - Budget allocation per market based on opportunity and competition
-- Performance varies significantly by location — don't apply uniform bids
+- Performance varies significantly by location; don't apply uniform bids
 
 ---
 
 ## Common Mistakes
 
-- **No GBP linked** — ads can't appear in map pack without location assets
-- **Poor GBP quality** — low ratings/reviews kill ad CTR
-- **Not bidding on local terms** — generic keywords won't trigger map pack placement
-- **Ignoring mobile** — majority of map pack views are mobile
-- **No call tracking** — missing the primary conversion action
-- **Same strategy as regular search** — map pack ads need local-specific optimization
+- **No GBP linked**: ads can't appear in map pack without location assets
+- **Poor GBP quality**: low ratings/reviews kill ad CTR
+- **Not bidding on local terms**: generic keywords won't trigger map pack placement
+- **Ignoring mobile**: majority of map pack views are mobile
+- **No call tracking**: missing the primary conversion action
+- **Same strategy as regular search**: map pack ads need local-specific optimization
 
 ---
 
@@ -184,9 +184,9 @@ Even though these are paid, your GBP quality affects ad performance:
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Running map ads but no LSAs | LSAs appear above everything — add them for maximum SERP coverage | `lsa-ads` |
-| Need standard PPC beyond the map pack | Set up geographically targeted search ads | `local-ppc-ads` |
-| GBP profile is weak (hurts ad quality) | Optimize GBP — ad performance depends on profile quality | `gbp-optimization` |
+| Running map ads but no LSAs | LSAs appear above everything; add them for maximum SERP coverage | `lsa-ads` |
+| Need standard PPC beyond the map pack | Set up geographically targeted search ads | the brain's `google-ads` / `google-ads-creation` skills |
+| GBP profile is weak (hurts ad quality) | Optimize GBP; ad performance depends on profile quality | `gbp-optimization` |
 | Want to compare paid vs. organic map pack visibility | Run geogrid scans to see organic rankings alongside paid | `geogrid-analysis` |
 | Need to report ad performance to clients | Build ad metrics into local reporting framework | `local-reporting` |
 

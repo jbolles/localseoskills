@@ -24,7 +24,7 @@ A citation is any online mention of a business's Name, Address, and Phone number
 ## NAP Consistency Rules
 
 **Name**: Character-for-character match. "Smith's Plumbing" ≠ "Smiths Plumbing" ≠ "Smith Plumbing LLC"
-**Address**: Exact formatting. "123 Main St Ste 200" everywhere — not "Suite" on some and "Ste" on others
+**Address**: Exact formatting. "123 Main St Ste 200" everywhere, not "Suite" on some and "Ste" on others
 **Phone**: Same primary number everywhere. If using a tracking number, it must also appear on your website
 
 ### Common Inconsistencies
@@ -104,7 +104,7 @@ Examples by vertical:
 ### How to Fix
 - **Claim and update**: Most directories allow you to claim the listing
 - **Submit corrections**: Use the directory's correction/update form
-- **Data aggregator updates**: Fix at the source — changes propagate downstream
+- **Data aggregator updates**: Fix at the source; changes propagate downstream
 - **Duplicate suppression**: Merge or mark duplicates on each platform
 
 ---
@@ -152,11 +152,11 @@ Track per location:
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Citations are clean but GBP isn't optimized | GBP is the #1 citation — optimize it first | `gbp-optimization` |
+| Citations are clean but GBP isn't optimized | GBP is the #1 citation; optimize it first | `gbp-optimization` |
 | Found NAP inconsistencies during audit | Fix citations as part of the broader audit action plan | `local-seo-audit` |
 | Website schema doesn't match citation data | Align schema with corrected NAP | `local-schema` |
 | Managing citations for multiple locations | Build a citation management system per-location | `multi-location-seo` |
-| Citations are clean but still not ranking | Citations alone won't fix ranking — run a geogrid scan to diagnose | `geogrid-analysis` |
+| Citations are clean but still not ranking | Citations alone won't fix ranking; run a geogrid scan to diagnose | `geogrid-analysis` |
 
 **Default next step:** After citation cleanup, wait 4-8 weeks for changes to propagate through aggregators and downstream directories, then re-audit to verify.
 
@@ -165,4 +165,4 @@ Track per location:
 See `docs/tool-routing` to pick based on what's connected.
 
 - **Citation audit** (find listings, check accuracy) → citation tools (multiple options)
-- **Citation building** (submit to directories) → citation tools (multiple options — quality varies)
+- **Citation building** (submit to directories) → citation tools (multiple options; quality varies)

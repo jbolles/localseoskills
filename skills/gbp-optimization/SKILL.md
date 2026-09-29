@@ -20,14 +20,14 @@ You are an expert in Google Business Profile optimization with deep knowledge of
 
 ## The Local Ranking Algorithm
 
-Three pillars: **Proximity** (distance to searcher — can't control), **Relevance** (GBP matches query — primary category is strongest signal), **Prominence** (trust/authority — reviews, citations, links, engagement).
+Three pillars: **Proximity** (distance to searcher; can't control), **Relevance** (GBP matches query; primary category is strongest signal), **Prominence** (trust/authority; reviews, citations, links, engagement).
 
 ### Ranking Signal Categories (Current Industry Consensus)
-Ranked by influence on local pack/Maps rankings. Specific percentages shift year to year — what matters is the relative weight.
+Ranked by influence on local pack/Maps rankings. Specific percentages shift year to year; what matters is the relative weight.
 
 1. **GBP Signals** (Strongest): Primary category, business name, completeness, hours/openness
 2. **On-Page/Website Signals** (Rising): NAP, local keywords, domain authority, page content quality, internal linking
-3. **Review Signals** (Critical): Recency and velocity (top-tier — recent reviews matter more than total count), rating, keywords in reviews, response rate
+3. **Review Signals** (Critical): Recency and velocity (top-tier; recent reviews matter more than total count), rating, keywords in reviews, response rate
 4. **Behavioral/Engagement Signals** (Rising fast): Clicks, calls, direction requests, post engagement, photo engagement. Google rewards profiles that "look alive"
 5. **Link Signals**: Local links, domain authority, anchor text
 6. **Citation Signals**: NAP consistency, volume, quality. Regaining importance because AI models pull from diverse web sources
@@ -58,7 +58,7 @@ Ranked by influence on local pack/Maps rankings. Specific percentages shift year
 
 **Phone**: Local number (not toll-free) as primary. Same number across all citations. Enable messaging if staffed.
 
-**Hours**: Now a confirmed ranking factor — not just informational. Businesses open at search time rank higher. Set accurate regular hours. Special hours for holidays BEFORE the holiday. "More hours" for service-specific hours. Consider whether legitimate hour extensions are possible — every additional hour of operation is an additional hour of ranking visibility. Rankings begin to degrade in the final hour before closing.
+**Hours**: Now a confirmed ranking factor, not just informational. Businesses open at search time rank higher. Set accurate regular hours. Special hours for holidays BEFORE the holiday. "More hours" for service-specific hours. Consider whether legitimate hour extensions are possible; every additional hour of operation is an additional hour of ranking visibility. Rankings begin to degrade in the final hour before closing.
 
 **Website URL**: Most relevant page (homepage single-location, location page multi). Add UTM: `?utm_source=google&utm_medium=organic&utm_campaign=gbp`
 
@@ -74,7 +74,7 @@ Single most important ranking factor after proximity.
 - Research: search target keywords in Maps, use GMB Spy or Pleper tools
 
 ### Additional Categories
-- Up to 9 additional — add all legitimately applicable
+- Up to 9 additional: add all legitimately applicable
 - More categories = more keyword associations
 - Only active services, not aspirational
 
@@ -196,7 +196,7 @@ After optimizing a GBP profile, the next step depends on what you found:
 | No recent posts or engagement | Start weekly post cadence | `gbp-posts` |
 | Business has multiple locations | Apply this process per-location with centralized standards | `multi-location-seo` |
 | Profile is at suspension risk (keyword-stuffed name, address issues) | Follow suspension prevention steps before making changes | `gbp-suspension-recovery` |
-| Also need Apple Maps and Bing coverage | Optimize those platforms too — they share some signals but have different requirements | `apple-business-connect`, `bing-places` |
+| Also need Apple Maps and Bing coverage | Optimize those platforms too; they share some signals but have different requirements | `apple-business-connect`, `bing-places` |
 | Managing 10+ locations | Use the GBP API for bulk operations | `gbp-api-automation` |
 
 **Default next step:** If the profile looks good, run a geogrid scan. Profile optimization without ranking measurement is guesswork.

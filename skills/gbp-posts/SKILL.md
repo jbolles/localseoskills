@@ -1,10 +1,12 @@
 ---
 name: gbp-posts
-description: When the user wants to create, schedule, or optimize Google Business Profile posts. Also use when the user mentions "GBP posts," "Google posts," "GMB updates," "business profile posts," "what should I post on Google," or "GBP content calendar." For overall GBP optimization, see gbp-optimization.
+description: Reference only in the WHO Agency Brain. Do not use to write Google Business Profile posts: use the brain's gbp-post-generator skill. Load only when the user explicitly asks for a GBP posting cadence or calendar strategy.
 metadata:
   version: 1.0.0
   author: Garrett Smith
 ---
+
+> **WHO Agency Brain handoff:** In the WHO Agency Brain, GBP post copy comes from `gbp-post-generator`. Hand off to it for any post writing. Use the material below only for posting cadence and calendar strategy.
 
 # GBP Posts
 
@@ -20,16 +22,16 @@ You are an expert in Google Business Profile post strategy. Your goal is to crea
 
 ## Social Posts on GBP (Developing 2025-2026)
 
-Google is testing displaying social media posts (Facebook, etc.) prominently on Google Business Profiles — positioned above where Google Posts typically sit. This is significant because:
+Google is testing displaying social media posts (Facebook, etc.) prominently on Google Business Profiles; positioned above where Google Posts typically sit. This is significant because:
 
 - Social signals are now a confirmed ranking factor (first time this has been measurable)
 - If this feature rolls out broadly, social posts would get premium placement that Google Posts don't currently have
-- Google Posts are already pushed to the bottom of the profile — social posts may get better visibility
+- Google Posts are already pushed to the bottom of the profile; social posts may get better visibility
 
 **What to do now:**
 - Make sure social channels (Facebook, Instagram, LinkedIn) are linked in GBP
-- Maintain active social posting — the content may surface directly on GBP
-- Don't stop Google Posts — they still serve freshness and keyword functions
+- Maintain active social posting: the content may surface directly on GBP
+- Don't stop Google Posts: they still serve freshness and keyword functions
 - Watch for this feature rolling out to your clients' profiles
 
 This doesn't replace Google Posts strategy. It adds a reason to maintain active social alongside it.
@@ -78,7 +80,7 @@ Events with date, time, and description.
 ### Keyword Strategy
 - Include primary service keywords naturally
 - Include location/neighborhood names
-- Vary keywords across posts — don't repeat the same ones
+- Vary keywords across posts: don't repeat the same ones
 - Use in the first 100 characters (the visible preview)
 
 ---
@@ -86,14 +88,14 @@ Events with date, time, and description.
 ## Post Writing Guidelines
 
 ### Structure
-1. **Hook** (first 80 characters — what shows in preview): Lead with value or urgency
+1. **Hook** (first 80 characters; what shows in preview): Lead with value or urgency
 2. **Body** (up to 1,500 characters): Details, context, keywords naturally placed
 3. **CTA**: What should they do next?
 
 ### Writing Rules
 - Write for customers, not for Google
 - Keep it under 300 words (shorter is usually better)
-- Include a relevant keyword naturally — not forced
+- Include a relevant keyword naturally: not forced
 - Include a location mention where natural
 - Use a clear CTA (Call now, Book online, Learn more)
 - No ALL CAPS, no excessive exclamation points
@@ -120,7 +122,7 @@ Need [service] in [city]? [1-2 sentences about the service and what makes you di
 
 ### Seasonal/Timely
 ```
-[Season/weather/event] is here — time to [relevant action]. 
+[Season/weather/event] is here; time to [relevant action]. 
 
 [2-3 sentences about why this matters and what you offer].
 
@@ -192,8 +194,8 @@ Questions? [CTA].
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Posts are running but profile isn't fully optimized | Complete GBP optimization first — posts amplify a strong profile, they can't fix a weak one | `gbp-optimization` |
+| Posts are running but profile isn't fully optimized | Complete GBP optimization first; posts amplify a strong profile, they can't fix a weak one | `gbp-optimization` |
 | Need content ideas beyond posts | Build a local content strategy that feeds both website and GBP posts | `local-landing-pages` |
 | Managing posts for multiple locations | Set up templates with location-specific variables | `multi-location-seo` |
 
-**Default next step:** Posts are a maintenance activity. If this is the first thing you're doing, stop — optimize the full profile first, then start posting.
+**Default next step:** Posts are a maintenance activity. If this is the first thing you're doing, stop; optimize the full profile first, then start posting.

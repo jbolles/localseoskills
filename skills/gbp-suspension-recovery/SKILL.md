@@ -34,18 +34,18 @@ You are an expert in Google Business Profile guidelines, suspension types, and t
 ## Common Suspension Causes
 
 ### Guideline Violations
-- **Keyword-stuffed business name** — #1 cause. Adding descriptors like "Best Plumber Buffalo NY" to your business name
-- **Fake address** — Using virtual offices, UPS Stores, co-working spaces, or PO Boxes
+- **Keyword-stuffed business name**: #1 cause. Adding descriptors like "Best Plumber Buffalo NY" to your business name
+- **Fake address**: Using virtual offices, UPS Stores, co-working spaces, or PO Boxes
 - **Multiple listings** for the same business at the same address
-- **Ineligible business type** — businesses that don't qualify for GBP (online-only, non-customer-facing)
-- **Misleading category** — primary category doesn't match actual business
+- **Ineligible business type**: businesses that don't qualify for GBP (online-only, non-customer-facing)
+- **Misleading category**: primary category doesn't match actual business
 
 ### Quality Issues
 - **Inconsistent information** across web (NAP mismatches triggering automated review)
 - **Bulk changes** that trigger automated flags
 - **Frequent major edits** (address, name, category changes in quick succession)
-- **Low-quality listing** — incomplete profile, no reviews, no photos
-- **Reported by competitors** — competitor flags your listing (sometimes valid, sometimes spam)
+- **Low-quality listing**: incomplete profile, no reviews, no photos
+- **Reported by competitors**: competitor flags your listing (sometimes valid, sometimes spam)
 
 ### Verification Problems
 - Failed video verification
@@ -114,7 +114,7 @@ Fix every potential violation before requesting reinstatement. Google may re-rev
 ### Step 4: Wait and Follow Up
 - Initial response: typically 3-7 business days
 - If denied: review the reason, fix additional issues, resubmit
-- Don't spam reinstatement requests — one at a time, wait for response
+- Don't spam reinstatement requests: one at a time, wait for response
 - Follow up after 7 business days if no response
 
 ### Step 5: Escalation (If Standard Process Fails)
@@ -174,7 +174,7 @@ SABs face additional suspension risk:
 ## Post-Reinstatement
 
 After reinstatement:
-- Don't immediately make more edits — let the listing stabilize
+- Don't immediately make more edits: let the listing stabilize
 - Monitor for 30 days for any re-suspension
 - Slowly bring the profile back to full optimization
 - Document what caused the suspension to prevent recurrence
@@ -187,7 +187,7 @@ After reinstatement:
 1. What type of suspension? (soft, hard, pending review)
 2. When did the suspension occur?
 3. Any recent changes to the profile before suspension?
-4. Business type — storefront, SAB, hybrid?
+4. Business type; storefront, SAB, hybrid?
 5. Any previous suspensions?
 6. What documentation is available? (license, lease, utility bills)
 
@@ -200,6 +200,6 @@ After reinstatement:
 | Listing reinstated successfully | Re-optimize the profile carefully, staying within guidelines | `gbp-optimization` |
 | Suspension was caused by bulk/API operations | Review API usage patterns before resuming | `gbp-api-automation` |
 | Multiple locations affected | Audit all locations for similar issues before they get suspended too | `multi-location-seo` |
-| Listing reinstated but rankings haven't recovered | Run a geogrid scan — suspension history can have lingering ranking effects | `geogrid-analysis` |
+| Listing reinstated but rankings haven't recovered | Run a geogrid scan; suspension history can have lingering ranking effects | `geogrid-analysis` |
 
 **Default next step:** After reinstatement, wait 2 weeks before making any profile changes. Then re-optimize conservatively.

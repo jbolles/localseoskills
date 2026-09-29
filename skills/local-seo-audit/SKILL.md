@@ -123,7 +123,7 @@ Not all related listings should be merged. Decision framework:
 **KEEP SEPARATE when:**
 - Distinct physical locations that both serve customers
 - Different business entities (even if same owner)
-- Practitioner listing where the practitioner sees patients independently AND at the practice (healthcare-specific — see Vertical Edge Cases)
+- Practitioner listing where the practitioner sees patients independently AND at the practice (healthcare-specific; see Vertical Edge Cases)
 
 **REDIRECT/CONSOLIDATE when:**
 - Old listing has significant reviews you don't want to lose
@@ -278,7 +278,7 @@ Check NAP accuracy on:
 - [ ] Comprehensive coverage of core services
 - [ ] Supporting content (guides, FAQs, how-tos)
 - [ ] Internal linking between related content
-- [ ] Content freshness — updated within last year
+- [ ] Content freshness: updated within last year
 
 ---
 
@@ -311,7 +311,7 @@ Standard audit steps apply to all businesses, but certain verticals have unique 
 
 **Practitioner vs. Practice listings:**
 Medical practices often have a listing for the practice AND individual listings for each doctor. This is allowed by Google guidelines when the practitioner operates independently at the location. But it creates ranking fragmentation.
-- Audit all practitioner listings — are they helping or hurting?
+- Audit all practitioner listings: are they helping or hurting?
 - Each practitioner listing should have a unique phone number (direct line or extension) per Google guidelines
 - If practitioner listings have few reviews and are cannibalizing the practice listing, consider removing them
 - If a star doctor has more reviews than the practice, consider making their listing the primary focus
@@ -321,10 +321,10 @@ Medical practices often have a listing for the practice AND individual listings 
 - Hospital/health system directories (if affiliated)
 - Insurance provider directories (often have outdated info)
 - State medical board listing
-- These carry HIGH authority for medical searches — inaccurate info here is worse than a wrong Yelp listing
+- These carry HIGH authority for medical searches; inaccurate info here is worse than a wrong Yelp listing
 
 **HIPAA compliance for review responses:**
-- NEVER reference patient care details, diagnoses, treatments, or appointment information in review responses — even if the patient mentioned it first
+- NEVER reference patient care details, diagnoses, treatments, or appointment information in review responses, even if the patient mentioned it first
 - Response template: Acknowledge → express empathy generically → take offline. "We appreciate your feedback. Please contact our office at [phone] so we can address your concerns directly."
 - Train staff: even confirming someone IS a patient is a HIPAA violation
 
@@ -333,12 +333,12 @@ Medical practices often have a listing for the practice AND individual listings 
 **Content considerations:**
 - Medical content needs to demonstrate E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
 - Author attribution on all medical content (doctor bylines)
-- Procedure/condition pages need clinical accuracy — don't let SEO content compromise medical accuracy
+- Procedure/condition pages need clinical accuracy; don't let SEO content compromise medical accuracy
 
 ### Legal (Law Firms, Solo Attorneys)
 
 **Attorney vs. firm listings:**
-Similar to healthcare — individual attorney listings AND firm listing. Google allows both when the attorney operates at the location.
+Similar to healthcare; individual attorney listings AND firm listing. Google allows both when the attorney operates at the location.
 - For solo practitioners: one listing is usually sufficient
 - For firms: firm listing as primary, individual attorney listings may help for specialized practice areas (e.g., personal injury attorney vs. the firm listing categorized as "law firm")
 
@@ -350,7 +350,7 @@ Similar to healthcare — individual attorney listings AND firm listing. Google 
 **Review considerations:**
 - Clients may be reluctant to leave public reviews (especially in criminal defense, family law, bankruptcy)
 - Review generation strategy needs to account for client sensitivity
-- Some jurisdictions have ethical rules about soliciting testimonials — check state bar guidelines
+- Some jurisdictions have ethical rules about soliciting testimonials; check state bar guidelines
 
 **Content:** Attorney advertising rules vary by state. Some states prohibit terms like "specialist" or "expert" unless board-certified. Verify before optimizing title tags and content.
 
@@ -360,20 +360,20 @@ Similar to healthcare — individual attorney listings AND firm listing. Google 
 Most home service businesses hide their address in GBP (SAB model). This means:
 - No address displayed to customers
 - Ranking is based on service area settings + centroid of service area, not a pin on the map
-- Geogrid analysis must account for this — weak rankings far from the "centroid" are expected for SABs
+- Geogrid analysis must account for this: weak rankings far from the "centroid" are expected for SABs
 
 **Seasonal keyword patterns:**
 - HVAC: AC repair peaks June-August, heating repair peaks November-February
-- Scan timing matters — rankings during peak season may differ from off-season
+- Scan timing matters: rankings during peak season may differ from off-season
 - Content and GBP posts should align with seasonal demand
 
 **License/certification verification:**
 - Many home service businesses display license numbers on GBP
-- Verify the license is current — an expired license shown on a listing is a red flag
+- Verify the license is current: an expired license shown on a listing is a red flag
 - Some markets require specific licenses to appear in LSA (Local Services Ads)
 
 **Review dynamics:**
-- Home services live or die by reviews — customers almost always check before hiring
+- Home services live or die by reviews: customers almost always check before hiring
 - Emergency services (burst pipe, no heat in winter) generate the most emotional reviews
 - Photo reviews showing completed work are extremely high-value
 
@@ -385,11 +385,11 @@ Most home service businesses hide their address in GBP (SAB model). This means:
 - DoorDash, Uber Eats, and Grubhub listings are now local signals too
 
 **Menu and ordering integration:**
-- Google supports menu URLs and ordering links in GBP — these should be configured
+- Google supports menu URLs and ordering links in GBP; these should be configured
 - Third-party menu/ordering platforms (ChowNow, Toast, Square) create additional citation-like signals
 
 **Photo frequency:**
-- Restaurant GBP listings need photos updated weekly minimum — food photos go stale fast
+- Restaurant GBP listings need photos updated weekly minimum; food photos go stale fast
 - User-generated photos often outweigh business photos in this vertical
 
 ### Multi-Domain Businesses
@@ -404,7 +404,7 @@ Some businesses operate multiple websites (e.g., one for the main practice, one 
 ### Managed Platform Businesses
 
 Businesses on managed website platforms (InboundMD, Scorpion, Yext Sites, etc.) have limited technical control:
-- Identify the platform early in the audit — it changes what's feasible to implement
+- Identify the platform early in the audit: it changes what's feasible to implement
 - Note which recommendations require platform access vs. what the business can do themselves
 - Common limitations: can't add custom schema, limited URL structure control, can't modify Core Web Vitals
 - Scope your recommendations to what's actually implementable
@@ -438,7 +438,7 @@ For each issue:
 
 Technical findings need plain-language translations. Every finding should answer: "What does this mean for my business?"
 
-**Category mismatch:** "Your Google listing tells Google you're a 'Doctor' — but people searching for 'pain management' see results for 'Pain Management Physicians.' Changing your category to the specific match means Google shows you to the right searchers."
+**Category mismatch:** "Your Google listing tells Google you're a 'Doctor', but people searching for 'pain management' see results for 'Pain Management Physicians.' Changing your category to the specific match means Google shows you to the right searchers."
 
 **NAP inconsistency:** "Your phone number is different on Yelp than it is on Google. This confuses Google about which listing is really you, and can push you down in results."
 

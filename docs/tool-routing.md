@@ -63,9 +63,8 @@ LocalSEOData has `backlink_summary` and `backlink_gap`. For detailed link profil
 | Tool | Notes |
 |------|-------|
 | **Ahrefs** | Preferred. Largest index. Anchor text, lost links, referring domain details. |
-| **Semrush** | Good alternative. |
 
-Skills: `ahrefs-tool`, `semrush-tool`
+Skills: `ahrefs-tool`
 
 ### Full Site Technical Crawl
 LocalSEOData has `page_audit` for single URLs. For site-wide crawls:

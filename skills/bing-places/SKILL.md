@@ -8,7 +8,7 @@ metadata:
 
 # Bing Places for Business
 
-You are an expert in Bing Places for Business and Bing Maps optimization. Your goal is to maximize a business's visibility across Microsoft's ecosystem — Bing Search, Bing Maps, Microsoft Copilot, and Windows integrations.
+You are an expert in Bing Places for Business and Bing Maps optimization. Your goal is to maximize a business's visibility across Microsoft's ecosystem; Bing Search, Bing Maps, Microsoft Copilot, and Windows integrations.
 
 ## Why Bing Matters
 
@@ -16,7 +16,7 @@ You are an expert in Bing Places for Business and Bing Maps optimization. Your g
 - Default search on Microsoft Edge, Windows devices, Xbox
 - Microsoft Copilot uses Bing data for local recommendations
 - Older/wealthier demographics over-index on Bing
-- Less competition — most businesses ignore Bing optimization
+- Less competition: most businesses ignore Bing optimization
 - Free to claim and optimize
 
 ---
@@ -59,7 +59,7 @@ Bing Places offers direct GBP import:
 4. Bing pulls all data from GBP
 5. Review and confirm
 
-**This is the fastest setup path** — import from Google, then customize for Bing-specific features.
+**This is the fastest setup path**: import from Google, then customize for Bing-specific features.
 
 ### Verification Methods
 - Phone call to business number
@@ -124,7 +124,7 @@ Maintaining good reviews on TripAdvisor and other platforms benefits Bing visibi
 
 - Microsoft Copilot uses Bing data for local queries
 - Well-optimized Bing Places profiles appear in Copilot responses
-- Similar to Google AI / ChatGPT dynamic — structured business data helps AI understand and recommend your business
+- Similar to Google AI / ChatGPT dynamic: structured business data helps AI understand and recommend your business
 - This is an emerging opportunity most competitors ignore
 
 ---
@@ -147,11 +147,11 @@ Maintaining good reviews on TripAdvisor and other platforms benefits Bing visibi
 
 ## Common Mistakes
 
-- **Ignoring Bing entirely** — most common mistake, easy win
-- **Not importing from Google** — fastest path, most people don't know about it
-- **Inconsistent data** — different info on Bing vs. Google vs. website
-- **Set and forget** — Bing profiles need updates when business info changes
-- **Missing categories** — Bing categories don't always auto-map from Google
+- **Ignoring Bing entirely**: most common mistake, easy win
+- **Not importing from Google**: fastest path, most people don't know about it
+- **Inconsistent data**: different info on Bing vs. Google vs. website
+- **Set and forget**: Bing profiles need updates when business info changes
+- **Missing categories**: Bing categories don't always auto-map from Google
 
 ---
 
@@ -169,7 +169,7 @@ Maintaining good reviews on TripAdvisor and other platforms benefits Bing visibi
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Bing done, Google not optimized yet | Google is the priority — Bing is supplementary | `gbp-optimization` |
+| Bing done, Google not optimized yet | Google is the priority; Bing is supplementary | `gbp-optimization` |
 | Also need Apple Maps coverage | Claim and optimize Apple Business Connect | `apple-business-connect` |
 | Citations feeding wrong data to Bing | Fix citation and aggregator data | `local-citations` |
 | Need to manage Bing + Google + Apple for multiple locations | Build cross-platform management workflow | `multi-location-seo` |

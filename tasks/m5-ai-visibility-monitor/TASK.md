@@ -1,7 +1,7 @@
 ---
 name: m5-ai-visibility-monitor
 description: Monthly AI search visibility tracking across Google AI Overviews, ChatGPT, Gemini, and Perplexity. Tracks citation presence and visibility score month-over-month.
-schedule: monthly — 1st of month, 8 AM
+schedule: monthly; 1st of month, 8 AM
 tier: autonomous
 skills: ai-local-search, localseodata-tool
 mcps: LocalSEOData
@@ -17,20 +17,20 @@ Load these first. If unavailable, use Fallback Guidance below.
 Use this if skills are unavailable.
 
 **How AI local search visibility works:**
-- AI models synthesize from multiple sources — GBP data, website content, reviews, citations, brand mentions
-- Being cited in AI results is different from ranking in the map pack — a business can rank #1 in maps but not appear in AI Overviews, and vice versa
-- AI Overview prominence is industry-rooted — if Overviews appear for a service category in any city, they appear everywhere for that category
+- AI models synthesize from multiple sources; GBP data, website content, reviews, citations, brand mentions
+- Being cited in AI results is different from ranking in the map pack; a business can rank #1 in maps but not appear in AI Overviews, and vice versa
+- AI Overview prominence is industry-rooted; if Overviews appear for a service category in any city, they appear everywhere for that category
 
 **What the data points mean:**
-- **AI visibility score** — aggregate measure of how often and prominently the business appears in AI results for target keywords. Higher = better. Track direction month-over-month.
-- **AI Overview present** — whether Google is showing an AI-generated summary for the keyword. If yes, the business needs to be in it.
-- **AI mentions** — where the business name appears in AI model outputs. Multiple mentions across platforms = stronger entity recognition.
+- **AI visibility score**: aggregate measure of how often and prominently the business appears in AI results for target keywords. Higher = better. Track direction month-over-month.
+- **AI Overview present**: whether Google is showing an AI-generated summary for the keyword. If yes, the business needs to be in it.
+- **AI mentions**: where the business name appears in AI model outputs. Multiple mentions across platforms = stronger entity recognition.
 
 **Platform priority:**
-- Google AI Overviews / AI Mode — highest priority, most traffic impact
-- Gemini — deep Google integration, pulls from GBP heavily
-- ChatGPT — growing share of "find me a..." queries, web-search dependent
-- Perplexity — cites sources explicitly, being the cited page matters
+- Google AI Overviews / AI Mode: highest priority, most traffic impact
+- Gemini: deep Google integration, pulls from GBP heavily
+- ChatGPT: growing share of "find me a..." queries, web-search dependent
+- Perplexity: cites sources explicitly, being the cited page matters
 
 **What drives AI visibility for local:**
 - Strong GBP with complete services section
@@ -76,9 +76,9 @@ Using ai-local-search skill or Fallback Guidance, interpret:
 - What signals are likely driving or blocking visibility
 - One recommended action based on the biggest gap
 
-Compare to last month's report in briefs/{brand}/{location}/reports/.
+Compare to last month's report in clients/{brand}/local-seo/{location}/reports/.
 
-Write output to briefs/{brand}/{location}/reports/{TODAY}-ai-visibility.md
+Write output to clients/{brand}/local-seo/{location}/reports/{TODAY}-ai-visibility.md
 per specs/output-schema.md.
 
 Alert if visibility score dropped >15 points vs last month.

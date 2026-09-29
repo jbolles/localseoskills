@@ -154,7 +154,7 @@ Group locations by:
 | Individual locations need GBP optimization | Apply optimization standards per-location | `gbp-optimization` |
 | Need location pages on the website | Build unique pages per location | `local-landing-pages` |
 | Need to measure rankings per location | Run geogrid scans per location for priority keywords | `geogrid-analysis` |
-| Citation inconsistencies across locations | Clean up citations per-location — aggregators may have old data | `local-citations` |
+| Citation inconsistencies across locations | Clean up citations per-location; aggregators may have old data | `local-citations` |
 | Review counts vary wildly by location | Build per-location review generation plans | `review-management` |
 | Need to manage at scale via API | Set up GBP API for bulk operations | `gbp-api-automation` |
 
@@ -164,7 +164,7 @@ Group locations by:
 
 See `docs/tool-routing` to pick based on what's connected.
 
-- **Geogrid scans** (per-location ranking measurement) → Local Falcon (only option — use campaigns for recurring multi-location scans)
+- **Geogrid scans** (per-location ranking measurement) → Local Falcon (only option; use campaigns for recurring multi-location scans)
 - **Citation audit** (per-location NAP accuracy) → citation tools (multiple options)
 - **Review monitoring** (per-location review tracking) → review monitoring tools (multiple options)
 - **Technical audit** (location page quality at scale) → technical audit tools (multiple options)

@@ -1,6 +1,6 @@
 ---
 name: localseodata-tool
-description: When the user wants to pull local SEO data — SERP results, local pack rankings, business profile data, reviews, citations, audits, geogrid scans, keyword research, AI visibility, competitor analysis, or any local search intelligence. This is the DEFAULT data tool for LocalSEOSkills. Trigger on any data request before considering other tools. Also trigger on "LocalSEOData," "LSD," "run an audit," "check my rankings," "pull reviews," "citation check," "keyword opportunities," "AI visibility," or "geogrid scan."
+description: When the user wants to pull local SEO data; SERP results, local pack rankings, business profile data, reviews, citations, audits, geogrid scans, keyword research, AI visibility, competitor analysis, or any local search intelligence. This is the DEFAULT data tool for LocalSEOSkills. Trigger on any data request before considering other tools. Also trigger on "LocalSEOData," "LSD," "run an audit," "check my rankings," "pull reviews," "citation check," "keyword opportunities," "AI visibility," or "geogrid scan."
 metadata:
   version: 1.0.0
   author: Garrett Smith
@@ -19,45 +19,45 @@ LocalSEOData covers most local SEO data needs in one place. Only use other tools
 
 | You Need | LocalSEOData | Use Instead |
 |----------|-------------|-------------|
-| Local pack rankings | ✅ `local_pack` | — |
-| Full SERP with all features | ✅ `organic_serp` | — |
-| Google Maps results | ✅ `maps` | — |
-| Local Finder results | ✅ `local_finder` | — |
+| Local pack rankings | ✅ `local_pack` | n/a |
+| Full SERP with all features | ✅ `organic_serp` | n/a |
+| Google Maps results | ✅ `maps` | n/a |
+| Local Finder results | ✅ `local_finder` | n/a |
 | Geogrid ranking scan | ✅ `geogrid_scan` | Local Falcon for trends, campaigns, Falcon Guard |
 | Business profile data | ✅ `business_profile` | REST API recommended (MCP support coming) |
-| Google reviews | ✅ `google_reviews` | — |
-| Multi-platform reviews | ✅ `multi_platform_reviews` | — |
-| Review velocity trends | ✅ `review_velocity` | — |
-| Citation audit (NAP consistency) | ✅ `citation_audit` | — |
-| Full local SEO audit | ✅ `local_audit` | — |
-| Reputation audit | ✅ `reputation_audit` | — |
+| Google reviews | ✅ `google_reviews` | n/a |
+| Multi-platform reviews | ✅ `multi_platform_reviews` | n/a |
+| Review velocity trends | ✅ `review_velocity` | n/a |
+| Citation audit (NAP consistency) | ✅ `citation_audit` | n/a |
+| Full local SEO audit | ✅ `local_audit` | n/a |
+| Reputation audit | ✅ `reputation_audit` | n/a |
 | Profile health check | ✅ `profile_health` | REST API recommended (MCP support coming) |
 | On-page SEO audit | ✅ `page_audit` | Screaming Frog for site-wide crawls |
-| Competitor gap analysis | ✅ `competitor_gap` | — |
-| Keyword opportunities | ✅ `keyword_opportunities` | — |
-| Keyword suggestions | ✅ `keyword_suggestions` | — |
-| Related keywords | ✅ `related_keywords` | — |
+| Competitor gap analysis | ✅ `competitor_gap` | n/a |
+| Keyword opportunities | ✅ `keyword_opportunities` | n/a |
+| Keyword suggestions | ✅ `keyword_suggestions` | n/a |
+| Related keywords | ✅ `related_keywords` | n/a |
 | Search volume data | ✅ `search_volume` | `keyword_suggestions` also includes volume |
-| Keyword trends | ✅ `keyword_trends` | — |
-| Keywords a site ranks for | ✅ `keywords_for_site` | — |
+| Keyword trends | ✅ `keyword_trends` | n/a |
+| Keywords a site ranks for | ✅ `keywords_for_site` | n/a |
 | Backlink summary | ✅ `backlink_summary` | Ahrefs for deep backlink analysis |
 | Backlink gap analysis | ✅ `backlink_gap` | Ahrefs for detailed link profiles |
-| AI Overview detection | ✅ `ai_overview` | — |
-| AI Mode response | ✅ `ai_mode` | — |
-| AI mentions across platforms | ✅ `ai_mentions` | — |
-| AI visibility scoring | ✅ `ai_visibility` | — |
-| AI top cited sources | ✅ `ai_top_sources` | — |
-| AI top cited pages | ✅ `ai_top_pages` | — |
-| AI keyword-level data | ✅ `ai_keyword_data` | — |
-| Raw AI/LLM response for a prompt | ✅ `ai_llm_response` | — |
-| AI scraper (extract from AI results) | ✅ `ai_scraper` | — |
-| AI competitor comparison | ✅ `ai_compare` | — |
+| AI Overview detection | ✅ `ai_overview` | n/a |
+| AI Mode response | ✅ `ai_mode` | n/a |
+| AI mentions across platforms | ✅ `ai_mentions` | n/a |
+| AI visibility scoring | ✅ `ai_visibility` | n/a |
+| AI top cited sources | ✅ `ai_top_sources` | n/a |
+| AI top cited pages | ✅ `ai_top_pages` | n/a |
+| AI keyword-level data | ✅ `ai_keyword_data` | n/a |
+| Raw AI/LLM response for a prompt | ✅ `ai_llm_response` | n/a |
+| AI scraper (extract from AI results) | ✅ `ai_scraper` | n/a |
+| AI competitor comparison | ✅ `ai_compare` | n/a |
 | Local Services Ads data | ✅ `local_services_ads` | LSA Spy for market-level tracking over time |
-| Competitor ad intelligence | ✅ `competitor_ads` | — |
-| Business listings by category | ✅ `business_listings` | — |
-| Brand mentions | ✅ `brand_mentions` | — |
-| Q&A from GBP | ✅ `qa` (or `business_qa`) | — |
-| Local authority score | ✅ `local_authority` | — |
+| Competitor ad intelligence | ✅ `competitor_ads` | n/a |
+| Business listings by category | ✅ `business_listings` | n/a |
+| Brand mentions | ✅ `brand_mentions` | n/a |
+| Q&A from GBP | ✅ `qa` (or `business_qa`) | n/a |
+| Local authority score | ✅ `local_authority` | n/a |
 | Ranking trends over time | ❌ | Local Falcon trend reports |
 | GBP change monitoring | ❌ | Local Falcon (Falcon Guard) |
 | Recurring scan campaigns | ❌ | Local Falcon campaigns |
@@ -124,7 +124,7 @@ grid_size: "7x7"    # 5x5 (default), 7x7, or 9x9
 radius_miles: 3     # default 3
 ```
 
-This is an async operation — the tool polls until results are ready. Returns a rank grid, average rank, and coverage stats.
+This is an async operation; the tool polls until results are ready. Returns a rank grid, average rank, and coverage stats.
 
 **Credit costs:** 5x5 = 50 credits, 7x7 = 98 credits, 9x9 = 162 credits. (Formula: grid points × 2.)
 
@@ -134,7 +134,7 @@ This is an async operation — the tool polls until results are ready. Returns a
 - No trend reports (can't compare scans over time)
 - No campaigns (no recurring automated scans)
 - No Falcon Guard (no GBP change monitoring)
-- No AI platform scans (GAIO, ChatGPT, Gemini — use `ai_visibility` endpoints instead)
+- No AI platform scans (GAIO, ChatGPT, Gemini; use `ai_visibility` endpoints instead)
 
 Use LocalSEOData geogrid for one-time scans and audits. Use Local Falcon for ongoing monitoring.
 
@@ -165,9 +165,9 @@ Returns: name, rating, reviews, address, phone, website, hours, categories, attr
 | Review velocity over time | `review_velocity` | 6 |
 | Full reputation audit | `reputation_audit` | 30 |
 
-**`review_velocity`** is the most useful for ongoing clients — shows reviews/month, rating trend, reply rate, sentiment themes.
+**`review_velocity`** is the most useful for ongoing clients; shows reviews/month, rating trend, reply rate, sentiment themes.
 
-**`reputation_audit`** is the heavy hitter — reputation score, sentiment analysis, response rate, and recommendations. Use for new client onboarding or quarterly reviews.
+**`reputation_audit`** is the heavy hitter; reputation score, sentiment analysis, response rate, and recommendations. Use for new client onboarding or quarterly reviews.
 
 ### Citation Audit
 
@@ -191,13 +191,13 @@ Checks 20 major directories (Yelp, BBB, Facebook, YellowPages, etc.). Returns co
 | Need | Endpoint | Credits | Notes |
 |------|----------|---------|-------|
 | Keyword ideas for a business | `keyword_opportunities` | 4 | Best starting point |
-| Suggestions from a seed keyword | `keyword_suggestions` | 2 | — |
+| Suggestions from a seed keyword | `keyword_suggestions` | 2 | n/a |
 | Search volume for specific keywords | `search_volume` | 1 | Use `keyword_suggestions` instead (includes volume) |
-| Related keywords | `related_keywords` | 2 | — |
+| Related keywords | `related_keywords` | 2 | n/a |
 | Keywords a domain ranks for | `keywords_for_site` | 3 | Use `keyword_suggestions` instead |
-| Keyword trends over time | `keyword_trends` | 1 | — |
+| Keyword trends over time | `keyword_trends` | 1 | n/a |
 
-**Start with `keyword_opportunities`** — it finds keywords based on the business category and location, shows difficulty, current rank, and volume. Best starting point for strategy.
+**Start with `keyword_opportunities`**: it finds keywords based on the business category and location, shows difficulty, current rank, and volume. Best starting point for strategy.
 
 Use `keyword_suggestions` when the user has a specific seed keyword and wants variations.
 
@@ -263,7 +263,7 @@ location: "Buffalo, New York"
 | Local Finder results | `local_finder` | 1 |
 | Local Services Ads | `local_services_ads` | 1 |
 
-**`organic_serp`** is the most complete — returns everything on the page in one call.
+**`organic_serp`** is the most complete; returns everything on the page in one call.
 
 ### On-Page Audit
 
@@ -366,26 +366,26 @@ Great for client reporting and tracking improvement over time.
 ## Combining Endpoints for Common Workflows
 
 ### New Client Onboarding
-1. `local_audit` — overall picture (50 credits)
-2. `business_profile` — GBP details (2 credits, REST API recommended)
-3. `citation_audit` — NAP consistency (50 credits)
-4. `review_velocity` — review health (6 credits)
-5. `keyword_opportunities` — keyword strategy (4 credits)
-6. `competitor_gap` — competitive landscape (10 credits)
+1. `local_audit`: overall picture (50 credits)
+2. `business_profile`: GBP details (2 credits, REST API recommended)
+3. `citation_audit`: NAP consistency (50 credits)
+4. `review_velocity`: review health (6 credits)
+5. `keyword_opportunities`: keyword strategy (4 credits)
+6. `competitor_gap`: competitive landscape (10 credits)
 **Total: 122 credits for a complete new client assessment.**
 
 ### Monthly Report Data Pull
-1. `local_pack` for target keywords — ranking check (1 credit each)
-2. `review_velocity` — monthly review trends (6 credits)
-3. `local_authority` — authority score tracking (10 credits)
-4. `ai_overview` for target keywords — AI visibility check (1 credit each)
+1. `local_pack` for target keywords; ranking check (1 credit each)
+2. `review_velocity`: monthly review trends (6 credits)
+3. `local_authority`: authority score tracking (10 credits)
+4. `ai_overview` for target keywords; AI visibility check (1 credit each)
 
 ### Quick Rank Check
-1. `local_pack` — who's in the 3-pack (1 credit)
+1. `local_pack`: who's in the 3-pack (1 credit)
 Done.
 
 ### Prospecting / Sales Research
-1. `business_profile` — pull their GBP data (2 credits, REST API recommended)
-2. `profile_health` — find gaps to pitch on (2 credits, REST API recommended)
-3. `google_reviews` — review situation (1 credit)
+1. `business_profile`: pull their GBP data (2 credits, REST API recommended)
+2. `profile_health`: find gaps to pitch on (2 credits, REST API recommended)
+3. `google_reviews`: review situation (1 credit)
 **Total: 5 credits to build a pitch.**

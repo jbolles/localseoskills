@@ -16,12 +16,12 @@ BrightLocal has an official MCP server. When connected, use it for citation mana
 
 | You Need | Use BrightLocal | Use Instead |
 |----------|----------------|-------------|
-| Citation audit (where is this business listed?) | ✅ Best for this | — |
-| NAP consistency check across directories | ✅ Best for this | — |
+| Citation audit (where is this business listed?) | ✅ Best for this | n/a |
+| NAP consistency check across directories | ✅ Best for this | n/a |
 | Citation building (submit to directories) | ✅ Managed service | Whitespark (alternative) |
-| Review monitoring across multiple platforms | ✅ | — |
-| GBP profile audit/scoring | ✅ | — |
-| White-label client reports | ✅ | — |
+| Review monitoring across multiple platforms | ✅ | n/a |
+| GBP profile audit/scoring | ✅ | n/a |
+| White-label client reports | ✅ | n/a |
 | Keyword search volume | ❌ | Semrush, Ahrefs |
 | Backlink analysis | ❌ | Ahrefs |
 | Geogrid rankings | ❌ | Local Falcon |
@@ -41,11 +41,11 @@ BrightLocal has an official MCP server. When connected, use it for citation mana
 4. **Duplicate detection**: Multiple listings on the same directory
 
 **How to interpret:**
-- Accuracy score above 90%: Good — minor fixes needed
-- Accuracy score 70-90%: Moderate issues — old phone numbers, address variations
-- Accuracy score below 70%: Serious problems — inconsistent data confusing Google
+- Accuracy score above 90%: Good: minor fixes needed
+- Accuracy score 70-90%: Moderate issues: old phone numbers, address variations
+- Accuracy score below 70%: Serious problems; inconsistent data confusing Google
 - Missing from major directories (Google, Yelp, Facebook, Apple Maps, Bing): Critical gaps
-- Duplicates on same directory: Splitting ranking signals — need to merge or remove
+- Duplicates on same directory: Splitting ranking signals; need to merge or remove
 
 **Priority directories to check:**
 1. Google Business Profile (the #1 citation)
@@ -60,7 +60,7 @@ BrightLocal has an official MCP server. When connected, use it for citation mana
 
 **When:** Audit reveals missing directories or user needs new citations built.
 
-BrightLocal offers managed citation building — they submit to directories on your behalf.
+BrightLocal offers managed citation building; they submit to directories on your behalf.
 
 **What to specify:**
 - Business NAP (must be exactly consistent with GBP)
@@ -85,7 +85,7 @@ BrightLocal offers managed citation building — they submit to directories on y
 
 **What to look for:**
 - Platforms where reviews are accumulating but no one is responding
-- Rating discrepancies between platforms (4.8 on Google but 3.2 on Yelp — investigate)
+- Rating discrepancies between platforms (4.8 on Google but 3.2 on Yelp; investigate)
 - Review velocity compared to competitors
 - Negative review patterns (recurring complaints = operational issue)
 
@@ -130,18 +130,18 @@ BrightLocal offers managed citation building — they submit to directories on y
 | Issue | What Causes It | How to Fix |
 |-------|---------------|-----------|
 | Old phone number | Business changed numbers, aggregators have old data | Update aggregators first (Data Axle, Neustar, Foursquare), then individual directories |
-| Old address | Business moved, aggregators propagated old address | Same — fix at aggregator level |
+| Old address | Business moved, aggregators propagated old address | Same; fix at aggregator level |
 | Name variations | "Smith Plumbing" vs "Smith Plumbing LLC" vs "Smith's Plumbing" | Standardize to match GBP exactly |
 | Duplicate listings | Multiple submissions over time, or auto-generated listings | Claim and merge or request removal |
 | Wrong category | Directory auto-assigned category | Manually update on each directory |
 
 ### Aggregator Priority
 
-Fix data aggregators FIRST — they feed data to hundreds of downstream directories:
-1. **Data Axle** (formerly Infogroup) — feeds the most directories
-2. **Neustar/Localeze** — second-largest aggregator
-3. **Foursquare** — feeds Apple Maps and many apps
-4. **Yelp** — both a directory and a data source for Apple Maps
+Fix data aggregators FIRST; they feed data to hundreds of downstream directories:
+1. **Data Axle** (formerly Infogroup); feeds the most directories
+2. **Neustar/Localeze**: second-largest aggregator
+3. **Foursquare**: feeds Apple Maps and many apps
+4. **Yelp**: both a directory and a data source for Apple Maps
 
 ## What to Do Next
 
@@ -151,7 +151,7 @@ Fix data aggregators FIRST — they feed data to hundreds of downstream director
 | Missing from key directories | Build citations on missing directories | `local-citations` |
 | Low review count on Google | Build review generation strategy | `review-management` |
 | GBP audit shows incomplete profile | Optimize the profile | `gbp-optimization` |
-| Citations clean but still not ranking | Citations aren't the issue — check other factors | `geogrid-analysis`, `local-seo-audit` |
+| Citations clean but still not ranking | Citations aren't the issue; check other factors | `geogrid-analysis`, `local-seo-audit` |
 | Need to present findings to client | Package citation report with recommendations | `client-deliverables` |
 
 **Default next step:** Citation cleanup is a slow process (4-8 weeks for aggregator changes to propagate). Start the cleanup, then work on other optimization while waiting.

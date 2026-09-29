@@ -15,7 +15,7 @@ Runs, writes output, no human needed. Agent acts on its own authority.
 Task runs → Output file written → Brief updated → Notification sent (if configured)
 ```
 
-**Notification:** Summary alert only. "Weekly scan complete for Keystone Buffalo — 1 new finding. See report."
+**Notification:** Summary alert only. "Weekly scan complete for Keystone Buffalo; 1 new finding. See report."
 
 ---
 
@@ -106,7 +106,7 @@ approval:
 
 **Claude (native):** Approval notifications via Gmail MCP or Slack MCP. Approval confirmed by replying to the Slack message or email, or by updating the `Approval Required` field in the draft file and triggering a follow-up task.
 
-**LSEOAgent / OpenClaw / custom:** Implement the same three tiers using whatever notification and confirmation mechanism fits your stack. The draft file schema and approval status fields are platform-agnostic — your system reads the `Status: PENDING` field and manages the approval UI.
+**LSEOAgent / OpenClaw / custom:** Implement the same three tiers using whatever notification and confirmation mechanism fits your stack. The draft file schema and approval status fields are platform-agnostic; your system reads the `Status: PENDING` field and manages the approval UI.
 
 ---
 

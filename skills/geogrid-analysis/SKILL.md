@@ -97,8 +97,8 @@ Before analyzing, understand:
 Before interpreting results, confirm the scan setup makes sense for this business. Bad configuration produces misleading data.
 
 **Check grid size vs. business type:**
-- Is a neighborhood coffee shop being scanned at 13×13 / 15 miles? Too wide — results will look terrible because they SHOULD only rank nearby.
-- Is an HVAC company scanned at 5×5 / 1 mile? Too narrow — you're missing their actual service area. Even good results here don't mean much.
+- Is a neighborhood coffee shop being scanned at 13×13 / 15 miles? Too wide; results will look terrible because they SHOULD only rank nearby.
+- Is an HVAC company scanned at 5×5 / 1 mile? Too narrow; you're missing their actual service area. Even good results here don't mean much.
 
 **Check radius vs. market density:**
 - Dense urban (NYC, SF): 1-3 mile radius is appropriate even for service businesses
@@ -109,7 +109,7 @@ Before interpreting results, confirm the scan setup makes sense for this busines
 **Check keyword match:**
 - Does the keyword match the business's GBP primary category?
 - Is it a keyword real customers would search? ("hvac company" vs. "heating and cooling repair")
-- Branded keywords (business name) should always rank #1 at centroid — if they don't, there's a fundamental problem
+- Branded keywords (business name) should always rank #1 at centroid; if they don't, there's a fundamental problem
 
 **Check scan freshness:**
 - Scans older than 30 days may not reflect current state
@@ -142,7 +142,7 @@ Before interpreting results, confirm the scan setup makes sense for this busines
 - Improvement: stabilize with consistent optimization
 
 **Peripheral strength** (weak center, strong edges):
-- Unusual — may indicate address or category issues
+- Unusual: may indicate address or category issues
 - Check for GBP location accuracy
 - Verify centroid of grid matches business location
 
@@ -223,13 +223,13 @@ When scan results contradict what you'd expect from the profile, use these trees
 Business has good reviews (4.5+), correct categories, complete profile, but SoLV under 40%.
 
 **Check in order:**
-1. **Duplicate listings** — Search for the business name, owner name, old addresses. Duplicate listings split ranking signals. → Use `local-seo-audit` duplicate listing workflow
-2. **Category mismatch** — Primary category doesn't match the scanned keyword. "Doctor" instead of "Pain management physician." Fix: change primary category to most specific match
-3. **Address/pin accuracy** — GBP pin may be in wrong location, or address doesn't match Google's understanding of the service area. Verify pin placement in GBP
-4. **Manual penalty/suspension history** — Check for past suspensions or guideline violations that may have lingering effects
-5. **Website disconnect** — GBP links to wrong URL, or website has no local signals (no NAP, no schema, no local content). → Use `local-seo-audit` Section 2
-6. **New listing** — Listings under 6 months old often rank poorly regardless of profile quality. Age is a factor — patience required
-7. **Competitive density** — In saturated markets, a strong profile isn't enough. Need link building, content, and citation advantages. → Use `local-competitor-analysis`
+1. **Duplicate listings**: Search for the business name, owner name, old addresses. Duplicate listings split ranking signals. → Use `local-seo-audit` duplicate listing workflow
+2. **Category mismatch**: Primary category doesn't match the scanned keyword. "Doctor" instead of "Pain management physician." Fix: change primary category to most specific match
+3. **Address/pin accuracy**: GBP pin may be in wrong location, or address doesn't match Google's understanding of the service area. Verify pin placement in GBP
+4. **Manual penalty/suspension history**: Check for past suspensions or guideline violations that may have lingering effects
+5. **Website disconnect**: GBP links to wrong URL, or website has no local signals (no NAP, no schema, no local content). → Use `local-seo-audit` Section 2
+6. **New listing**: Listings under 6 months old often rank poorly regardless of profile quality. Age is a factor; patience required
+7. **Competitive density**: In saturated markets, a strong profile isn't enough. Need link building, content, and citation advantages. → Use `local-competitor-analysis`
 
 ### Good ARP + Low SoLV
 Business ranks well where it appears, but doesn't appear in most grid points.
@@ -238,7 +238,7 @@ Business ranks well where it appears, but doesn't appear in most grid points.
 **Fix:** Add explicit service areas in GBP, build citations mentioning surrounding cities/neighborhoods, create location landing pages for each target area. → Use `local-landing-pages` and `local-citations`
 
 ### ATRP = ARP (No Proximity Advantage)
-Business ranks the same everywhere in the grid — no falloff at distance, but also no boost near the location.
+Business ranks the same everywhere in the grid; no falloff at distance, but also no boost near the location.
 
 **Diagnosis:** Relevance problem, not proximity problem. Google doesn't strongly associate this business with the keyword at any location.
 **Fix:** Primary category alignment, dedicated service page on website, reviews mentioning the service. → Use `gbp-optimization` and `review-management`
@@ -247,13 +247,13 @@ Business ranks the same everywhere in the grid — no falloff at distance, but a
 Previous scans showed strong performance, latest scan shows significant decline.
 
 **Check in order:**
-1. **GBP changes** — Any edits, especially category or address changes, in the last 2 weeks?
-2. **Unauthorized edits** — Did Google or a third party suggest an edit that was accepted? Check GBP edit history
-3. **New competitor** — Pull competitor report to see if a new entrant took position
-4. **Algorithm update** — Check industry forums/Twitter for reported Google local update
-5. **Website changes** — Did the site change CMS, lose pages, break schema, drop HTTPS?
-6. **Review bombing** — Sudden negative reviews can tank rankings. Check review timeline
-7. **Citation disruption** — Data aggregator update pushed wrong info. Check core citations for NAP accuracy
+1. **GBP changes**: Any edits, especially category or address changes, in the last 2 weeks?
+2. **Unauthorized edits**: Did Google or a third party suggest an edit that was accepted? Check GBP edit history
+3. **New competitor**: Pull competitor report to see if a new entrant took position
+4. **Algorithm update**: Check industry forums/Twitter for reported Google local update
+5. **Website changes**: Did the site change CMS, lose pages, break schema, drop HTTPS?
+6. **Review bombing**: Sudden negative reviews can tank rankings. Check review timeline
+7. **Citation disruption**: Data aggregator update pushed wrong info. Check core citations for NAP accuracy
 
 ### One Direction Weak
 Business ranks well in all directions except one quadrant of the grid.
@@ -292,20 +292,20 @@ The biggest gap in geogrid reporting: clients don't understand ARP, ATRP, or SoL
 
 ### ARP Translation
 - "When you DO show up, you appear in position **X** on average"
-- ARP 6.5 → "When customers can find you, you're typically the 6th or 7th option they see — most people only look at the top 3"
+- ARP 6.5 → "When customers can find you, you're typically the 6th or 7th option they see; most people only look at the top 3"
 
 ### ATRP Translation
 - "In your best-performing areas, you rank **X**"
 - ATRP 2 with ARP 8 → "You rank great right near your office, but that drops off fast as customers search from farther away"
 
 ### Trend Translation
-- ARP moved from 8.2 to 5.1 → "Your average visibility improved by 38% — you've moved from page 2 into competitive range"
+- ARP moved from 8.2 to 5.1 → "Your average visibility improved by 38%; you've moved from page 2 into competitive range"
 - SoLV moved from 30% to 65% → "You went from being invisible to most nearby searchers to showing up for nearly two-thirds of them"
 
 ### Framing for Impact
 Always tie to business outcomes:
 - "Each 10% increase in SoLV represents approximately X more people seeing your business each month"
-- "Moving from position 7 to position 3 in the map pack means appearing above the fold — most searchers never scroll past the top 3"
+- "Moving from position 7 to position 3 in the map pack means appearing above the fold; most searchers never scroll past the top 3"
 - Use competitor names: "Right now, [Competitor] shows up at 85% of these search points. You show up at 14%."
 
 ---
@@ -313,7 +313,7 @@ Always tie to business outcomes:
 ## Reporting Best Practices
 
 ### Client-Facing Reports
-- Lead with SoLV — easiest metric for non-SEOs to understand
+- Lead with SoLV: easiest metric for non-SEOs to understand
 - Show visual heatmap/grid image
 - Compare month-over-month or campaign start vs. now
 - Highlight specific improvements ("ranking moved from #12 to #4 in north Buffalo")
@@ -372,7 +372,7 @@ After analyzing a scan, use the Diagnostic Decision Trees above to identify root
 | Need to track improvement over time | Set up recurring scans (same keyword, grid, radius) | Campaign via Local Falcon |
 | Client needs to understand this data | Use the Translating Data for Clients section above | |
 
-**Default next step:** Every scan should produce 3-5 specific action items. If you can't produce actions from the scan, you're missing context — run the full audit.
+**Default next step:** Every scan should produce 3-5 specific action items. If you can't produce actions from the scan, you're missing context; run the full audit.
 
 ## Tools for This Skill
 

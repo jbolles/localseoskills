@@ -1,7 +1,7 @@
 ---
 name: e2-review-response-drafts
 description: Weekly review response drafting. Pulls unanswered reviews from the last 7 days and drafts personalized responses. Held for approval before posting. Exits cleanly if no unanswered reviews exist.
-schedule: weekly — Tuesday 8 AM
+schedule: weekly; Tuesday 8 AM
 tier: queue (tier 2)
 skills: review-management, localseodata-tool
 mcps: LocalSEOData, GBP API (for publishing after approval)
@@ -26,31 +26,31 @@ Google reads review responses. Responses that mention service keywords, location
 - Express genuine appreciation (not "Thank you for your review!")
 - Reinforce one specific thing they praised (keyword opportunity)
 - Optional: soft invitation to return or refer
-- Example: "So glad the emergency pipe repair went smoothly for you — we know how stressful those middle-of-the-night calls can be. The team will love hearing this. See you next time!"
+- Example: "So glad the emergency pipe repair went smoothly for you; we know how stressful those middle-of-the-night calls can be. The team will love hearing this. See you next time!"
 
 **4-star positive with minor concern:**
 - Thank them first
 - Address the specific concern directly and briefly
 - Invite them to share more or reach out directly
-- Example: "Thanks for the kind words about the installation! Sorry the wait time was longer than expected — we've added scheduling capacity this month. If you ever have concerns, reach out directly at [contact]."
+- Example: "Thanks for the kind words about the installation! Sorry the wait time was longer than expected; we've added scheduling capacity this month. If you ever have concerns, reach out directly at [contact]."
 
 **3-star neutral:**
 - Acknowledge without being defensive
 - Show you take feedback seriously
 - Offer a direct contact for resolution
-- Example: "We appreciate you sharing this. Three stars tells us there's room to do better — we'd genuinely like to understand what we could have done differently. Please reach out at [contact]."
+- Example: "We appreciate you sharing this. Three stars tells us there's room to do better; we'd genuinely like to understand what we could have done differently. Please reach out at [contact]."
 
 **1-2 star negative:**
 - Never be defensive
 - Acknowledge the specific issue (not generic)
 - Show accountability
 - Move conversation offline: "Please contact us at [contact] so we can make this right"
-- Keep short — 3 sentences max
+- Keep short: 3 sentences max
 - Never argue, never explain at length (looks worse to readers)
 - Example: "We're sorry this experience didn't meet our standards. What you described about the scheduling issue is something we take seriously. Please reach out at [contact] and we'll make it right."
 
 **What to avoid in all responses:**
-- "Thank you for your feedback" as an opener — it's hollow
+- "Thank you for your feedback" as an opener; it's hollow
 - Copy-pasting the same response to similar reviews
 - Using the business name more than once (looks spammy)
 - Mentioning specific employees by name in negative responses
@@ -68,7 +68,7 @@ Before executing, confirm:
 - [ ] Location brief exists with business context and tone
 - [ ] LocalSEOData MCP responding
 
-If no unanswered reviews found: log "No unanswered reviews this week" in brief Session Log and exit cleanly — no output file needed.
+If no unanswered reviews found: log "No unanswered reviews this week" in brief Session Log and exit cleanly; no output file needed.
 If LocalSEOData unavailable: write FAILED status, note in brief, send Slack alert.
 
 ## Prompt
@@ -94,7 +94,7 @@ Using review-management skill or Fallback Guidance, draft each response:
 - No two responses open with the same phrase
 
 Write all drafted responses to
-briefs/{brand}/{location}/drafts/{TODAY}-review-responses.md per specs/output-schema.md.
+clients/{brand}/local-seo/{location}/drafts/{TODAY}-review-responses.md per specs/output-schema.md.
 Include the original review text above each drafted response for easy comparison.
 
 Set Approval Required to PENDING.

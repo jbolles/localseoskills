@@ -14,10 +14,10 @@ You have direct access to LSA Spy via MCP. This skill tells you WHEN to use each
 
 | You Need | Use LSA Spy | Use Instead |
 |----------|------------|-------------|
-| Who's ranking in LSA results right now | ✅ | — |
-| LSA ranking changes over time | ✅ | — |
-| Find a specific business in LSA results | ✅ | — |
-| Which markets have LSA coverage | ✅ | — |
+| Who's ranking in LSA results right now | ✅ | n/a |
+| LSA ranking changes over time | ✅ | n/a |
+| Find a specific business in LSA results | ✅ | n/a |
+| Which markets have LSA coverage | ✅ | n/a |
 | Map pack / organic rankings | ❌ | Local Falcon |
 | LSA ad setup and optimization strategy | ❌ Use LSA Spy for data, then | `lsa-ads` skill for strategy |
 | Keyword search volume | ❌ | Semrush, Ahrefs |
@@ -28,8 +28,8 @@ You have direct access to LSA Spy via MCP. This skill tells you WHEN to use each
 
 **When:** User asks "who's ranking in LSAs" or "how are we doing in LSAs" for a market.
 
-1. `list_markets` — find the relevant market ID by category + city
-2. `get_rankings` — current top-ranking businesses with positions
+1. `list_markets`: find the relevant market ID by category + city
+2. `get_rankings`: current top-ranking businesses with positions
 3. If looking for a specific business: `find_business` with the business name
 
 **What the data tells you:**
@@ -41,8 +41,8 @@ You have direct access to LSA Spy via MCP. This skill tells you WHEN to use each
 
 **When:** User wants the full competitive landscape, not just who's ranking right now.
 
-1. `list_markets` — find market ID
-2. `get_businesses` — ALL businesses that have appeared, with average rank and appearance frequency
+1. `list_markets`: find market ID
+2. `get_businesses`: ALL businesses that have appeared, with average rank and appearance frequency
 3. Sort by average rank to find consistent top performers
 4. Look for businesses with high appearance frequency but mediocre rank (they're spending but not optimizing)
 
@@ -53,24 +53,24 @@ You have direct access to LSA Spy via MCP. This skill tells you WHEN to use each
 
 ### Monitor Ranking Changes
 
-**When:** User wants to track movement — who's going up, who's going down.
+**When:** User wants to track movement; who's going up, who's going down.
 
-1. `list_markets` — find market ID
-2. `get_ranking_changes` — set days parameter (7 for weekly, 30 for monthly view)
+1. `list_markets`: find market ID
+2. `get_ranking_changes`: set days parameter (7 for weekly, 30 for monthly view)
 
 **What the changes tell you:**
 - Business moved UP: Likely got more/better reviews, improved responsiveness, or competitors dropped
 - Business moved DOWN: Lost reviews, slow response times, budget issues, or new competitors entered
-- NEW entrant: Fresh competitor — check their review count and rating
+- NEW entrant: Fresh competitor: check their review count and rating
 - Business DISAPPEARED: Paused ads, lost Google Guaranteed/Screened badge, or got suspended
 
 ### Market Intelligence
 
 **When:** User considering entering LSAs or wants strategic overview.
 
-1. `list_markets` — see all tracked markets
-2. `get_market_details` — see tracked search queries for a specific market
-3. `get_rankings` + `get_businesses` — understand competitive density
+1. `list_markets`: see all tracked markets
+2. `get_market_details`: see tracked search queries for a specific market
+3. `get_rankings` + `get_businesses`: understand competitive density
 4. Cross-reference top rankers' review counts against user's business
 
 ## Interpreting LSA Spy Data
@@ -78,29 +78,29 @@ You have direct access to LSA Spy via MCP. This skill tells you WHEN to use each
 ### What Drives LSA Rankings
 
 LSA rankings are NOT like organic/map pack. The primary factors:
-1. **Reviews** — count and rating (most important)
-2. **Responsiveness** — how fast you answer/respond to leads
-3. **Proximity** — distance from searcher
-4. **Business hours** — being open when someone searches
-5. **Budget** — having sufficient weekly budget
-6. **Badge status** — Google Guaranteed or Google Screened active
+1. **Reviews**: count and rating (most important)
+2. **Responsiveness**: how fast you answer/respond to leads
+3. **Proximity**: distance from searcher
+4. **Business hours**: being open when someone searches
+5. **Budget**: having sufficient weekly budget
+6. **Badge status**: Google Guaranteed or Google Screened active
 
 ### Reading the Rankings
 
 | What You See | What It Means |
 |--------------|---------------|
-| Same 3 businesses always in top 3 | They have review + responsiveness advantage — hard to displace without matching both |
+| Same 3 businesses always in top 3 | They have review + responsiveness advantage; hard to displace without matching both |
 | High turnover in rankings | Market is competitive, small changes in signals cause movement |
 | Business with fewer reviews ranking higher | Likely better responsiveness score or closer proximity |
 | Business disappeared suddenly | Badge issue, budget exhausted, or suspension |
-| Many businesses with similar rank | Tight competition — reviews and responsiveness are the tiebreakers |
+| Many businesses with similar rank | Tight competition; reviews and responsiveness are the tiebreakers |
 
 ### Key Metrics to Track
 
 - **Average rank**: Where a business typically appears (lower is better)
 - **Appearance frequency**: How often they show up at all (consistency matters)
 - **Rank trend**: Moving up or down over time
-- **Market density**: Total competitors — affects cost per lead and difficulty
+- **Market density**: Total competitors: affects cost per lead and difficulty
 
 ## What to Do Next
 

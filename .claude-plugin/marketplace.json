@@ -1,19 +1,19 @@
 {
-  "name": "garrettjsmith-localseo",
+  "name": "who-digital-strategy",
   "owner": {
-    "name": "Garrett Smith",
-    "email": "help@localseoskills.com"
+    "name": "WHO Digital Strategy",
+    "email": "mcc@whitehat-ops.com"
   },
   "metadata": {
-    "description": "Local SEO skills and automation for Claude Code.",
-    "version": "1.0.1"
+    "description": "WHO Digital Strategy fork of Local SEO Skills, adapted for the WHO Agency Brain.",
+    "version": "1.0.1-who.1"
   },
   "plugins": [
     {
-      "name": "local-seo-skills",
-      "version": "1.0.1",
+      "name": "who-local-seo",
+      "version": "1.0.1-who.1",
       "source": "./",
-      "description": "38 skills for local SEO in Claude Code. GBP optimization, map pack visibility, audits, citations, reviews, keywords, geogrid, AI visibility, multi-location SEO, and reporting. Includes a persistent brief system and 15 scheduled task templates.",
+      "description": "WHO Agency Brain fork of Garrett Smith's Local SEO Skills. GBP, map pack, geogrid, citations, reviews, local audits and reporting. Briefs live in clients/<client>/local-seo/. Content, schema, GEO, posts, proposals and PPC hand off to WHO brain skills.",
       "category": "seo",
       "tags": [
         "local-seo",

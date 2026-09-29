@@ -1,7 +1,7 @@
 ---
 name: e4-page-content-audit
 description: Quarterly location page content audit. Flags thin content, missing schema, NAP mismatches, and keyword gaps. Drafts specific improvements held for approval.
-schedule: quarterly — 1st of Jan/Apr/Jul/Oct
+schedule: quarterly; 1st of Jan/Apr/Jul/Oct
 tier: queue (tier 2)
 skills: local-landing-pages, local-schema, localseodata-tool
 mcps: LocalSEOData, Screaming Frog (optional)
@@ -29,9 +29,9 @@ A location page needs to pass two tests: (1) Google understands this is a real, 
 - Customer reviews or testimonials ideally specific to this location
 
 **Schema requirements:**
-- LocalBusiness (or appropriate subtype — Plumber, Dentist, etc.)
+- LocalBusiness (or appropriate subtype: Plumber, Dentist, etc.)
 - `name`, `address` (with full PostalAddress), `telephone`, `url` at minimum
-- `openingHours` — matches GBP hours exactly
+- `openingHours`: matches GBP hours exactly
 - `areaServed` for SABs
 - `aggregateRating` if reviews exist on the page
 - `hasOfferCatalog` or `makesOffer` for services
@@ -50,11 +50,11 @@ A location page needs to pass two tests: (1) Google understands this is a real, 
 - No schema or incomplete schema
 
 **Content improvement priorities:**
-1. Fix NAP if it doesn't match GBP — this is critical
-2. Add schema if missing — high ROI, one-time fix
-3. Add location-specific content — medium effort, meaningful ranking impact
-4. Expand service descriptions — medium effort, relevance signal
-5. Add FAQ section with local intent questions — good for long-tail and AI visibility
+1. Fix NAP if it doesn't match GBP; this is critical
+2. Add schema if missing; high ROI, one-time fix
+3. Add location-specific content; medium effort, meaningful ranking impact
+4. Expand service descriptions; medium effort, relevance signal
+5. Add FAQ section with local intent questions; good for long-tail and AI visibility
 
 ## Verification
 Before executing, confirm:
@@ -64,7 +64,7 @@ Before executing, confirm:
 - [ ] Location brief has page URL(s) to audit
 - [ ] LocalSEOData MCP responding
 
-If page URL is missing from brief: ask user for URL before proceeding — cannot audit without it.
+If page URL is missing from brief: ask user for URL before proceeding; cannot audit without it.
 If LocalSEOData unavailable: note data gap, proceed with schema and content assessment from available info, flag as PARTIAL.
 
 ## Prompt
@@ -77,7 +77,7 @@ Run verification checklist before proceeding.
 
 You are auditing location page content for {BUSINESS_NAME} at {LOCATION}.
 
-Read briefs/{brand}/{location}/location.brief.md for target keywords and page URLs.
+Read clients/{brand}/local-seo/{location}/location.brief.md for target keywords and page URLs.
 
 Call LocalSEOData:
 - page_audit for {LOCATION_PAGE_URL}
@@ -90,11 +90,11 @@ Using local-landing-pages and local-schema skills or Fallback Guidance:
 - Compare against top-ranking competitors
 - Classify each issue by priority
 
-Draft specific improvements for flagged pages — not vague recommendations,
+Draft specific improvements for flagged pages, not vague recommendations,
 but actual content: the H1 rewrite, the schema block, the paragraph to add.
 
-Write audit to briefs/{brand}/{location}/scans/{TODAY}-page-audit.md per specs/output-schema.md.
-Write content drafts to briefs/{brand}/{location}/drafts/{TODAY}-page-improvements.md.
+Write audit to clients/{brand}/local-seo/{location}/scans/{TODAY}-page-audit.md per specs/output-schema.md.
+Write content drafts to clients/{brand}/local-seo/{location}/drafts/{TODAY}-page-improvements.md.
 Set drafts Approval Required to PENDING.
 Send Slack approval request per specs/notification-format.md Tier 2 format.
 ```

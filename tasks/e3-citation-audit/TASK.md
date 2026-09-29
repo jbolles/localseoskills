@@ -1,7 +1,7 @@
 ---
 name: e3-citation-audit
-description: Quarterly NAP consistency audit across 20 directories. Documents errors, missing listings, and duplicates. Compares to prior audit. Report only — does not auto-fix.
-schedule: quarterly — 1st of Jan/Apr/Jul/Oct
+description: Quarterly NAP consistency audit across 20 directories. Documents errors, missing listings, and duplicates. Compares to prior audit. Report only; does not auto-fix.
+schedule: quarterly; 1st of Jan/Apr/Jul/Oct
 tier: autonomous
 skills: local-citations, localseodata-tool
 mcps: LocalSEOData
@@ -23,22 +23,22 @@ Citations are mentions of a business's NAP (Name, Address, Phone) on third-party
 
 | Error type | Example | Impact |
 |---|---|---|
-| Address format mismatch | "Suite 100" vs "Ste. 100" | Low — minor |
-| Phone format mismatch | "(716) 555-0100" vs "7165550100" | Low — minor |
-| Wrong phone number | Old number still listed | High — calls go nowhere |
-| Wrong address | Old location still listed | Critical — customer confusion |
-| Wrong business name | Old name or misspelling | High — entity confusion |
-| Duplicate listing | Two listings for same business | High — dilutes authority |
+| Address format mismatch | "Suite 100" vs "Ste. 100" | Low; minor |
+| Phone format mismatch | "(716) 555-0100" vs "7165550100" | Low; minor |
+| Wrong phone number | Old number still listed | High; calls go nowhere |
+| Wrong address | Old location still listed | Critical; customer confusion |
+| Wrong business name | Old name or misspelling | High; entity confusion |
+| Duplicate listing | Two listings for same business | High; dilutes authority |
 
 **Directory priority tiers:**
 
-**Tier 1 — critical (fix immediately):**
+**Tier 1; critical (fix immediately):**
 Google Business Profile, Apple Maps, Bing Places, Yelp, Facebook
 
-**Tier 2 — important (fix within 30 days):**
+**Tier 2; important (fix within 30 days):**
 YellowPages, BBB, Foursquare, Mapquest, Superpages, Citysearch
 
-**Tier 3 — valuable (fix next quarter):**
+**Tier 3; valuable (fix next quarter):**
 Industry-specific directories, local chamber of commerce, niche platforms
 
 **How to classify findings:**
@@ -57,7 +57,7 @@ Before executing, confirm:
 - [ ] LocalSEOData MCP responding
 - [ ] Prior citation audit in `scans/` for comparison (if not, baseline run)
 
-If LocalSEOData unavailable: write FAILED status, note in brief, send Slack alert — citation audits cannot run without data.
+If LocalSEOData unavailable: write FAILED status, note in brief, send Slack alert; citation audits cannot run without data.
 
 ## Prompt
 
@@ -69,7 +69,7 @@ Run verification checklist before proceeding.
 
 You are running a citation audit for {BUSINESS_NAME} at {LOCATION}.
 
-Read briefs/{brand}/{location}/location.brief.md for canonical NAP.
+Read clients/{brand}/local-seo/{location}/location.brief.md for canonical NAP.
 
 Call LocalSEOData:
 - citation_audit to check NAP consistency across 20 directories
@@ -87,7 +87,7 @@ Document:
 - Duplicate listings found
 - Net change vs last audit
 
-Write to briefs/{brand}/{location}/scans/{TODAY}-citation-audit.md
+Write to clients/{brand}/local-seo/{location}/scans/{TODAY}-citation-audit.md
 per specs/output-schema.md.
 Write alert if critical errors found.
 

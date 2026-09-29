@@ -10,7 +10,7 @@ metadata:
 
 > **Note:** LocalSEOData (`localseodata-tool`) is built on DataForSEO and provides a simplified, pre-assembled layer for most local SEO data needs. Use LocalSEOData as default. DataForSEO is still the right choice for massive bulk operations (1000+ queries) or custom pipeline builds that need raw API access.
 
-DataForSEO has an official MCP server. When connected, use it for bulk SEO data operations — SERP results, keyword volumes, business data, and backlinks at scale. This is your bulk data and custom tooling API.
+DataForSEO has an official MCP server. When connected, use it for bulk SEO data operations; SERP results, keyword volumes, business data, and backlinks at scale. This is your bulk data and custom tooling API.
 
 ## When to Use DataForSEO vs Other Tools
 
@@ -18,8 +18,8 @@ DataForSEO has an official MCP server. When connected, use it for bulk SEO data 
 |----------|---------------|-------------|
 | Keyword volume for 500+ terms at once | ✅ Best for bulk | Semrush (for smaller batches) |
 | SERP results for many keyword+location combos | ✅ Best for scale | SerpAPI (for individual queries) |
-| Google Maps business data programmatically | ✅ | — |
-| Google reviews for a business via API | ✅ | — |
+| Google Maps business data programmatically | ✅ | n/a |
+| Google reviews for a business via API | ✅ | n/a |
 | Local pack monitoring at scale (custom build) | ✅ | Local Falcon (turnkey solution) |
 | Backlink data | ⚠️ Has it, smaller index | Ahrefs (preferred) |
 | Single keyword research | ❌ Overkill | Semrush |
@@ -47,8 +47,8 @@ DataForSEO is NOT the right tool when:
 **When:** Have a large keyword list and need volume data for all of them.
 
 **Endpoints:**
-- `keywords_data/google_ads/search_volume` — volume, CPC, competition for keyword list
-- `keywords_data/google_ads/keywords_for_site` — keywords a domain gets traffic for
+- `keywords_data/google_ads/search_volume`: volume, CPC, competition for keyword list
+- `keywords_data/google_ads/keywords_for_site`: keywords a domain gets traffic for
 
 **Use case:** You've generated 200 service+city keyword combinations from `local-keyword-research`. Instead of checking each one in Semrush, batch them through DataForSEO.
 
@@ -59,11 +59,11 @@ DataForSEO is NOT the right tool when:
 **When:** Need to check local pack presence across many keywords or locations.
 
 **Endpoints:**
-- `serp/google/organic/live` — full SERP with local pack
-- `serp/google/maps/live` — Google Maps results
-- `serp/google/local_finder/live` — local finder specifically
+- `serp/google/organic/live`: full SERP with local pack
+- `serp/google/maps/live`: Google Maps results
+- `serp/google/local_finder/live`: local finder specifically
 
-**Use case:** Check 50 keywords across 10 cities to see which trigger local packs and who appears in them. That's 500 SERP checks — impossible manually, trivial via DataForSEO.
+**Use case:** Check 50 keywords across 10 cities to see which trigger local packs and who appears in them. That's 500 SERP checks; impossible manually, trivial via DataForSEO.
 
 **What to extract:**
 - Does a local pack appear? (local intent confirmation)
@@ -76,8 +76,8 @@ DataForSEO is NOT the right tool when:
 **When:** Need GBP information about competitors or a market programmatically.
 
 **Endpoints:**
-- `business_data/google/my_business_info` — GBP details (name, address, categories, hours, photos, etc.)
-- `business_data/google/reviews` — Google reviews with text, rating, date
+- `business_data/google/my_business_info`: GBP details (name, address, categories, hours, photos, etc.)
+- `business_data/google/reviews`: Google reviews with text, rating, date
 
 **Use case:**
 - Pull GBP data for top 20 competitors in a market to compare categories, review counts, ratings
@@ -101,7 +101,7 @@ DataForSEO is NOT the right tool when:
 
 ## Pricing Awareness
 
-- Pay-per-task model — each API call costs credits
+- Pay-per-task model: each API call costs credits
 - SERP tasks: ~$0.002-0.005 per result
 - Keyword data: ~$0.05 per batch of keywords
 - Business data: ~$0.005 per result

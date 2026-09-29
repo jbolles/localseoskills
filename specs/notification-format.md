@@ -23,58 +23,58 @@ Kept to one screen. No walls of text.
 
 **Task complete (autonomous):**
 ```
-📊 *Weekly Report — Keystone Buffalo*
+📊 *Weekly Report; Keystone Buffalo*
 Rankings stable. 1 new finding.
 ARP: 7.6 (↑ from 8.2) | SoLV: 58% (↑ from 51%)
-⚠️ 1-star review from yesterday — no response yet
-→ Full report: briefs/keystone-insurance/buffalo/reports/2026-04-07-weekly.md
+⚠️ 1-star review from yesterday; no response yet
+→ Full report: clients/keystone-insurance/local-seo/buffalo/reports/2026-04-07-weekly.md
 ```
 
 **New review alert:**
 ```
-⭐ *New Review — Keystone Buffalo*
-Rating: 2/5 — "Waited 3 weeks for a callback."
+⭐ *New Review; Keystone Buffalo*
+Rating: 2/5; "Waited 3 weeks for a callback."
 No response yet.
-→ briefs/keystone-insurance/buffalo/alerts/2026-04-07-review.md
+→ clients/keystone-insurance/local-seo/buffalo/alerts/2026-04-07-review.md
 ```
 
 **Approval request (tier 2):**
 ```
-✍️ *Approval Required — GBP Posts — Keystone Buffalo*
+✍️ *Approval Required; GBP Posts; Keystone Buffalo*
 4 posts drafted for April. Ready to schedule.
-Preview: briefs/keystone-insurance/buffalo/drafts/2026-04-07-gbp-posts.md
+Preview: clients/keystone-insurance/local-seo/buffalo/drafts/2026-04-07-gbp-posts.md
 Reply APPROVE to publish | REJECT to discard | EDIT [notes] to revise
 Expires: 2026-04-09
 ```
 
 **Pre-execution confirm (tier 3):**
 ```
-⚡ *Action Pending Confirmation — Monthly Report — Keystone Insurance*
+⚡ *Action Pending Confirmation; Monthly Report; Keystone Insurance*
 About to send April performance report to: john@keystoneinsurance.com
-Preview: briefs/keystone-insurance/buffalo/reports/2026-04-07-monthly.md
+Preview: clients/keystone-insurance/local-seo/buffalo/reports/2026-04-07-monthly.md
 Reply CONFIRM to send | CANCEL to abort
 ```
 
 **Post-execution (agency):**
 ```
-✅ *Sent — Monthly Report — Keystone Insurance*
+✅ *Sent; Monthly Report; Keystone Insurance*
 April report delivered to john@keystoneinsurance.com at 9:04 AM
 ```
 
 **Alert:**
 ```
-🚨 *Alert — Keystone Buffalo*
+🚨 *Alert; Keystone Buffalo*
 Review velocity dropped 60% this week (2 reviews vs 5/week avg)
 Action needed: review generation campaign
-→ briefs/keystone-insurance/buffalo/alerts/2026-04-07-review-drop.md
+→ clients/keystone-insurance/local-seo/buffalo/alerts/2026-04-07-review-drop.md
 ```
 
 **Failure:**
 ```
-❌ *Task Failed — Citation Audit — Keystone Pittsburgh*
+❌ *Task Failed; Citation Audit; Keystone Pittsburgh*
 LocalSEOData citation_audit returned timeout. 
 Geogrid scan succeeded (partial output saved).
-→ briefs/keystone-insurance/pittsburgh/scans/2026-04-07-citation-audit.md
+→ clients/keystone-insurance/local-seo/pittsburgh/scans/2026-04-07-citation-audit.md
 Retry or run manually.
 ```
 
@@ -86,7 +86,7 @@ Client emails are professional and stripped of internal language. No mention of 
 
 **Subject line format:**
 ```
-{Business Name} — {Report Type} — {Month YYYY}
+{Business Name}; {Report Type}; {Month YYYY}
 ```
 
 **Body structure:**
@@ -151,4 +151,4 @@ arp_degradation_positions: 3
 
 **Claude native:** Gmail MCP for email, Slack MCP for Slack. Both configured as connectors in Claude account settings.
 
-**LSEOAgent / custom:** Notification content and format is platform-agnostic. Implement delivery using whatever transport fits your stack. The alert thresholds and message formats above are the spec — your system handles the send.
+**LSEOAgent / custom:** Notification content and format is platform-agnostic. Implement delivery using whatever transport fits your stack. The alert thresholds and message formats above are the spec; your system handles the send.

@@ -16,12 +16,12 @@ You have direct access to SerpAPI via MCP. This gives you live, real-time search
 
 | You Need | Use SerpAPI | Use Instead |
 |----------|------------|-------------|
-| Live SERP snapshot right now | ✅ | — |
+| Live SERP snapshot right now | ✅ | n/a |
 | What's in the local pack for a query | ✅ | Local Falcon for geographic grid coverage |
-| People Also Ask questions | ✅ | — |
+| People Also Ask questions | ✅ | n/a |
 | AI Overview content | ✅ | Local Falcon GAIO scan for geographic coverage |
 | Quick rank check at one location | ✅ | Local Falcon for systematic multi-point |
-| SERP features present (ads, knowledge panel, etc.) | ✅ | — |
+| SERP features present (ads, knowledge panel, etc.) | ✅ | n/a |
 | Rankings across a geographic grid | ❌ Too slow point by point | Local Falcon |
 | Keyword volume/difficulty | ❌ | Semrush, Ahrefs, DataForSEO |
 | Historical ranking trends | ❌ Snapshot only | Local Falcon trends |
@@ -44,12 +44,12 @@ You have direct access to SerpAPI via MCP. This gives you live, real-time search
 ```
 
 **What to extract from results:**
-- `local_results` — the map pack (positions, business names, ratings, reviews)
-- `organic_results` — organic listings below the map
-- `ads` — paid ads present (indicates commercial value)
-- `related_questions` — People Also Ask (content opportunity)
-- `ai_overview` — AI Overview content if present
-- `knowledge_graph` — knowledge panel for branded searches
+- `local_results`: the map pack (positions, business names, ratings, reviews)
+- `organic_results`: organic listings below the map
+- `ads`: paid ads present (indicates commercial value)
+- `related_questions`: People Also Ask (content opportunity)
+- `ai_overview`: AI Overview content if present
+- `knowledge_graph`: knowledge panel for branded searches
 
 ### Check Google Maps Results Specifically
 
@@ -65,7 +65,7 @@ You have direct access to SerpAPI via MCP. This gives you live, real-time search
 }
 ```
 
-Use `google_maps` engine when you want more than the top 3 map pack — this returns the full local finder results.
+Use `google_maps` engine when you want more than the top 3 map pack; this returns the full local finder results.
 
 ### Check Local Results from a Specific Location
 
@@ -111,7 +111,7 @@ Run searches for each target keyword and note:
 
 | Engine | When to Use |
 |--------|-------------|
-| `google` | Default — full SERP with all features including local pack |
+| `google` | Default; full SERP with all features including local pack |
 | `google_maps` | Want full local/maps results beyond top 3 |
 | `google_local` | Local finder results specifically |
 | `google_light` | Quick check, less data, faster response |
@@ -122,18 +122,18 @@ Run searches for each target keyword and note:
 ## Interpreting Results for Local SEO
 
 ### Local Pack Analysis
-- **Position 1-3**: These businesses dominate — note their review counts, ratings, categories
-- **No local pack**: Google doesn't see local intent for this query — reconsider keyword strategy
-- **Ads above local pack**: Competitive keyword — organic alone may not be enough
+- **Position 1-3**: These businesses dominate; note their review counts, ratings, categories
+- **No local pack**: Google doesn't see local intent for this query; reconsider keyword strategy
+- **Ads above local pack**: Competitive keyword; organic alone may not be enough
 
 ### People Also Ask (PAA)
 - Each PAA question is a content opportunity
-- If your target keyword generates PAAs like "How much does [service] cost in [city]?" — create content answering that
+- If your target keyword generates PAAs like "How much does [service] cost in [city]?"; create content answering that
 - PAA questions often become FAQ schema candidates
 
 ### AI Overview
 - If present: Google is summarizing content for this query
-- Note which sources are cited — those sites have the content structure Google prefers
+- Note which sources are cited: those sites have the content structure Google prefers
 - Your content needs to be factual, well-structured, and directly answering the query
 
 ## What to Do Next
@@ -141,10 +141,10 @@ Run searches for each target keyword and note:
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
 | Local pack shows competitors with more reviews | Build review strategy | `review-management` |
-| No local pack for target keyword | This isn't a local keyword — adjust strategy | `local-keyword-research` |
+| No local pack for target keyword | This isn't a local keyword; adjust strategy | `local-keyword-research` |
 | AI Overview present, user not cited | Optimize content for AI visibility | `ai-local-search` |
 | PAA questions found | Create FAQ content targeting those questions | `local-landing-pages` |
-| Ads present, user not running ads | Consider PPC for this keyword | `local-ppc-ads` |
+| Ads present, user not running ads | Consider PPC for this keyword | the brain's `google-ads` / `google-ads-creation` skills |
 | Want geographic ranking data, not just this one point | Run a proper geogrid scan | `local-falcon-tool` |
 | User in map pack but wrong position | Diagnose with geogrid analysis | `geogrid-analysis` |
 

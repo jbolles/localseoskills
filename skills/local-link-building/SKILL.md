@@ -80,7 +80,7 @@ You are an expert in building locally-relevant backlinks for local businesses. Y
 
 ### Outreach Approach
 - Lead with value, not the link request
-- Be genuine — actually participate in the community
+- Be genuine: actually participate in the community
 - Offer expertise (quotes, guest articles, workshops)
 - Follow up once, don't spam
 - Build relationships before asking for links
@@ -120,7 +120,7 @@ You are an expert in building locally-relevant backlinks for local businesses. Y
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Need more directories, not just editorial links | Citations and links are different strategies — build both | `local-citations` |
+| Need more directories, not just editorial links | Citations and links are different strategies; build both | `local-citations` |
 | Need content assets to attract links | Create linkable local content (guides, data, tools) | `local-landing-pages` |
 | Want to know competitor link sources | Run a competitive backlink analysis | `local-competitor-analysis` |
 | Links built but rankings haven't moved | Links take 4-8 weeks to impact rankings. Run a geogrid scan after waiting | `geogrid-analysis` |

@@ -8,9 +8,9 @@ Each task is a directory containing a `TASK.md` with frontmatter describing its 
 
 Defined in full in [`specs/approval-workflow.md`](../specs/approval-workflow.md).
 
-- **Tier 1 — Autonomous.** Runs, writes output, sends a summary notification. No human in the loop. Used for monitoring, audits, and read-only scans.
-- **Tier 2 — Queue for Approval.** Runs, produces a draft, holds until a human approves. Nothing goes live until approved. Used for GBP posts, review responses, content drafts.
-- **Tier 3 — Notify Before and After.** Highest stakes. Pre-approval notification, explicit confirm, execution, post-execution notification to agency + client. Used for tasks that touch third parties outside the agency (client emails, publishing content live).
+- **Tier 1: Autonomous.** Runs, writes output, sends a summary notification. No human in the loop. Used for monitoring, audits, and read-only scans.
+- **Tier 2: Queue for Approval.** Runs, produces a draft, holds until a human approves. Nothing goes live until approved. Used for GBP posts, review responses, content drafts.
+- **Tier 3: Notify Before and After.** Highest stakes. Pre-approval notification, explicit confirm, execution, post-execution notification to agency + client. Used for tasks that touch third parties outside the agency (client emails, publishing content live).
 
 ## Catalog
 

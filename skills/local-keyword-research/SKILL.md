@@ -6,22 +6,24 @@ metadata:
   author: Garrett Smith
 ---
 
+> **WHO Agency Brain note:** In the WHO Agency Brain, this skill covers local keyword mapping (geo-modified, near-me, service-area terms). Keyword and query data follows the brain's precedence: Google Search Console first, DataForSEO as the fallback. Once keywords are mapped, hand content architecture to `topical-map` and page copy to `seo-content-creator`.
+
 # Local Keyword Research
 
 > **Default data tool:** LocalSEOData (`localseodata-tool`). Use `keyword_opportunities` for business-specific keyword ideas, `keyword_suggestions` for seed keyword expansion, `search_volume` for volume data, `keyword_trends` for seasonality, `keywords_for_site` for current rankings. For advanced gap analysis, use Semrush.
 
-You are an expert in keyword research for local businesses. Your goal is to build comprehensive keyword strategies that capture local search demand across services, locations, and intent types — driving both map pack and organic local rankings.
+You are an expert in keyword research for local businesses. Your goal is to build comprehensive keyword strategies that capture local search demand across services, locations, and intent types; driving both map pack and organic local rankings.
 
 ## How Local Keyword Research Differs
 
 Local keyword research isn't just "regular keyword research + city names." It has unique dynamics:
 
-- **Implicit vs. explicit local intent** — "plumber" has local intent even without a city name
-- **Map pack vs. organic** — different keywords trigger different SERP layouts
-- **Near-me queries** — massive and growing, with no specific location in the query
-- **Service area combinatorics** — 10 services × 30 cities = 300 keyword combinations
-- **Micro-intent variations** — "emergency plumber" vs. "plumber" vs. "plumbing repair" attract different customers
-- **Low volume ≠ low value** — "emergency plumber orchard park ny" may show 10 searches/month but converts at 40%
+- **Implicit vs. explicit local intent**: "plumber" has local intent even without a city name
+- **Map pack vs. organic**: different keywords trigger different SERP layouts
+- **Near-me queries**: massive and growing, with no specific location in the query
+- **Service area combinatorics**: 10 services × 30 cities = 300 keyword combinations
+- **Micro-intent variations**: "emergency plumber" vs. "plumber" vs. "plumbing repair" attract different customers
+- **Low volume ≠ low value**: "emergency plumber orchard park ny" may show 10 searches/month but converts at 40%
 
 ---
 
@@ -37,18 +39,18 @@ Examples:
 - `water heater repair`
 - `sewer line replacement`
 
-These carry **implicit local intent** — Google shows local results without a city name.
+These carry **implicit local intent**: Google shows local results without a city name.
 
 ### 2. Geo-Modified Keywords
 Service + specific location.
 
 **Formats:**
-- `[service] [city]` — plumber buffalo
-- `[service] in [city]` — plumber in buffalo
-- `[service] [city] [state]` — plumber buffalo ny
-- `[service] [neighborhood]` — plumber elmwood village
-- `[service] [county]` — plumber erie county
-- `[service] [zip]` — plumber 14075 (less common but real)
+- `[service] [city]`: plumber buffalo
+- `[service] in [city]`: plumber in buffalo
+- `[service] [city] [state]`: plumber buffalo ny
+- `[service] [neighborhood]`: plumber elmwood village
+- `[service] [county]`: plumber erie county
+- `[service] [zip]`: plumber 14075 (less common but real)
 
 ### 3. Near-Me Keywords
 Location-less queries with explicit local intent.
@@ -58,7 +60,7 @@ Location-less queries with explicit local intent.
 - `best plumber near me`
 - `24 hour plumber near me`
 
-**Important:** "Near me" queries are determined by the searcher's device location, not by your content. You can't "optimize for near me" with on-page content — you optimize by having strong GBP presence, reviews, and proximity.
+**Important:** "Near me" queries are determined by the searcher's device location, not by your content. You can't "optimize for near me" with on-page content; you optimize by having strong GBP presence, reviews, and proximity.
 
 ### 4. Problem/Symptom Keywords
 What the customer is experiencing, not what the business calls its service.
@@ -96,9 +98,9 @@ Many businesses offer proprietary or branded services that patients/customers se
 
 Why these matter:
 - Patients/customers often research the procedure first, then search "Discseel near me" or "Invisalign plattsburgh ny"
-- Very high intent — they already know what they want
+- Very high intent: they already know what they want
 - Lower competition than generic terms ("pain management")
-- The manufacturer/brand often has its own "find a provider" directory — get listed there too
+- The manufacturer/brand often has its own "find a provider" directory; get listed there too
 
 ### 8. Insurance / Qualification Keywords
 Searchers filtering by whether they can use/afford the service.
@@ -108,7 +110,7 @@ Searchers filtering by whether they can use/afford the service.
 **Home services:** "licensed plumber," "insured roofing contractor," "financing available HVAC"
 **General:** "[service] that takes [payment method]"
 
-These keywords have very high conversion intent — the searcher has already decided they need the service, they're checking if they can access it.
+These keywords have very high conversion intent; the searcher has already decided they need the service, they're checking if they can access it.
 
 ### 9. Cross-Border / Bilingual Keywords (Market-Specific)
 Businesses near national borders or in multilingual markets have a keyword category most competitors miss entirely.
@@ -122,20 +124,20 @@ Businesses near national borders or in multilingual markets have a keyword categ
 Check: Does the business serve customers who search in another language? If yes, those keywords deserve their own category and potentially their own landing pages.
 
 ### 10. Conversational / AI Queries
-How people search when they're talking to an AI assistant (ChatGPT, Gemini, Perplexity, Google AI Mode/Overviews) instead of typing into a search box. This isn't a modifier on the other categories — it's a different query *shape*.
+How people search when they're talking to an AI assistant (ChatGPT, Gemini, Perplexity, Google AI Mode/Overviews) instead of typing into a search box. This isn't a modifier on the other categories; it's a different query *shape*.
 
 **How they differ from typed keywords:**
-- **Full sentences, not fragments** — "who's a good family lawyer near Amherst that handles custody" instead of "family lawyer amherst ny"
-- **Multiple constraints in one utterance** — a single AI prompt often folds service + geo + qualifier + insurance/qualification together: "a plumber in Buffalo that does emergency work and offers financing." The matrix combinations you'd track as separate keywords collapse into one natural question.
-- **Context and follow-ups** — the searcher may give backstory ("my basement flooded last night") or refine across turns, so intent is richer and more specific than a keyword string.
-- **Recommendation-seeking** — "best," "recommend," "who should I call" phrasings are far more common than in typed search, because people expect the model to choose.
+- **Full sentences, not fragments**: "who's a good family lawyer near Amherst that handles custody" instead of "family lawyer amherst ny"
+- **Multiple constraints in one utterance**: a single AI prompt often folds service + geo + qualifier + insurance/qualification together: "a plumber in Buffalo that does emergency work and offers financing." The matrix combinations you'd track as separate keywords collapse into one natural question.
+- **Context and follow-ups**: the searcher may give backstory ("my basement flooded last night") or refine across turns, so intent is richer and more specific than a keyword string.
+- **Recommendation-seeking**: "best," "recommend," "who should I call" phrasings are far more common than in typed search, because people expect the model to choose.
 
 **How to find them:**
-- Rewrite your top service + geo keywords as full questions a person would actually ask an assistant — several phrasings per need, since people ask the same thing many ways
-- Mine the problem/symptom (#4), qualifier (#5), and insurance/qualification (#8) categories into natural-language prompts — these are exactly the constraints people voice to an AI
+- Rewrite your top service + geo keywords as full questions a person would actually ask an assistant; several phrasings per need, since people ask the same thing many ways
+- Mine the problem/symptom (#4), qualifier (#5), and insurance/qualification (#8) categories into natural-language prompts; these are exactly the constraints people voice to an AI
 - Pull People Also Ask and autocomplete questions (from Step 2.5) as starting phrasings
 
-**A note on volume:** AI query demand is emerging and hard to size — tooling is thin, and for hyperlocal terms measured demand is often near zero even where typed-search demand exists. Treat these as an intent category to cover, not a volume play. Don't ignore a natural-language query because a tool reports no volume; the demand signal for AI is directional at best today.
+**A note on volume:** AI query demand is emerging and hard to size; tooling is thin, and for hyperlocal terms measured demand is often near zero even where typed-search demand exists. Treat these as an intent category to cover, not a volume play. Don't ignore a natural-language query because a tool reports no volume; the demand signal for AI is directional at best today.
 
 This category identifies the *queries*. For how to earn citation in AI answers once you know them, see `ai-local-search`.
 
@@ -148,10 +150,10 @@ This category identifies the *queries*. For how to earn citation in AI answers o
 Before touching any tool, gather:
 
 - **Full service list** from the business (every service they offer)
-- **Service area** — every city, town, neighborhood they serve
-- **Top revenue services** — what makes them the most money
-- **Competitor names** — who they compete against
-- **Customer language** — what customers actually call things (not industry jargon)
+- **Service area**: every city, town, neighborhood they serve
+- **Top revenue services**: what makes them the most money
+- **Competitor names**: who they compete against
+- **Customer language**: what customers actually call things (not industry jargon)
 
 Ask the business: "When someone calls you, what do they say they need?" That language is your keyword seed.
 
@@ -177,12 +179,12 @@ Ask the business: "When someone calls you, what do they say they need?" That lan
 
 When you search for the client's primary keywords, the SERP results contain competitor intelligence:
 
-1. **Organic competitors** — Which competitors rank for the target keyword? Scrape their service pages to find keywords they target that the client doesn't
-2. **Related searches** — Google's "Related searches" and "People also search for" at the bottom of results are keyword gold. These come directly from what real searchers look for
-3. **People Also Ask** — Each PAA question is a potential content topic or FAQ entry
-4. **Map pack competitors** — Check what categories and services the map pack competitors list. Different category = different keyword opportunity
-5. **Ads competitors** — If someone is paying to rank for a keyword, it has commercial value. Note which keywords have ads running
-6. **Conversational phrasings** — as you read PAA and related searches, rewrite the recurring ones as full questions someone would ask an AI assistant. These feed the Conversational / AI Queries category and are the closest free signal to how models get prompted
+1. **Organic competitors**: Which competitors rank for the target keyword? Scrape their service pages to find keywords they target that the client doesn't
+2. **Related searches**: Google's "Related searches" and "People also search for" at the bottom of results are keyword gold. These come directly from what real searchers look for
+3. **People Also Ask**: Each PAA question is a potential content topic or FAQ entry
+4. **Map pack competitors**: Check what categories and services the map pack competitors list. Different category = different keyword opportunity
+5. **Ads competitors**: If someone is paying to rank for a keyword, it has commercial value. Note which keywords have ads running
+6. **Conversational phrasings**: as you read PAA and related searches, rewrite the recurring ones as full questions someone would ask an AI assistant. These feed the Conversational / AI Queries category and are the closest free signal to how models get prompted
 
 This step is often skipped but it's free and produces the highest-quality keyword additions because it's based on actual search behavior, not tool estimates.
 
@@ -269,10 +271,10 @@ Not all keywords produce the same SERP. Check what actually appears:
 
 | SERP Feature | What It Means |
 |-------------|--------------|
-| Local pack (3-pack) | Implicit local intent — GBP optimization critical |
+| Local pack (3-pack) | Implicit local intent; GBP optimization critical |
 | LSAs at top | Pay-per-lead opportunity, high commercial intent |
 | Ads in map pack | Local search ads opportunity |
-| AI Overview / AI Mode | Query is answered by synthesis and citation, not ten blue links — the target shifts from ranking a page to being a cited source (see `ai-local-search`) |
+| AI Overview / AI Mode | Query is answered by synthesis and citation, not ten blue links; the target shifts from ranking a page to being a cited source (see `ai-local-search`) |
 | People Also Ask | FAQ content opportunity |
 | Organic only (no local pack) | Informational intent, blog/guide content |
 
@@ -287,13 +289,13 @@ Not all keywords produce the same SERP. Check what actually appears:
 1. Pull organic keywords for top 3 local competitors (Semrush/Ahrefs)
 2. Filter for keywords containing service terms or city names
 3. Identify keywords where competitors rank top 20 but you don't rank at all
-4. Cross-reference with your service list — are these services you offer?
+4. Cross-reference with your service list; are these services you offer?
 5. Prioritize gaps by volume × relevance × difficulty
 
 ### Find What Nobody Ranks For
 
 Sometimes the best opportunities are keywords with decent volume but weak competition:
-- Check top 3 results for the keyword — are they homepage rankings? (weak)
+- Check top 3 results for the keyword: are they homepage rankings? (weak)
 - Are the ranking pages thin or outdated? (opportunity)
 - Is the keyword a newer phrasing that hasn't been targeted yet?
 
@@ -312,7 +314,7 @@ For businesses with multiple locations, the research scales differently:
 ### Approach 2: Per-Market Research
 - Research keywords independently per market
 - Some markets have different terminology (soda vs. pop, HVAC vs. heating and cooling)
-- Competition levels vary by market — priority keywords shift
+- Competition levels vary by market: priority keywords shift
 - Better for 10-50 locations where markets are distinct
 
 ### Approach 3: Programmatic at Scale
@@ -358,7 +360,7 @@ The final deliverable is a keyword map document:
 |----------------|-------------|-------|
 | Keywords identified, need pages for them | Create location and service pages targeting the keyword map | `local-landing-pages` |
 | Found keyword gaps vs. competitors | Deep-dive competitive analysis on those gaps | `local-competitor-analysis` |
-| Keywords have high CPC, worth running ads | Build PPC campaigns targeting high-value keywords | `local-ppc-ads` |
+| Keywords have high CPC, worth running ads | Build PPC campaigns targeting high-value keywords | the brain's `google-ads` / `google-ads-creation` skills |
 | Keywords trigger LSA results | Ensure LSA profile is set up for those service categories | `lsa-ads` |
 | Keywords trigger AI Overviews | Optimize content for AI citation | `ai-local-search` |
 | Need to know current rankings for these keywords | Run geogrid scans per keyword | `geogrid-analysis` |

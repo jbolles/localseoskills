@@ -1,6 +1,6 @@
 ---
 name: brief
-description: Manages persistent work state (briefs) for local SEO engagements. Automatically load this skill when starting work on a specific business or location, when a user says "resume," "continue," "pick up where we left off," or references a specific client or location by name. Also load when any tool call is about to be made for a business, that's the trigger to create or update a brief. Load when receiving output from a scheduled task.
+description: Manages persistent work state (briefs) for local SEO engagements, stored in the Agency Brain at clients/{client}/local-seo/. Load only when the work is local SEO for a specific business (GBP, map pack, geogrid, citations, reviews, local audits), when the user says "resume" or "continue" on local SEO work, when a local SEO data tool call is about to be made for a business, or when receiving output from a local SEO scheduled task. Do NOT load just because a client is named; ads, content, entity and other non-local-SEO work for a client does not need a brief.
 metadata:
   version: 3.0.0
   author: Garrett Smith
@@ -15,16 +15,17 @@ Briefs are persistent work state for local SEO engagements. One brief per locati
 ## Structure
 
 ```
-briefs/
-  {brand}/
-    _brand.brief.md          ← config + rollup across all locations
-    reports/                 ← brand-level rollup reports
-    {location}/
-      location.brief.md      ← always current, always lean
-      reports/               ← weekly, monthly, QBR reports
-      scans/                 ← geogrid scans, citation audits, page audits
-      drafts/                ← GBP posts, review responses awaiting approval
-      alerts/                ← monitoring alerts
+clients/
+  {brand}/                       ← the client's EXISTING Agency Brain folder
+    local-seo/
+      _brand.brief.md            ← config + rollup across all locations
+      reports/                   ← brand-level rollup reports
+      {location}/
+        location.brief.md        ← always current, always lean
+        reports/                 ← weekly, monthly, QBR reports
+        scans/                   ← geogrid scans, citation audits, page audits
+        drafts/                  ← GBP posts, review responses awaiting approval
+        alerts/                  ← monitoring alerts
 ```
 
 ---
@@ -33,10 +34,14 @@ briefs/
 
 **This is the most important section.** When a user mentions a specific business and no brief exists, do not proceed with their request yet. Run setup first, then circle back to what they asked for.
 
+### Client folder (Agency Brain)
+
+`{brand-slug}` is always the client's existing folder name under `clients/` (for example `clients/lone-star-glass/`). Never invent a new slug. Match the business to a folder by a name that is distinctive to one client; if no folder matches, or two could, ask the user which client this is. If the business is a prospect rather than a client, use `prospects/{slug}/local-seo/` instead, following the same rule. If the user wants a brand-new client, point them to the brain's `client-setup` skill first.
+
 ### Detection
 
 Before doing any work for a specific business, check for an existing brief:
-- Claude Code: look for `briefs/{brand-slug}/{location-slug}/location.brief.md`
+- Claude Code: look for `clients/{brand-slug}/local-seo/{location-slug}/location.brief.md`
 - Claude Project: check Project knowledge base for a brief file for this business
 - If found: go to **Resuming from a Brief**
 - If not found: go to **First Run Setup**
@@ -66,18 +71,18 @@ That's it. Don't ask for more than these unless something is genuinely ambiguous
 ### After Questions
 
 1. Create brief folder structure:
-   - `briefs/{brand-slug}/{location-slug}/location.brief.md`
-   - `briefs/{brand-slug}/{location-slug}/reports/`
-   - `briefs/{brand-slug}/{location-slug}/scans/`
-   - `briefs/{brand-slug}/{location-slug}/drafts/`
-   - `briefs/{brand-slug}/{location-slug}/alerts/`
-   - `briefs/{brand-slug}/_brand.brief.md`
+   - `clients/{brand-slug}/local-seo/{location-slug}/location.brief.md`
+   - `clients/{brand-slug}/local-seo/{location-slug}/reports/`
+   - `clients/{brand-slug}/local-seo/{location-slug}/scans/`
+   - `clients/{brand-slug}/local-seo/{location-slug}/drafts/`
+   - `clients/{brand-slug}/local-seo/{location-slug}/alerts/`
+   - `clients/{brand-slug}/local-seo/_brand.brief.md`
 
 2. Populate Identity section from answers and any context already in the conversation
 
 3. Configure `_brand.brief.md` approval block from Q4/Q5 answers
 
-4. Run initial audit automatically, don't ask permission:
+4. Offer the initial audit and wait for a yes before running it (these calls spend LocalSEOData credits; the 7x7 geogrid alone is 50+ credits):
    - LocalSEOData `local_audit`
    - LocalSEOData `business_profile` + `profile_health`
    - LocalSEOData `geogrid_scan` (7x7, primary keyword, stated radius)
@@ -126,7 +131,7 @@ Do not create briefs for:
 
 **Claude Code / Cowork:**
 ```
-briefs/{brand-slug}/{location-slug}/location.brief.md
+clients/{brand-slug}/local-seo/{location-slug}/location.brief.md
 ```
 
 **Claude Project:**

@@ -15,13 +15,13 @@ Screaming Frog is a desktop crawler with community-built MCP servers available. 
 | You Need | Use Screaming Frog | Use Instead |
 |----------|-------------------|-------------|
 | Full technical site crawl | ✅ Most detailed crawler | Semrush site audit (lighter) |
-| Location page quality audit at scale | ✅ Best for this | — |
-| Custom data extraction (NAP, schema fields) | ✅ Unique capability | — |
-| Duplicate content detection | ✅ | — |
-| Internal linking analysis | ✅ | — |
-| Redirect chain detection | ✅ | — |
-| Schema validation per page | ✅ Custom extraction | — |
-| Missing titles/metas across hundreds of pages | ✅ | — |
+| Location page quality audit at scale | ✅ Best for this | n/a |
+| Custom data extraction (NAP, schema fields) | ✅ Unique capability | n/a |
+| Duplicate content detection | ✅ | n/a |
+| Internal linking analysis | ✅ | n/a |
+| Redirect chain detection | ✅ | n/a |
+| Schema validation per page | ✅ Custom extraction | n/a |
+| Missing titles/metas across hundreds of pages | ✅ | n/a |
 | Keyword rankings | ❌ | Local Falcon, Semrush |
 | Backlink data | ❌ | Ahrefs |
 | Search traffic data | ❌ | GSC, GA4 |
@@ -69,7 +69,7 @@ The user runs the crawl locally and exports data. The agent analyzes the exporte
 **LocalBusiness Schema Extraction:**
 - Extraction: CSS Selector or XPath
 - Target: `script[type="application/ld+json"]`
-- This extracts the full JSON-LD block — agent can then validate schema fields
+- This extracts the full JSON-LD block: agent can then validate schema fields
 
 **NAP Extraction:**
 - Business name: CSS selector for the element containing business name
@@ -91,8 +91,8 @@ The user runs the crawl locally and exports data. The agent analyzes the exporte
 
 **What to check:**
 - Near-duplicate detection (Screaming Frog has this built in)
-- Word count column — if all location pages are exactly the same word count, they're probably templated
-- Title tag patterns — if all titles are "[Service] in [City] | [Brand]" with identical supporting content, Google may not index them all
+- Word count column: if all location pages are exactly the same word count, they're probably templated
+- Title tag patterns: if all titles are "[Service] in [City] | [Brand]" with identical supporting content, Google may not index them all
 
 **What "unique enough" looks like:**
 - Unique intro paragraph mentioning specific area landmarks, neighborhoods, demographics
@@ -122,7 +122,7 @@ The user runs the crawl locally and exports data. The agent analyzes the exporte
 
 **What to check:**
 - 302 redirects (should usually be 301 for permanent moves)
-- Redirect chains (A → B → C → D — should be A → D)
+- Redirect chains (A → B → C → D: should be A → D)
 - Redirect loops (A → B → A)
 - Old location URLs that 404 instead of redirecting
 
@@ -141,7 +141,7 @@ The user runs the crawl locally and exports data. The agent analyzes the exporte
 
 | Issue | Impact | How to Find |
 |-------|--------|------------|
-| Duplicate titles across locations | Google may suppress duplicates | Title 1 column — sort and find duplicates |
+| Duplicate titles across locations | Google may suppress duplicates | Title 1 column; sort and find duplicates |
 | Thin content (under 300 words) | Google may not index | Word Count column < 300 |
 | Missing schema | Losing structured data signals | Custom extraction shows empty |
 | Orphan pages (0-1 internal links) | Low crawl priority, low authority | Inlinks column = 0 or 1 |

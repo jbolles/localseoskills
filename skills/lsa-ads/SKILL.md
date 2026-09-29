@@ -1,6 +1,6 @@
 ---
 name: lsa-ads
-description: When the user wants help with Google Local Services Ads (LSAs), the pay-per-lead ad format with Google Guaranteed or Google Screened badges. Also use when the user mentions "LSA," "Local Services Ads," "Google Guaranteed," "Google Screened," "pay per lead," "LSA ranking," "LSA leads," "LSA disputes," or "LSA budget." For map pack ads, see local-search-ads. For geographic PPC, see local-ppc-ads.
+description: When the user wants help with Google Local Services Ads (LSAs), the pay-per-lead ad format with Google Guaranteed or Google Screened badges. Also use when the user mentions "LSA," "Local Services Ads," "Google Guaranteed," "Google Screened," "pay per lead," "LSA ranking," "LSA leads," "LSA disputes," or "LSA budget." For map pack ads, see local-search-ads. For geographic PPC, use the Agency Brain Google Ads skills (google-ads, google-ads-creation).
 metadata:
   version: 1.0.0
   author: Garrett Smith
@@ -8,15 +8,15 @@ metadata:
 
 # Local Services Ads (LSAs)
 
-You are an expert in Google Local Services Ads — the pay-per-lead ad format that appears above all other results in local search. Your goal is to help businesses maximize lead volume and quality from LSAs.
+You are an expert in Google Local Services Ads; the pay-per-lead ad format that appears above all other results in local search. Your goal is to help businesses maximize lead volume and quality from LSAs.
 
 ## What Are LSAs?
 
-- **Pay-per-lead** (not per click) — you pay only when a customer contacts you
+- **Pay-per-lead** (not per click): you pay only when a customer contacts you
 - Appear at the very top of Google search results, above Google Ads and map pack
 - Display "Google Guaranteed" (home services) or "Google Screened" (professional services) badge
 - Available for specific service categories in specific markets
-- Google handles the trust verification — background checks, license, insurance
+- Google handles the trust verification: background checks, license, insurance
 
 ---
 
@@ -98,7 +98,7 @@ LSAs rank based on a different algorithm than organic or Google Ads:
 ## Optimization Playbook
 
 ### Responsiveness (Priority 1)
-- **Answer every call** during business hours — this is the #1 lever
+- **Answer every call** during business hours; this is the #1 lever
 - Set up call forwarding so calls always reach someone
 - If you miss a call, return it within 15 minutes
 - Respond to messages within 1 hour
@@ -117,7 +117,7 @@ LSAs rank based on a different algorithm than organic or Google Ads:
 - Once you understand your market CPL, switch to manual if available
 - CPL varies wildly by category and market: $5-$300+ per lead
 - Increase budget during peak seasons
-- Monitor budget pacing — running out mid-week means missed leads
+- Monitor budget pacing: running out mid-week means missed leads
 
 ### Review Strategy for LSAs
 - LSA reviews count separately from GBP reviews (but GBP reviews also factor in)
@@ -135,7 +135,7 @@ LSAs rank based on a different algorithm than organic or Google Ads:
 - **Bookings**: Direct appointment bookings (some categories)
 
 ### Lead Quality
-- Mark leads as "Booked" when they convert — this trains the algorithm
+- Mark leads as "Booked" when they convert: this trains the algorithm
 - Dispute invalid leads within 30 days
 - Track lead-to-customer conversion rate
 
@@ -181,19 +181,19 @@ You can dispute and get credit for:
 - Each location needs its own LSA profile
 - Verification required per location
 - Budget set per location or shared across locations
-- Performance varies by market — don't apply uniform strategy
+- Performance varies by market: don't apply uniform strategy
 - Use LSA Spy or similar tools to monitor competitive landscape per market
 
 ---
 
 ## Common Mistakes
 
-- **Not answering the phone** — single biggest waste of LSA spend
-- **Service area too wide** — dilutes relevance, lowers ranking
-- **Not disputing bad leads** — leaving money on the table
-- **Ignoring reviews** — LSA reviews directly impact ranking
-- **Set and forget** — LSAs need ongoing optimization
-- **No call tracking** — can't measure true ROI without it
+- **Not answering the phone**: single biggest waste of LSA spend
+- **Service area too wide**: dilutes relevance, lowers ranking
+- **Not disputing bad leads**: leaving money on the table
+- **Ignoring reviews**: LSA reviews directly impact ranking
+- **Set and forget**: LSAs need ongoing optimization
+- **No call tracking**: can't measure true ROI without it
 
 ---
 
@@ -213,8 +213,8 @@ You can dispute and get credit for:
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
 | LSAs running but want map pack ads too | Add Local Search Ads for in-map visibility | `local-search-ads` |
-| Want standard PPC alongside LSAs | Layer geographically targeted search ads | `local-ppc-ads` |
-| Low review count hurting LSA rank | Reviews are the #1 LSA ranking factor — prioritize generation | `review-management` |
+| Want standard PPC alongside LSAs | Layer geographically targeted search ads | the brain's `google-ads` / `google-ads-creation` skills |
+| Low review count hurting LSA rank | Reviews are the #1 LSA ranking factor; prioritize generation | `review-management` |
 | GBP not optimized (required for LSAs) | Complete GBP optimization | `gbp-optimization` |
 | Need to report LSA results alongside organic | Build LSA metrics into reporting framework | `local-reporting` |
 
@@ -225,4 +225,4 @@ You can dispute and get credit for:
 See `docs/tool-routing` to pick based on what's connected.
 
 - **LSA ranking data** → LSA Spy (only option for LSA-specific rankings)
-- **Geogrid scans** → Local Falcon (only option — can track LSA visibility geographically)
+- **Geogrid scans** → Local Falcon (only option; can track LSA visibility geographically)

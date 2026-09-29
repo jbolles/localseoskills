@@ -1,18 +1,12 @@
 ---
 name: client-deliverables
-description: >
-  When the user needs to create a client-facing document such as an SEO audit,
-  proposal, scope of work, competitive analysis report, onboarding document,
-  or market intelligence report. Also use when the user mentions "audit report,"
-  "proposal," "scope of work," "SOW," "pitch deck," "client presentation,"
-  "pricing document," "onboarding checklist," "competitive report,"
-  "market analysis," "prospect audit," "free audit," "AI visibility audit,"
-  or "deliverable." For ongoing performance reports,
-  see local-reporting. For the research behind audits, see local-seo-audit.
+description: Reference only in the WHO Agency Brain. Do not use to produce proposals, scopes of work, pricing, pitch decks, or competitive reports: those follow WHO's own pricing, templates and skills (competitive-intel-report, proposals) and are tracked in Agency OS. Load only when the user explicitly asks for this skill's local SEO audit report structure.
 metadata:
   version: 1.1.0
   author: Garrett Smith
 ---
+
+> **WHO Agency Brain handoff:** In the WHO Agency Brain, proposals, SOWs and pricing follow WHO's own services and pricing (see AGENTS.md) and WHO's skills, such as `competitive-intel-report`. Deliverables are tracked in Agency OS. Hand off to those. Use the material below only as a reference structure for a local SEO audit write-up when the user asks for it.
 
 # Client Deliverables
 
@@ -24,12 +18,12 @@ You are an expert in creating professional local SEO deliverables that close dea
 
 This skill covers six core document types:
 
-1. **SEO Audit Report** — analysis of current state with findings and recommendations
-2. **Scope of Work / Proposal** — what you'll do, what it costs, how long it takes
-3. **Competitive / Market Intelligence Report** — landscape analysis for prospects or clients
-4. **Onboarding Document** — what you need from the client, what happens first
-5. **Strategy Recommendation** — roadmap document for ongoing or new engagements
-6. **Case Study / Results Summary** — proof of work for sales collateral
+1. **SEO Audit Report**: analysis of current state with findings and recommendations
+2. **Scope of Work / Proposal**: what you'll do, what it costs, how long it takes
+3. **Competitive / Market Intelligence Report**: landscape analysis for prospects or clients
+4. **Onboarding Document**: what you need from the client, what happens first
+5. **Strategy Recommendation**: roadmap document for ongoing or new engagements
+6. **Case Study / Results Summary**: proof of work for sales collateral
 
 ---
 
@@ -44,7 +38,7 @@ This skill covers six core document types:
 
 | Audit Type | Typical Scope | Price Range |
 |-----------|--------------|-------------|
-| Prospect Audit | Public-data snapshot for a business you don't yet manage — sales lead magnet | Free |
+| Prospect Audit | Public-data snapshot for a business you don't yet manage; sales lead magnet | Free |
 | GBP Audit | Profile completeness, categories, photos, reviews, posts, Q&A, attributes | $200-500 |
 | Website SEO Audit | Technical crawl, on-page, content, Core Web Vitals, schema, internal links | $800-2,500 |
 | Google Ads / LSA Audit | Campaign structure, keywords, bids, landing pages, conversion tracking | $400-1,000 |
@@ -63,10 +57,10 @@ Price based on: number of locations, complexity of site, tools needed, turnaroun
 - Screenshot of current GBP listing
 
 **Section 2: Category & Attribute Analysis**
-- Primary category — is it the best choice? What are competitors using?
-- Secondary categories — what's missing?
-- Attributes — which relevant attributes aren't set?
-- Service list — complete or gaps?
+- Primary category: is it the best choice? What are competitors using?
+- Secondary categories: what's missing?
+- Attributes: which relevant attributes aren't set?
+- Service list: complete or gaps?
 
 **Section 3: Visual Content**
 - Photo count vs. competitors
@@ -102,12 +96,12 @@ Price based on: number of locations, complexity of site, tools needed, turnaroun
 
 ### Prospect Audit Structure
 
-A sales artifact for a business you don't yet manage. No account access and no history — every finding comes from public data. Persuasion comes from real gaps against named competitors, not adjectives. It ends in a bridge to the engagement, not a next-period plan. Grade only what you measured; an area you didn't check is "not assessed," never a guess.
+A sales artifact for a business you don't yet manage. No account access and no history; every finding comes from public data. Persuasion comes from real gaps against named competitors, not adjectives. It ends in a bridge to the engagement, not a next-period plan. Grade only what you measured; an area you didn't check is "not assessed," never a guess.
 
 **Section 1: At-a-Glance Scorecard**
 - Each area scored Healthy or Needs Attention
 - One-line finding per area
-- Overall read in one or two sentences — honest, and pointed where warranted
+- Overall read in one or two sentences: honest, and pointed where warranted
 
 **Section 2: Google Business Profile**
 - Completeness, primary category, photo count, post recency vs. a named competitor
@@ -119,11 +113,11 @@ A sales artifact for a business you don't yet manage. No account access and no h
 
 **Section 4: Reviews & Reputation**
 - Count, rating, velocity, response rate vs. the market leader
-- Usually the widest gap — state it plainly
+- Usually the widest gap: state it plainly
 
 **Section 5: AI Visibility**
 - Whether AI answers cite the business for core local queries, and who they cite instead
-- Report AI search demand alongside mentions — no demand yet is a monitor item, not a gap
+- Report AI search demand alongside mentions; no demand yet is a monitor item, not a gap
 
 **Section 6: Citations & NAP**
 - Accuracy, inconsistencies, missing key directories
@@ -137,7 +131,7 @@ A sales artifact for a business you don't yet manage. No account access and no h
 
 **Section 1: Technical Health**
 - Crawl stats (total pages, errors, redirects, orphan pages)
-- Core Web Vitals (LCP, FID/INP, CLS) — mobile and desktop
+- Core Web Vitals (LCP, FID/INP, CLS): mobile and desktop
 - Mobile-friendliness
 - HTTPS status
 - Sitemap and robots.txt review
@@ -153,7 +147,7 @@ A sales artifact for a business you don't yet manage. No account access and no h
 
 **Section 3: Local On-Page Signals**
 - NAP presence and consistency on site
-- LocalBusiness schema markup — present? correct? complete?
+- LocalBusiness schema markup: present? correct? complete?
 - Location page quality (unique content vs. template swaps)
 - Service area page coverage
 - Embedded map presence
@@ -177,7 +171,7 @@ Each recommendation includes: what to fix, why it matters, estimated effort, exp
 
 ### AI Visibility Audit Structure
 
-A standalone audit of how a business appears in AI-generated answers. Sold on its own because the data supports real depth — platform coverage, citation landscape, and competitive comparison, not a single score. LocalSEOData carries ten AI endpoints (`ai_visibility`, `ai_mentions`, `ai_overview`, `ai_mode`, `ai_compare`, `ai_top_sources`, `ai_top_pages`, `ai_llm_response`, `ai_keyword_data`, `ai_scraper`) that feed these sections.
+A standalone audit of how a business appears in AI-generated answers. Sold on its own because the data supports real depth; platform coverage, citation landscape, and competitive comparison, not a single score. LocalSEOData carries ten AI endpoints (`ai_visibility`, `ai_mentions`, `ai_overview`, `ai_mode`, `ai_compare`, `ai_top_sources`, `ai_top_pages`, `ai_llm_response`, `ai_keyword_data`, `ai_scraper`) that feed these sections.
 
 Lead with demand. If AI search volume for the vertical and market is negligible, say so up front and scope the engagement as foundation-building, not remediation.
 
@@ -195,7 +189,7 @@ Lead with demand. If AI search volume for the vertical and market is negligible,
 
 **Section 4: What the Models Actually Say**
 - Accuracy and sentiment of how the business is described (`ai_llm_response`)
-- Flag wrong hours, services, or locations — a model misstating the business is a visceral finding
+- Flag wrong hours, services, or locations: a model misstating the business is a visceral finding
 
 **Section 5: Citation Landscape**
 - Which domains and pages the models cite for these queries (`ai_top_sources`, `ai_top_pages`)
@@ -215,16 +209,16 @@ Lead with demand. If AI search volume for the vertical and market is negligible,
 - Priority 2 (Important): entity, schema, and content opportunities
 - Priority 3 (Nice to Have): incremental reinforcement
 
-Query the way people actually prompt AI — natural questions with situation and constraints, not keyword strings. Run several phrasings per need; keyword-style inputs understate visibility because they don't match how the models are used. See `ai-local-search` for optimization strategy and `localseodata-tool` for the endpoints behind each section.
+Query the way people actually prompt AI; natural questions with situation and constraints, not keyword strings. Run several phrasings per need; keyword-style inputs understate visibility because they don't match how the models are used. See `ai-local-search` for optimization strategy and `localseodata-tool` for the endpoints behind each section.
 
 ### Audit Formatting Best Practices
 
-- **Lead with the executive summary** — 3-5 sentences covering overall health and top priorities
+- **Lead with the executive summary**: 3-5 sentences covering overall health and top priorities
 - **Score each area Healthy or Needs Attention** for quick visual scanning, consistent with local-reporting's benchmarks
-- **Include screenshots** — show, don't just tell
-- **Competitor context on every metric** — "Your review count is 47. Top competitor has 312."
-- **End with a clear next step** — either "here's what we recommend" (leading to a proposal) or "here's what to focus on first"
-- **Brand it professionally** — logo, consistent formatting, page numbers. First impressions matter.
+- **Include screenshots**: show, don't just tell
+- **Competitor context on every metric**: "Your review count is 47. Top competitor has 312."
+- **End with a clear next step**: either "here's what we recommend" (leading to a proposal) or "here's what to focus on first"
+- **Brand it professionally**: logo, consistent formatting, page numbers. First impressions matter.
 
 ---
 
@@ -246,7 +240,7 @@ Query the way people actually prompt AI — natural questions with situation and
 
 **Section 1: Understanding**
 - 2-3 paragraphs demonstrating you understand their business, goals, and challenges
-- Reference specific things from discovery calls — proves you listened
+- Reference specific things from discovery calls; proves you listened
 - Frame the problem they have, not the solution you sell
 
 **Section 2: Recommended Scope**
@@ -275,7 +269,7 @@ Query the way people actually prompt AI — natural questions with situation and
 - Phase breakdown with estimated duration
 - Key milestones
 - Client dependencies (access, approvals, content)
-- When they should expect to see results (be honest — local SEO takes 3-6 months)
+- When they should expect to see results (be honest; local SEO takes 3-6 months)
 
 **Section 5: What We Need From You**
 - Access requirements (GBP, Analytics, Search Console, website CMS)
@@ -291,11 +285,11 @@ Query the way people actually prompt AI — natural questions with situation and
 
 ### Proposal Pricing Psychology
 
-- **Always present options** — a single price invites yes/no. Three options invite which one.
-- **Anchor high** — put the most expensive option first
+- **Always present options**: a single price invites yes/no. Three options invite which one.
+- **Anchor high**: put the most expensive option first
 - **Name the tiers** by outcome, not features: "Visibility," "Growth," "Dominance" not "Basic," "Standard," "Pro"
-- **Outstanding invoices** — if the client owes you money, address it in the proposal: "Outstanding balance of $X will be settled before new work begins"
-- **Filter tire-kickers with pricing** — if your price scares them off, they weren't the right client. Better to learn that before doing the work.
+- **Outstanding invoices**: if the client owes you money, address it in the proposal: "Outstanding balance of $X will be settled before new work begins"
+- **Filter tire-kickers with pricing**: if your price scares them off, they weren't the right client. Better to learn that before doing the work.
 
 ### Scope Creep Prevention
 
@@ -322,7 +316,7 @@ Include a clear "Out of Scope" section:
 - Market characteristics (saturated, fragmented, dominated)
 
 **Section 2: Competitive Ranking Landscape**
-- Geogrid comparison — your business vs. top 3-5 competitors
+- Geogrid comparison: your business vs. top 3-5 competitors
 - SoLV per competitor per keyword
 - Visual: side-by-side heatmaps or rank comparison table
 
@@ -359,7 +353,7 @@ Include a clear "Out of Scope" section:
 ### Using Market Reports as Sales Tools
 
 The competitive report is the best cold outreach hook in local SEO:
-- "I pulled your market data — there are gaps your competitors are exploiting"
+- "I pulled your market data: there are gaps your competitors are exploiting"
 - Send a partial report (teaser) → full report requires a call
 - The data itself demonstrates your expertise without you having to pitch
 
@@ -373,18 +367,18 @@ The competitive report is the best cold outreach hook in local SEO:
 
 ### Structure
 
-**Welcome section** — brief confirmation of what they bought and what happens next
+**Welcome section**: brief confirmation of what they bought and what happens next
 
 **Access Checklist:**
 
 | Access Needed | How to Grant | Priority |
 |--------------|-------------|----------|
-| Google Business Profile | Add [email] as manager | Critical — Day 1 |
-| Google Analytics | Add [email] as viewer | High — Week 1 |
-| Google Search Console | Add [email] as user | High — Week 1 |
-| Website CMS | Admin or editor credentials | Medium — Week 1 |
-| Google Ads | Add [email] as manager (if applicable) | Medium — Week 1 |
-| Review platform (if any) | Login credentials or API access | Low — Week 2 |
+| Google Business Profile | Add [email] as manager | Critical; Day 1 |
+| Google Analytics | Add [email] as viewer | High; Week 1 |
+| Google Search Console | Add [email] as user | High; Week 1 |
+| Website CMS | Admin or editor credentials | Medium; Week 1 |
+| Google Ads | Add [email] as manager (if applicable) | Medium; Week 1 |
+| Review platform (if any) | Login credentials or API access | Low; Week 2 |
 
 **Information Needed:**
 - Full list of locations (name, address, phone, website, hours for each)
@@ -470,7 +464,7 @@ Each phase gets a section with specific tasks, responsible party (you vs. client
 | Review count | 89 | 347 | +290% |
 | Review rating | 3.8 | 4.6 | +0.8 |
 
-**Timeline:** How long it took. Be honest — if it took 8 months, say 8 months.
+**Timeline:** How long it took. Be honest; if it took 8 months, say 8 months.
 
 **Testimonial:** Direct quote from the client if available. Even one sentence adds credibility.
 
@@ -479,14 +473,14 @@ Each phase gets a section with specific tasks, responsible party (you vs. client
 ## Document Formatting Standards
 
 ### For All Client Deliverables
-- **Professional branding** — your logo, consistent colors, clean typography
-- **Page numbers** — always
-- **Date and version** — always
+- **Professional branding**: your logo, consistent colors, clean typography
+- **Page numbers**: always
+- **Date and version**: always
 - **Table of contents** for documents over 5 pages
-- **Executive summary first** — assume they won't read past page 2
-- **Screenshots and visuals** — show, don't just tell
-- **Consistent terminology** — define terms on first use, then use consistently
-- **Action items clearly labeled** — bold, highlighted, or in a separate section
+- **Executive summary first**: assume they won't read past page 2
+- **Screenshots and visuals**: show, don't just tell
+- **Consistent terminology**: define terms on first use, then use consistently
+- **Action items clearly labeled**: bold, highlighted, or in a separate section
 - **PDF delivery** for final versions (prevents editing)
 - **Editable version** (DOCX/Google Doc) if collaboration is needed
 

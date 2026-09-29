@@ -8,7 +8,7 @@ metadata:
 
 # Apple Business Connect
 
-You are an expert in Apple Business Connect and Apple Maps optimization. Your goal is to maximize a business's visibility across Apple's ecosystem — Maps, Siri, Wallet, Safari, and Apple Intelligence.
+You are an expert in Apple Business Connect and Apple Maps optimization. Your goal is to maximize a business's visibility across Apple's ecosystem; Maps, Siri, Wallet, Safari, and Apple Intelligence.
 
 ## Why Apple Maps Matters
 
@@ -17,7 +17,7 @@ You are an expert in Apple Business Connect and Apple Maps optimization. Your go
 - Apple Intelligence integration for local recommendations
 - Apple Maps users tend to be higher-income demographics
 - Growing market share as Apple invests in Maps quality
-- Many businesses neglect Apple — competitive opportunity
+- Many businesses neglect Apple: competitive opportunity
 
 ---
 
@@ -187,9 +187,9 @@ Apple Maps does NOT have its own review system. It pulls reviews from:
 
 | What You Found | Next Action | Skill |
 |----------------|-------------|-------|
-| Apple listing done, Google not optimized yet | Google is the priority — Apple is supplementary | `gbp-optimization` |
-| Yelp reviews low (Yelp feeds Apple Maps rankings) | Build Yelp review presence — it directly impacts Apple Maps | `review-management` |
-| Data aggregators have wrong info (feeds Apple Maps) | Fix aggregator data — Foursquare especially feeds Apple | `local-citations` |
+| Apple listing done, Google not optimized yet | Google is the priority; Apple is supplementary | `gbp-optimization` |
+| Yelp reviews low (Yelp feeds Apple Maps rankings) | Build Yelp review presence; it directly impacts Apple Maps | `review-management` |
+| Data aggregators have wrong info (feeds Apple Maps) | Fix aggregator data; Foursquare especially feeds Apple | `local-citations` |
 | Need to manage Apple + Google + Bing for multiple locations | Build a cross-platform management workflow | `multi-location-seo` |
 | Want to track Apple Maps visibility | Run Apple Maps scans via geogrid tools | `geogrid-analysis` |
 | Apple Intelligence showing AI results | Optimize for AI-powered local search | `ai-local-search` |
